@@ -40,7 +40,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
   <button class="w3-btn w3-padding-16 w3-large w3-margin-top">Get Started</button>
 </div>
 
-<!-- Include main page -->
+<!-- Content start -->
 <?php 
 	if (!isset($_GET['page']) && $_GET['page'] == 'gallery') {
 		include('pages/gallery.php'); 
@@ -48,6 +48,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 		include('pages/home.php'); 
 	}
 ?>
+<!-- Content end -->
 
 <!-- Footer -->
 <footer class="w3-container w3-padding-64 w3-center w3-opacity">
