@@ -7,7 +7,7 @@
 <link rel="stylesheet" type="text/css" href="<?php echo STYLES_PATH . "w3c.css"; ?>" />
 
 <!-- awesome fonts css -->
-<link rel="stylesheet" type="text/css" href="<?php echo STYLES_PATH . "google-fonts-lato.css"; ?>" />
+<link rel="stylesheet" type="text/css" href="<?php echo STYLES_PATH . "font-awesome.min.css"; ?>" />
 
 <!-- bootstrap css -->
 <link rel="stylesheet" type="text/css" href="<?php echo STYLES_PATH . "bootstrap/bootstrap.min.css"; ?>" />
@@ -21,9 +21,9 @@
 <body>
 
 <!-- Navbar -->
-<ul class="w3-navbar w3-red w3-card-2 w3-top w3-left-align w3-large">
+<ul class="w3-navbar w3-blue w3-card-2 w3-top w3-left-align w3-large">
 	<li class="w3-hide-medium w3-hide-large w3-opennav w3-right">
-		<a class="w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="smallScreenNav()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+		<a class="w3-padding-large w3-hover-white w3-large w3-blue" href="javascript:void(0);" onclick="smallScreenNav()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
 	</li>
 	<li><a href="#home" class="w3-padding-large w3-white">Home</a></li>
 	<li class="w3-hide-small"><a href="#gallery" class="w3-padding-large w3-hover-white">Gallery</a></li>
@@ -41,17 +41,20 @@
 </div>
 
 <!-- Header -->
-<div class="w3-container w3-red w3-center w3-padding-128">
-	<h1 class="w3-margin w3-jumbo">START PAGE</h1>
-	<p class="w3-xlarge">Template by w3.css</p>
-	<button class="w3-btn w3-padding-16 w3-large w3-margin-top">Get Started</button>
+<div class="w3-container bg-img-1 w3-center w3-padding-128">
+	<h1 class="w3-margin w3-jumbo">Tata Steel Sailing Club</h1>
+	<p class="w3-xlarge">Port Talbot</p>
+	<button class="w3-btn w3-padding-16 w3-large w3-margin-top">Book an induction</button>
 </div>
 
 <!------------------->
 <!-- Content start -->
 <!------------------->
 <div class="w3-row-padding w3-padding-64 w3-container">
-
+	<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+	<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+	<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+	<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 </div>
 <!----------------->
 <!-- Content end -->

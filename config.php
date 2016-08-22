@@ -7,5 +7,6 @@ define("SITE_NAME", "Tata Steel Sailing Club");
 define("ROOT_PATH", "./");
 define("STYLES_PATH", ROOT_PATH . "res/css/");
 define("JS_PATH", ROOT_PATH . "res/js/");
-define("IMG_PATH", ROOT_PATH . "res/img/");
+define("IMGS_PATH", ROOT_PATH . "res/imgs/");
 define("INC_PATH", ROOT_PATH . "inc/");
+define("SCRIPTS_PATH", ROOT_PATH . "res/scripts/");
