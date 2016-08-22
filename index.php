@@ -41,22 +41,27 @@
 </div>
 
 <!-- Header -->
-<div class="w3-container bg-img-1 w3-center w3-padding-128">
+<div class="container-fluid bg-img-1 text-center padding-256">
 	<h1 class="w3-margin w3-jumbo">Tata Steel Sailing Club</h1>
 	<p class="w3-xlarge">Port Talbot</p>
 	<button class="w3-btn w3-padding-16 w3-large w3-margin-top">Book an induction</button>
 </div>
 
+<br />
 <!------------------->
 <!-- Content start -->
 <!------------------->
 
 <!-- Welcome -->
-<div class="container">
+<div class="container text-center">
 	<h1>Welcome</h1>
 	<p>The club is situated three miles south of Port Talbot, South Wales and was formerly known as the Corus Sailing Club, Margam.</p>
 	<p>The reservoir is over one mile long by approximately half a mile wide, where racing takes place every Sunday throughout the whole year (for those brave enough!) and also on Saturdays, Tuesday evenings and Wednesday evenings through the Spring and Summer months.</p>
 </div>
+
+<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 
 <!----------------->
 <!-- Content end -->
@@ -64,11 +69,10 @@
 
 <!-- Contact form -->
 <?php include(INC_PATH . "contact_form.php"); ?>
-
-<hr />
+<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 
 <!-- Footer -->
-<footer class="w3-container w3-padding-32 w3-center w3-opacity">
+<footer class="container-fluid w3-padding-32 text-center w3-opacity">
 	<div class="w3-xlarge w3-padding-32">
 		<a href="#" class="w3-hover-text-indigo"><i class="fa fa-facebook-official"></i></a>
 		<a href="#" class="w3-hover-text-red"><i class="fa fa-pinterest-p"></i></a>

@@ -33,7 +33,7 @@
 						<div class="clearfix"></div>
 						<div class="col-lg-12 text-center">
 							<div id="success"></div>
-							<button type="submit" class="btn btn-xl">Send Message</button>
+							<button class="w3-btn w3-padding-16 w3-small w3-margin-top">Send Email</button>
 						</div>
 					</div>
 				</form>
