@@ -26,9 +26,9 @@
 		<a class="w3-padding-large w3-hover-white w3-large w3-blue" href="javascript:void(0);" onclick="smallScreenNav()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
 	</li>
 	<li><a href="#home" class="w3-padding-large w3-white">Home</a></li>
-	<li class="w3-hide-small"><a href="#gallery" class="w3-padding-large w3-hover-white">Gallery</a></li>
-	<li class="w3-hide-small"><a href="#contact" class="w3-padding-large w3-hover-white">Contact Us</a></li>
-	<li class="w3-hide-small"><a href="#hours" class="w3-padding-large w3-hover-white">Opening Hours</a></li>
+	<li class="w3-hide-small"><a href="#gallery" class="w3-padding-large w3-hover-white" style="color: black;">Gallery</a></li>
+	<li class="w3-hide-small"><a href="#contact" class="w3-padding-large w3-hover-white" style="color: black;">Contact Us</a></li>
+	<li class="w3-hide-small"><a href="#hours" class="w3-padding-large w3-hover-white" style="color: black;">Opening Hours</a></li>
 </ul>
 
 <!-- Navbar on small screens -->
@@ -50,12 +50,14 @@
 <!------------------->
 <!-- Content start -->
 <!------------------->
-<div class="w3-row-padding w3-padding-64 w3-container">
-	<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-	<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-	<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-	<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+
+<!-- Welcome -->
+<div class="container">
+	<h1>Welcome</h1>
+	<p>The club is situated three miles south of Port Talbot, South Wales and was formerly known as the Corus Sailing Club, Margam.</p>
+	<p>The reservoir is over one mile long by approximately half a mile wide, where racing takes place every Sunday throughout the whole year (for those brave enough!) and also on Saturdays, Tuesday evenings and Wednesday evenings through the Spring and Summer months.</p>
 </div>
+
 <!----------------->
 <!-- Content end -->
 <!----------------->
@@ -63,8 +65,10 @@
 <!-- Contact form -->
 <?php include(INC_PATH . "contact_form.php"); ?>
 
+<hr />
+
 <!-- Footer -->
-<footer class="w3-container w3-padding-64 w3-center w3-opacity">
+<footer class="w3-container w3-padding-32 w3-center w3-opacity">
 	<div class="w3-xlarge w3-padding-32">
 		<a href="#" class="w3-hover-text-indigo"><i class="fa fa-facebook-official"></i></a>
 		<a href="#" class="w3-hover-text-red"><i class="fa fa-pinterest-p"></i></a>
