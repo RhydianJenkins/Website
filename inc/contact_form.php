@@ -1,6 +1,7 @@
 <section id="contact">
     <script src="<?php echo JS_PATH . 'jquery.min.js'?>"></script> <!-- TODO: this is declared twice (once on index) -->
 	<script>
+		// TODO: fix validation
 		$(function () {
 			$('#form-message').hide();
 			var submitBtn = $('#submit');
@@ -11,15 +12,15 @@
 					url: './res/scripts/mailer2.php',
 					data: $('form').serialize(),
 					success: function () {
-						$('#ajax-contact').fadeOut("fast");
+						$('#ajax-contact-div').fadeOut("fast");
 						$('#form-message').fadeIn("slow");
 					}
 				});
 			});
 		});
     </script>
-	<div id="ajax-contact" class="container">
-		<form>
+	<div id="ajax-contact-div" class="container">
+		<form id="ajax-form">
 			<div class="row">
 				<div class="col-lg-12 text-center">
 					<h2 class="section-heading">Contact Us</h2>
