@@ -1,6 +1,25 @@
 <section id="contact">
-	<div class="container">
-		<form id="ajax-contact" method="post" action="<?php echo SCRIPTS_PATH . 'mailer2.php'; ?>">
+    <script src="<?php echo JS_PATH . 'jquery.min.js'?>"></script> <!-- TODO: this is declared twice (once on index) -->
+	<script>
+		$(function () {
+			$('#form-message').hide();
+			var submitBtn = $('#submit');
+			$(submitBtn).bind('click', function (event) {
+				event.preventDefault();
+				$.ajax({
+					type: 'POST',
+					url: './res/scripts/mailer2.php',
+					data: $('form').serialize(),
+					success: function () {
+						$('#ajax-contact').fadeOut("fast");
+						$('#form-message').fadeIn("slow");
+					}
+				});
+			});
+		});
+    </script>
+	<div id="ajax-contact" class="container">
+		<form>
 			<div class="row">
 				<div class="col-lg-12 text-center">
 					<h2 class="section-heading">Contact Us</h2>
@@ -26,55 +45,10 @@
 				</div>
 				<div class="clearfix"></div>
 				<div class="col-lg-12 text-center">
-					<div id="success"></div>
-					<button class="w3-btn w3-padding-16 w3-small w3-margin-top">Send Email</button>
+					<input id="submit" name="submit" type="submit" value="Send Email" class="w3-btn w3-padding-16 w3-small w3-margin-top">
 				</div>
 			</div>
 		</form>
 	</div>
-	<div id="form-messages" class="w3-center"></div>
-
-	<script>
-	$(function() {
-		// Get the form.
-		var form = $('#ajax-contact');
-
-		// Get the messages div.
-		var formMessages = $('#form-messages');
-
-		// Set up an event listener for the contact form.
-		$(form).submit(function(event) {
-			// Stop the browser from submitting the form.
-			event.preventDefault();
-
-			// Serialize the form data.
-			var formData = $(form).serialize();
-			
-			.done(function(response) {
-				// Make sure that the formMessages div has the 'success' class.
-				$(formMessages).removeClass('error');
-				$(formMessages).addClass('success');
-
-				// Set the message text.
-				$(formMessages).text(response);
-
-				// Clear the form.
-				$('#name').val('');
-				$('#email').val('');
-				$('#message').val('');
-			}).fail(function(data) {
-				// Make sure that the formMessages div has the 'error' class.
-				$(formMessages).removeClass('success');
-				$(formMessages).addClass('error');
-
-				// Set the message text.
-				if (data.responseText !== '') {
-					$(formMessages).text(data.responseText);
-				} else {
-					$(formMessages).text('Oops! An error occured and your message could not be sent.');
-				}
-			});
-		});
-	});
-	</script>
+	<p id="form-message" class="w3-center w3-padding-16">Thank you for the email.</p>
 </section>
