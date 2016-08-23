@@ -20,9 +20,9 @@
 <body>
 
 <!-- Navbar -->
-<ul class="w3-navbar w3-blue w3-card-2 w3-top w3-left-align w3-large">
+<ul class="w3-navbar w3-light-blue w3-card-2 w3-top w3-left-align w3-large">
 	<li class="w3-hide-medium w3-hide-large w3-opennav w3-right">
-		<a class="w3-padding-large w3-hover-white w3-large w3-blue" href="javascript:void(0);" onclick="smallScreenNav()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+		<a class="w3-padding-large w3-hover-white w3-large w3-light-blue" href="javascript:void(0);" onclick="smallScreenNav()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
 	</li>
 	<li><a href="#home" class="w3-padding-large w3-white">Home</a></li>
 	<li class="w3-hide-small"><a href="#gallery" class="w3-padding-large w3-hover-white w3-text-black">Gallery</a></li>
@@ -32,18 +32,18 @@
 
 <!-- Navbar on small screens -->
 <div id="idNav" class="w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:51px">
-	<ul class="w3-navbar w3-left-align w3-large w3-black">
-		<li><a class="w3-padding-large" href="#gallery">Gallery</a></li>
-		<li><a class="w3-padding-large" href="#contact">Contact Us</a></li>
-		<li><a class="w3-padding-large" href="#hours">Opening Hours</a></li>
+	<ul class="w3-navbar w3-left-align w3-large w3-light-grey">
+		<li><a class="w3-padding-large w3-text-black" href="#gallery">Gallery</a></li>
+		<li><a class="w3-padding-large w3-text-black" href="#contact">Contact Us</a></li>
+		<li><a class="w3-padding-large w3-text-black" href="#hours">Opening Hours</a></li>
 	</ul>
 </div>
 
 <!-- Header -->
 <div class="w3-container bg-img-1 w3-center w3-padding-256">
-	<h1 class="w3-margin w3-jumbo">Tata Steel Sailing Club</h1>
-	<p class="w3-xlarge">Port Talbot</p>
-	<button class="w3-btn w3-padding-16 w3-large w3-margin-top">Book an induction</button>
+	<h1 class="w3-margin w3-jumbo w3-animate-opacity">Tata Steel Sailing Club</h1>
+	<p class="w3-xlarge w3-animate-opacity">Port Talbot</p>
+	<button class="w3-btn w3-padding-16 w3-large w3-margin-top w3-animate-opacity">Book an induction</button>
 </div>
 
 <!------------------->
