@@ -17,6 +17,6 @@ $headers = "From: noreply@yourdomain.com\n"; // This is the email address the ge
 $headers .= "Reply-To: $email_address";
 
 // TODO: un comment when running on remote server to send mail
-mail($to, $email_subject, $email_body, $headers);
+//mail($to, $email_subject, $email_body, $headers);
 
 return true;

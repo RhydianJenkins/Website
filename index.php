@@ -14,9 +14,10 @@
 
 <!-- custom css -->
 <link rel="stylesheet" type="text/css" href="<?php echo STYLES_PATH . "custom-main.css"; ?>" />
-<style>
 
-</style>
+<!-- jquery -->
+<script src="<?php echo JS_PATH . 'jquery.min.js'?>"></script>
+
 <body>
 
 <!-- Navbar -->
@@ -117,9 +118,6 @@
 		}
 	}
 </script>
-
-<!-- jquery -->
-<script src="<?php echo JS_PATH . 'jquery.min.js'?>"></script>
 
 <!-- Bootstrap Core JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>

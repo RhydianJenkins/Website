@@ -1,7 +1,5 @@
 <section id="contact">
-    <script src="<?php echo JS_PATH . 'jquery.min.js'?>"></script> <!-- TODO: this is declared twice (once on index) -->
 	<script>
-		// TODO: fix validation
 		$(function () {
 			$('#form-message').hide();
 			var submitBtn = $('#submit');
@@ -53,5 +51,5 @@
 			</div>
 		</form>
 	</div>
-	<p id="form-message" class="w3-center w3-padding-16">Thank you for the email.</p>
+	<p id="form-message" class="w3-center w3-padding-16 w3-text-green">Thank you for the email.</p>
 </section>
