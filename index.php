@@ -62,7 +62,7 @@
 		</div>
 
 		<div class="w3-third w3-center">
-			<img /> <!-- TODO: Welcoming image here -->
+			<img style="width: 300px; height: 300px;" src="http://assets.sbnation.com/assets/3149491/TSS_036_FastBoat_Segment_A.Still006.jpg" />
 		</div>
 	</div>
 </div>
