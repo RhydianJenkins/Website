@@ -10,8 +10,7 @@
 <link rel="stylesheet" type="text/css" href="<?php echo STYLES_PATH . "font-awesome.min.css"; ?>" />
 
 <!-- bootstrap css -->
-<link rel="stylesheet" type="text/css" href="<?php echo STYLES_PATH . "bootstrap/bootstrap.min.css"; ?>" />
-<link rel="stylesheet" type="text/css" href="<?php echo STYLES_PATH . "bootstrap/bootstrap-theme.min.css"; ?>" />
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
 <!-- custom css -->
 <link rel="stylesheet" type="text/css" href="<?php echo STYLES_PATH . "custom-main.css"; ?>" />
@@ -94,15 +93,16 @@
 	}
 </script>
 
+
+<!-- jquery -->
+<script src="<?php echo JS_PATH . 'jquery.min.js'?>"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
 <!-- Contact Form JavaScript -->
 <script src="<?php echo JS_PATH . 'jqBootstrapValidation.js'?>"></script>
 <script src="<?php echo JS_PATH . 'contact_me.js'?>"></script>
-
-<!-- Bootstrap Core JavaScript -->
-<script src="<?php echo JS_PATH . 'bootstrap.min.js'?>"></script>
-	
-<!-- jquery -->
-<script src="<?php echo JS_PATH . 'jquery.min.js'?>"></script>
 
 </body>
 </html>
