@@ -5,17 +5,19 @@
 		$(function () {
 			$('#form-message').hide();
 			var submitBtn = $('#submit');
-			$(submitBtn).bind('click', function (event) {
-				event.preventDefault();
+			var form = $('#ajax-form');
+			//$(submitBtn).bind('click', function (event) {
+			$(form).submit(function (event) {
 				$.ajax({
 					type: 'POST',
 					url: './res/scripts/mailer2.php',
-					data: $('form').serialize(),
+					data: form.serialize(),
 					success: function () {
 						$('#ajax-contact-div').fadeOut("fast");
 						$('#form-message').fadeIn("slow");
 					}
 				});
+				event.preventDefault();
 			});
 		});
     </script>
