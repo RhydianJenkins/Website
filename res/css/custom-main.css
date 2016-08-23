@@ -1,6 +1,6 @@
 /* Here is where all of the custom css goes for the main page */ 
-body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
-.w3-navbar,h1,button {font-family: "Montserrat", sans-serif}
+body,h1,h2,h3,h4,h5,h6 {font-family: "Tahoma", sans-serif}
+.w3-navbar,h1,button {font-family: "Tahoma", sans-serif}
 .fa-anchor,.fa-coffee {font-size:200px}
 
 /* THEME COLOURS */
