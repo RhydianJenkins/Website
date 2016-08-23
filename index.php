@@ -71,7 +71,7 @@
 <div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
 	<div class="w3-content">
 		<div class="w3-third w3-center">
-			<?php include(SCRIPTS_PATH . "map.html"); ?>
+			<?php include(SCRIPTS_PATH . "map.html"); ?> <!-- TODO: style this properly on small screens -->
 		</div>
 		<div class="w3-twothird">
 			<h1>Location</h1>

@@ -16,7 +16,7 @@ $headers = "From: noreply@yourdomain.com\n"; // This is the email address the ge
 $headers .= "Reply-To: $email_address";
 
 try{
-	// TODO: verify "SMTP" and "smtp_port" setting in php.ini or use ini_set()
+	// TODO: un comment when running on remote server to send mail
 	//mail($to, $email_subject, $email_body, $headers);
 } catch(Exception $e) {
 	return false;
