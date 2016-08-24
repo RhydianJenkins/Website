@@ -20,14 +20,23 @@
 <!-- Navbar -->
 <?php include INC_PATH . 'bootstrap_navbar.php'; ?>
 
-<!-- Page -->
-<?php include INC_PATH . 'pages/home.page.php'; ?>
-
-<!-- Contact form -->
-<?php include(INC_PATH . "contact_form.php"); ?>
+<!-- TESTTABLE -->
+<?php include INC_PATH . '2016_wednesday_series_2.html'; ?>
 
 <!-- Footer -->
 <?php include INC_PATH . 'footer.php'; ?>
+
+<!-- Small screen nav menu -->
+<script>
+	function smallScreenNav() {
+		var x = document.getElementById("idNav");
+		if (x.className.indexOf("w3-show") == -1) {
+			x.className += " w3-show";
+		} else {
+			x.className = x.className.replace(" w3-show", "");
+		}
+	}
+</script>
 
 <!-- Bootstrap Core JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
