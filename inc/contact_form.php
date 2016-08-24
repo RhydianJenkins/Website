@@ -1,10 +1,10 @@
+<!-- Requires jQuery -->
 <section id="contact">
 	<script>
 		$(function () {
 			$('#form-message').hide();
 			var submitBtn = $('#submit');
 			var form = $('#ajax-form');
-			//$(submitBtn).bind('click', function (event) {
 			$(form).submit(function (event) {
 				$.ajax({
 					type: 'POST',
@@ -19,6 +19,7 @@
 			});
 		});
     </script>
+	<p id="form-message" class="w3-center w3-padding-64 w3-margin-top w3-text-green w3-xlarge">Thank you for the email.</p>
 	<div id="ajax-contact-div" class="container">
 		<form id="ajax-form">
 			<div class="row">
@@ -51,5 +52,4 @@
 			</div>
 		</form>
 	</div>
-	<p id="form-message" class="w3-center w3-padding-16 w3-text-green">Thank you for the email.</p>
 </section>
