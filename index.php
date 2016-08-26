@@ -23,6 +23,8 @@
 <!-- Page -->
 <?php include INC_PATH . 'pages/home.page.php'; ?>
 
+<hr />
+
 <!-- Contact form -->
 <?php include(INC_PATH . "contact_form.php"); ?>
 

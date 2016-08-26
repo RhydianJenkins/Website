@@ -5,8 +5,8 @@
 	<button class="w3-btn w3-padding-16 w3-large w3-margin-top w3-animate-opacity">Book an induction</button>
 </div>
 
-<!-- First Grid -->
-<div class="w3-row-padding w3-padding-64 w3-container">
+<!-- Welcome -->
+<div class="w3-row-padding w3-padding-64 container-fluid">
 	<div class="w3-content">
 		<div class="w3-twothird">
 			<h1>Welcome</h1>
@@ -21,11 +21,11 @@
 	</div>
 </div>
 
-<!-- Second Grid -->
-<div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+<!-- Location -->
+<div class="w3-row-padding w3-light-grey w3-padding-64 container-fluid">
 	<div class="w3-content">
 		<div class="w3-third w3-center">
-			<?php include(INC_PATH . "map.html"); ?> <!-- TODO: style this properly on small screens -->
+			<?php include(INC_PATH . "map.html"); ?> <!-- TODO: style this properly on smaller screens -->
 		</div>
 		<div class="w3-twothird">
 			<h1>Location</h1>
@@ -39,5 +39,12 @@
 			</address>
 			<p class="w3-padding-16">Tata Steel Sailing Club is located just off Junction 38 of the M4. If traveling from the East, i.e. traveling from the Cardiff direction take the first exit off the J38 roundabout. If traveling from the West, i.e. traveling, from the Swansea direction take the 3rd exit off the J38 roundabout.</p>
 		</div>
+	</div>
+</div>
+
+<!-- FAQ -->
+<div class="w3-row-padding w3-padding-64 container-fluid">
+	<div class="w3-content">
+		<?php include INC_PATH . 'faq.php'; ?>
 	</div>
 </div>
