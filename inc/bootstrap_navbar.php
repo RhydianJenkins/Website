@@ -26,8 +26,12 @@
 							$resultsFiles = array_diff(scandir(RESULTS_PATH), array('.', '..'));
 							// go through each resultsFile and create a UL to it
 							foreach($resultsFiles as $file) {
-								// TODO: make the file name appear in a pretty format, no underscores / .html etc
-								echo "<li><a href=\"results.php?target=".$file."\">".$file."</a></li>";
+								// make the file name pretty by removing '_' and '.html', and upper-casing it
+								$fileName = str_replace('_', ' ', $file);	// remove '_'
+								$fileName = substr($fileName, 0, strrpos($fileName, ".")); //remove everthing after last '.'
+								$fileName = ucwords($fileName);	// upper case everything
+								
+								echo "<li><a href=\"results.php?target=".$file."\">".$fileName."</a></li>";
 							}
 						?>
 						<li role="separator" class="divider"></li>
