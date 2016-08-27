@@ -16,7 +16,24 @@
 			<ul class="nav navbar-nav">
 				<!-- Hidden li included to remove active class from about link when scrolled up past about section -->
 				<li class="hidden"><a class="page-scroll" href="#page-top"></a></li>
-				<li><a class="page-scroll" href="results.php">Results</a></li>
+				<!-- Results -->
+				<li>
+					<a class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						Results <span class="caret"></span>
+					</a>
+					<ul class="dropdown-menu">
+						<?php
+							$resultsFiles = array_diff(scandir(RESULTS_PATH), array('.', '..'));
+							// go through each resultsFile and create a UL to it
+							foreach($resultsFiles as $file) {
+								// TODO: make the file name appear in a pretty format, no underscores / .html etc
+								echo "<li><a href=\"results.php?target=".$file."\">".$file."</a></li>";
+							}
+						?>
+						<li role="separator" class="divider"></li>
+						<li><a href="results.php?target=rules">Rules</a></li>
+					</ul>
+				</li>
 			</ul>
 		</div><!-- /.navbar-collapse -->
 	</div><!-- /.container -->

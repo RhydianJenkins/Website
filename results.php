@@ -20,8 +20,23 @@
 <!-- Navbar -->
 <?php include INC_PATH . 'bootstrap_navbar.php'; ?>
 
-<!-- TESTTABLE -->
-<?php include INC_PATH . '2016_wednesday_series_2.html'; ?>
+<?php
+	// grab all files in results path bar '.' and '..'
+	$resultsFiles = array_diff(scandir(RESULTS_PATH), array('.', '..'));
+	$fileFound = false;
+	
+	// go through each file and 
+	foreach($resultsFiles as $file) {
+		if ($file == $_GET['target']) {
+			include(RESULTS_PATH . $file);
+			$fileFound = true;
+		}
+	}
+	if (!$fileFound) {
+		// we didnt find a file to print, go to rules
+		include(INC_PATH . 'rules.php');
+	}
+?>
 
 <!-- Footer -->
 <?php include INC_PATH . 'footer.php'; ?>

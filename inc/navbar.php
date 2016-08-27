@@ -7,7 +7,7 @@
 	<li class="w3-hide-small"><a href="#" class="w3-padding-large w3-hover-white w3-text-black">Calendar</a></li>
 	<li class="w3-hide-small"><a href="#contact" class="w3-padding-large w3-hover-white w3-text-black">Contact Us</a></li>
 	<li class="w3-hide-small"><a href="#" class="w3-padding-large w3-hover-white w3-text-black">FAQ</a></li>
-	<li class="w3-hide-small"><a href="results.php" class="w3-padding-large w3-hover-white w3-text-black">Results</a></li>
+	<li class="w3-hide-small"><a href="results.php" class="w3-padding-large w3-hover-white w3-text-black">Results</a></li>	
 	<li class="w3-hide-small"><a href="#" class="w3-padding-large w3-hover-white w3-text-black">Gallery</a></li>
 	<li class="w3-hide-small"><a href="#" class="w3-padding-large w3-hover-white w3-text-black">About</a></li>
 </div>
