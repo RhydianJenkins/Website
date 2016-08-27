@@ -28,6 +28,8 @@
 	// go through each file and 
 	foreach($resultsFiles as $file) {
 		if ($file == $_GET['target']) {
+			$fileName = ucwords(substr(str_replace('_', ' ', $file), 0, strrpos(str_replace('_', ' ', $file), "."))); // make it look pretty
+			
 			include(RESULTS_PATH . $file);
 			$fileFound = true;
 		}
@@ -40,18 +42,6 @@
 
 <!-- Footer -->
 <?php include INC_PATH . 'footer.php'; ?>
-
-<!-- Small screen nav menu -->
-<script>
-	function smallScreenNav() {
-		var x = document.getElementById("idNav");
-		if (x.className.indexOf("w3-show") == -1) {
-			x.className += " w3-show";
-		} else {
-			x.className = x.className.replace(" w3-show", "");
-		}
-	}
-</script>
 
 <!-- Bootstrap Core JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
