@@ -30,6 +30,5 @@ nav {
 #map { height: 100%; }
 
 /* GENERIC */
-.padding-256 {
-	padding: 256px;
-}
+.padding-256 { padding: 256px; }
+.pointer-hover { cursor: pointer; }
