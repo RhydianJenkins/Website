@@ -45,13 +45,15 @@
 				<li id="signin-status">
 					<?php 
 						if(isset($_SESSION['signed_in']) && $_SESSION['signed_in']) {
-							echo "<a href=\"signout.php\">Signed in as " . $_SESSION['user_name'] . "</a>";
+							echo "<a href=\"logout.php\">Logged in as " . $_SESSION['user_name'] . "</a>";
 						} else {
-							echo "<a href=\"signin.php\">Sign in</a>";
+							echo "<a href=\"login.php\">Log In / Register</a>";
 						}
 					?>
 				</li>
-				
+				<li>
+					<?php var_dump($_SESSION); ?>
+				</li>
 				
 				
 				

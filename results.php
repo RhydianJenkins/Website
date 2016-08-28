@@ -26,7 +26,7 @@
 			<!-- Sidebar -->
 			<?php include INC_PATH . 'results_sidebar.php'; ?>
 		</div>
-		<div class="col-lg-10">
+		<div class="col-lg-10 text-center">
 			<!-- Find and include the correct table -->
 			<?php
 				// grab all files in results path bar '.' and '..'

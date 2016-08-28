@@ -2,7 +2,6 @@
 <html>
 <head>
 <?php require("config.php"); ?>
-<?php include(SCRIPTS_PATH . "connect.php"); ?>
 <title><?php echo SITE_NAME; ?></title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- w3 template css -->
@@ -27,7 +26,7 @@
 <hr />
 
 <!-- Contact form -->
-<?php include(INC_PATH . "contact_form.php"); ?>
+<?php include(INC_PATH . "contact.form.php"); ?>
 
 <!-- Footer -->
 <?php include INC_PATH . 'footer.php'; ?>

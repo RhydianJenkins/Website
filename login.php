@@ -21,8 +21,8 @@
 <!-- Navbar -->
 <?php include INC_PATH . 'bootstrap_navbar.php'; ?>
 
-<!-- call the script -->
-<?php include SCRIPTS_PATH . 'signin_script.php'; ?>
+<!-- Log in / Register -->
+<?php include INC_PATH . 'login.form.php'; ?>
 
 <!-- Bootstrap Core JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
