@@ -20,25 +20,36 @@
 <!-- Navbar -->
 <?php include INC_PATH . 'bootstrap_navbar.php'; ?>
 
-<?php
-	// grab all files in results path bar '.' and '..'
-	$resultsFiles = array_diff(scandir(RESULTS_PATH), array('.', '..'));
-	$fileFound = false;
-	
-	// go through each file and 
-	foreach($resultsFiles as $file) {
-		if ($file == $_GET['target']) {
-			$fileName = ucwords(substr(str_replace('_', ' ', $file), 0, strrpos(str_replace('_', ' ', $file), "."))); // make it look pretty
-			
-			include(RESULTS_PATH . $file);
-			$fileFound = true;
-		}
-	}
-	if (!$fileFound) {
-		// we didnt find a file to print, go to rules
-		include(INC_PATH . 'rules.php');
-	}
-?>
+<div class="container-fluid">
+	<div class="row-fluid show-grid">
+		<div class="col-lg-2">
+			<!-- Sidebar -->
+			<?php include INC_PATH . 'results_sidebar.php'; ?>
+		</div>
+		<div class="col-lg-10">
+			<!-- Find and include the correct table -->
+			<?php
+				// grab all files in results path bar '.' and '..'
+				$resultsFiles = array_diff(scandir(RESULTS_PATH), array('.', '..'));
+				$fileFound = false;
+				
+				// go through each file and 
+				foreach($resultsFiles as $file) {
+					if ($file == $_GET['target']) {
+						$fileName = ucwords(substr(str_replace('_', ' ', $file), 0, strrpos(str_replace('_', ' ', $file), "."))); // make it look pretty
+						
+						include(RESULTS_PATH . $file);
+						$fileFound = true;
+					}
+				}
+				if (!$fileFound) {
+					// we didnt find a file to print, go to rules
+					include(INC_PATH . 'results_rules.php');
+				}
+			?>
+		</div>
+	</div>
+</div>
 
 <!-- Footer -->
 <?php include INC_PATH . 'footer.php'; ?>

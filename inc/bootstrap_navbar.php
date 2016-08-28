@@ -32,7 +32,7 @@
 							}
 						?>
 						<li role="separator" class="divider"></li>
-						<li><a href="results.php?target=rules">Rules</a></li>
+						<li><a href="results.php?target=results_rules.php">Rules</a></li>
 					</ul>
 				</li>
 			</ul>
