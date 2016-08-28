@@ -1,6 +1,7 @@
 <?php
 session_start();
 include("./connect.php");
+
 /* so, the form has been posted, we'll process the data in three steps:
 	1.  Check the data
 	2.  Let the user refill the wrong fields (if necessary)
@@ -10,12 +11,10 @@ $errors = array(); /* declare the array for later use just incase we want it in 
 
 if(!isset($_POST['username'])) {
 	$errors[] = 'The username field must not be empty.';
-	return false;
 }
  
 if(!isset($_POST['password'])) {
 	$errors[] = 'The password field must not be empty.';
-	return false;
 }
 
 //the form has been posted without errors, so save it
@@ -37,14 +36,16 @@ $result = mysql_query($sql);
 if(!$result) {
 	//something went wrong, return false
 	//echo mysql_error(); //debugging purposes, uncomment when needed
-	echo '!$result';
+	$errors[] = 'Something went wrong when trying to access the database, please try again later.';
+	return false;
 }
 
 //the query was successfully executed, there are 2 possibilities
 //1. the query returned data, the user can be signed in
 //2. the query returned an empty result set, the credentials were wrong
 if(mysql_num_rows($result) == 0) {
-	echo 'Wrong username / password combination';
+	$errors[] = 'Wrong username / password combination';
+	return false;
 }
 
 //set the $_SESSION['signed_in'] variable to TRUE
@@ -57,6 +58,6 @@ while($row = mysql_fetch_assoc($result)) {
 	$_SESSION['user_level'] = $row['user_level'];
 }
 
-header('Location: ../../index.php');
+return true;
 
 ?>

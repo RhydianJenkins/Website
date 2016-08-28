@@ -1,25 +1,23 @@
 <br />
 <div class="container">
-	<!--<script>
+	<script>
 		$(function () {
 			var loginForm = $('#login-form');
-			var loginBtn = $('#submit');
 			var registerForm = $('#register-form');
-			var registerBtn = $('#submit');
 			
 			$(loginForm).submit(function (event) {
 				$.ajax({
-					type: 'POST',
-					url: './res/php_scripts/login_script.php',
-					data: form.serialize(),
-					success: function () {
-						alert('success');
-					}
+					url: "./res/php_scripts/login_script.php",
+					type: "POST",
+					datatype: 'json',
+					data: loginForm.serialize(),
+					success: function (response) {},
+					error: function (response) {}
 				});
 				event.preventDefault();
 			});
 		});
-    </script> -->
+    </script>
 	<div class="row">
 		<div class="col-md-6 col-md-offset-3">
 			<div class="panel panel-login">
@@ -37,12 +35,12 @@
 				<div class="panel-body">
 					<div class="row">
 						<div class="col-lg-12">
-							<form id="login-form" style="display: block;" method="POST" action="./res/php_scripts/login_script.php">
+							<form id="login-form" style="display: block;">
 								<div class="form-group">
-									<input type="text" name="username" id="username" tabindex="1" class="form-control" placeholder="Username" value="rljtest">
+									<input id="login-username" type="text" name="username" id="username" tabindex="1" class="form-control" placeholder="Username" value="rljtest">
 								</div>
 								<div class="form-group">
-									<input type="password" name="password" id="password" tabindex="2" class="form-control" placeholder="Password" value="rljtest">
+									<input id="login-password" type="password" name="password" id="password" tabindex="2" class="form-control" placeholder="Password" value="rljtest">
 								</div>
 								<!-- <div class="form-group text-center">
 									<input type="checkbox" tabindex="3" class="" name="remember" id="remember">
