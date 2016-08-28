@@ -23,7 +23,7 @@
 <!-- Hide the 'back to top' link if not scrolled -->
 <script>
 	$(window).on("resize scroll", function(e){
-		if ($(this).scrollTop() > 1) {
+		if ($(this).scrollTop() > 0) {
 			$('#back-to-top').fadeIn();
 		} else {
 			$('#back-to-top').fadeOut();

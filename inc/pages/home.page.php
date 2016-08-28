@@ -6,28 +6,28 @@
 </div>
 
 <!-- Welcome -->
-<div class="w3-row-padding w3-padding-64 container-fluid">
-	<div class="w3-content">
-		<div class="w3-twothird">
+<div class="container m-a-1">
+	<div class="row">
+		<div class="col-lg-8">
 			<h1>Welcome</h1>
 			<p class="w3-padding-16">The club is situated three miles south of Port Talbot, South Wales and was formerly known as the Corus Sailing Club, Margam.</p>
 
 			<p class="w3-padding-16">The reservoir is over one mile long by approximately half a mile wide, where racing takes place every Sunday throughout the whole year (for those brave enough!) and also on Saturdays, Tuesday evenings and Wednesday evenings through the Spring and Summer months.</p>
 		</div>
 
-		<div class="w3-third w3-center" style="width: 300px; height: 300px; overflow: hidden;">
+		<div class="col-lg-4">
 			<img style="width: 100%; height: 100%;" src="//c7.staticflickr.com/6/5758/22625523766_5887ee8df6_h.jpg" />
 		</div>
 	</div>
 </div>
 
 <!-- Location -->
-<div class="w3-row-padding w3-light-grey w3-padding-64 container-fluid">
-	<div class="w3-content">
-		<div class="w3-third w3-center">
+<div class="container">
+	<div class="row p-16">
+		<div class="col-lg-4">
 			<?php include(INC_PATH . "map.html"); ?> <!-- TODO: style this properly on smaller screens -->
 		</div>
-		<div class="w3-twothird">
+		<div class="col-lg-8">
 			<h1>Location</h1>
 			<address>
 				<strong>Tata Steel Sailing Club</strong><br />

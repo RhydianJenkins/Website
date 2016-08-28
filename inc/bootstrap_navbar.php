@@ -35,6 +35,8 @@
 						<li><a href="results.php?target=results_rules.php">Rules</a></li>
 					</ul>
 				</li>
+				<!-- Forum -->
+				<li><a href="forum.php">Forum</a></li>
 			</ul>
 		</div><!-- /.navbar-collapse -->
 	</div><!-- /.container -->
