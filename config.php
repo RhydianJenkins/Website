@@ -1,9 +1,6 @@
 <?php
-ini_set('display_errors', -1);
-if (!isset($_SESSION)) {
-	echo 'session start';
-	session_start();
-}
+// Start the session
+session_start();
 
 // Names
 define("SITE_NAME", "Tata Steel Sailing Club");

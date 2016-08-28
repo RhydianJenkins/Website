@@ -1,6 +1,4 @@
-<?php
-	
-session_unset();
-echo "Session unset";
-
+<?php 
+	session_start();
+	session_unset();
 ?>

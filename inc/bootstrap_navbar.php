@@ -38,26 +38,30 @@
 				<!-- Forum -->
 				<li><a href="forum.php">Forum</a></li>
 				
-				
-				
-				
-				<!-- Sign in status -->
+				<!-- Sign in / Register -->
 				<li id="signin-status">
 					<?php 
 						if(isset($_SESSION['signed_in']) && $_SESSION['signed_in']) {
-							echo "<a href=\"logout.php\">Logged in as " . $_SESSION['user_name'] . "</a>";
+							echo "<a id=\"logout-button\" href=\"#\">Logged in as ".$_SESSION['user_name']." (LOGOUT)</a> ";
 						} else {
-							echo "<a href=\"login.php\">Log In / Register</a>";
+							echo "<a id=\"login-button\" href=\"login.php\">Log In / Register</a>";
 						}
 					?>
 				</li>
-				<li>
-					<?php var_dump($_SESSION); ?>
-				</li>
-				
-				
 				
 			</ul>
 		</div><!-- /.navbar-collapse -->
 	</div><!-- /.container -->
 </nav>
+
+<!-- logout functionality -->
+<script>
+$('#logout-button').click(function() {
+	$.ajax({
+        url: '<?php echo SCRIPTS_PATH; ?>reset_session.php',
+		success:function(){
+			alert('You have successfully been logged out');
+		}
+    });    
+});
+</script>

@@ -1,5 +1,5 @@
 <?php
-
+session_start();
 include("./connect.php");
 /* so, the form has been posted, we'll process the data in three steps:
 	1.  Check the data
@@ -17,8 +17,6 @@ if(!isset($_POST['password'])) {
 	$errors[] = 'The password field must not be empty.';
 	return false;
 }
-
-
 
 //the form has been posted without errors, so save it
 //notice the use of mysql_real_escape_string, keep everything safe!
