@@ -1,9 +1,10 @@
 <?php
+session_start();
 
 // Names
 define("SITE_NAME", "Tata Steel Sailing Club");
 
-// Paths#
+// Paths
 define("ROOT_PATH", "./");
 define("STYLES_PATH", ROOT_PATH . "res/css/");
 define("JS_PATH", ROOT_PATH . "res/js/");

@@ -37,6 +37,24 @@
 				</li>
 				<!-- Forum -->
 				<li><a href="forum.php">Forum</a></li>
+				
+				
+				
+				
+				<!-- Sign in status -->
+				<li id="signin-status">
+					<?php 
+						if(isset($_SESSION['signed_in']) && $_SESSION['signed_in']) {
+							echo "<a href=\"signout.php\">Signed in as " . $_SESSION['user_name'] . "</a>";
+						} else {
+							echo "<a href=\"signin.php\">Sign in</a>";
+						}
+					?>
+				</li>
+				
+				
+				
+				
 			</ul>
 		</div><!-- /.navbar-collapse -->
 	</div><!-- /.container -->
