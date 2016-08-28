@@ -1,16 +1,11 @@
-/* Here is where all of the custom css goes for the main page */ 
-body,h1,h2,h3,h4,h5,h6 {font-family: "Tahoma", sans-serif}
-.w3-navbar,h1,button {font-family: "Tahoma", sans-serif}
-.fa-anchor,.fa-coffee {font-size:200px}
+body {
+	padding-top: 50px; /* To account for the nav bar */
+}
 
 /* THEME COLOURS */
 .bg-theme-color-1 {}
 .bg-theme-color-2 {}
 .bg-theme-color-3 {}
-
-nav {
-	top: 20px;
-}
 
 .bg-blur {
 	-webkit-filter: blur(5px);
@@ -21,7 +16,7 @@ nav {
 }
 
 .bg-img-1 {
-	background-image: url("http://assets.sbnation.com/assets/3149491/TSS_036_FastBoat_Segment_A.Still006.jpg");
+	background-image: url("//c7.staticflickr.com/6/5758/22625523766_5887ee8df6_h.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;

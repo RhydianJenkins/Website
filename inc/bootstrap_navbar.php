@@ -18,7 +18,7 @@
 				<li class="hidden"><a class="page-scroll" href="#page-top"></a></li>
 				<!-- Results -->
 				<li>
-					<a class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					<a class="dropdown-toggle pointer-hover" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 						Results <span class="caret"></span>
 					</a>
 					<ul class="dropdown-menu">

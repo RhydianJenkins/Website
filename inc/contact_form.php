@@ -53,3 +53,6 @@
 		</form>
 	</div>
 </section>
+
+<script src="<?php echo JS_PATH . 'jqBootstrapValidation.js'?>"></script>
+<script src="<?php echo JS_PATH . 'contact_me.js'?>"></script>

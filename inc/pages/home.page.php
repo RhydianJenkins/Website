@@ -15,8 +15,8 @@
 			<p class="w3-padding-16">The reservoir is over one mile long by approximately half a mile wide, where racing takes place every Sunday throughout the whole year (for those brave enough!) and also on Saturdays, Tuesday evenings and Wednesday evenings through the Spring and Summer months.</p>
 		</div>
 
-		<div class="w3-third w3-center">
-			<img style="width: 300px; height: 300px;" src="http://assets.sbnation.com/assets/3149491/TSS_036_FastBoat_Segment_A.Still006.jpg" />
+		<div class="w3-third w3-center" style="width: 300px; height: 300px; overflow: hidden;">
+			<img style="width: 100%; height: 100%;" src="//c7.staticflickr.com/6/5758/22625523766_5887ee8df6_h.jpg" />
 		</div>
 	</div>
 </div>

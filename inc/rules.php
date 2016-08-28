@@ -1,7 +1,6 @@
 <!-- rules! -->
 <div class="container">
 	
-	<br /><br /><br /><br />
 	<div class="content text-center">
 		<h4><strong>Rules: </strong>Racing will be governed by the ‘Rules’ defined in The Racing Rules of Sailing and these Instructions which change RRS 32, A2, A3 and Race Signal AP.</h4>
 	</div>
