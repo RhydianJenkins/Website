@@ -21,8 +21,31 @@
 <!-- Navbar -->
 <?php include INC_PATH . 'bootstrap_navbar.php'; ?>
 
-<!-- Log in / Register -->
-<?php include INC_PATH . 'login.form.php'; ?>
+<?php 
+	// check if the user has tried to log in or register
+	if (isset($_POST['login'])) {
+		$scriptResponse = include(SCRIPTS_PATH . "login_script.php");
+		if (is_array($scriptResponse)) {
+			// there were errors, and they're listed in $scriptResponse
+			var_dump($scriptResponse);
+		} else {
+			// user has logged in
+			echo 'Logged in';
+		}
+	} else if (isset($_POST['register'])) {
+		$scriptResponse = include(SCRIPTS_PATH . "register_script.php");
+		if (is_array($scriptResponse)) {
+			// there were errors, and they're listed in $scriptResponse
+			var_dump($scriptResponse);
+		} else {
+			// user has logged in
+			echo 'Account created, you can now log in';
+		}	
+	} else {
+		// no login / register attempt, show form
+		include INC_PATH . 'login.form.php';
+	}
+?>
 
 <!-- Bootstrap Core JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>

@@ -1,12 +1,13 @@
 <?php
-session_start();
-include("./connect.php");
-
-/* so, the form has been posted, we'll process the data in three steps:
-	1.  Check the data
-	2.  Let the user refill the wrong fields (if necessary)
-	3.  Varify if the data is correct and return the correct response
+/*
+	PHP script that takes the post data 'username', 'password'
+	If not present, an array of errors will be returned.
+	If invalid, an array is returned explaining the wrong username / password.
+	If valid, session data will be updated to that user
 */
+
+include(SCRIPTS_PATH . "connect.php");
+
 $errors = array(); /* declare the array for later use just incase we want it in the future */
 
 if(!isset($_POST['username'])) {
@@ -34,10 +35,10 @@ $sql = "SELECT
 $result = mysql_query($sql);
 
 if(!$result) {
-	//something went wrong, return false
+	//something went wrong, return $errors
 	//echo mysql_error(); //debugging purposes, uncomment when needed
 	$errors[] = 'Something went wrong when trying to access the database, please try again later.';
-	return false;
+	return $errors;
 }
 
 //the query was successfully executed, there are 2 possibilities
@@ -45,7 +46,7 @@ if(!$result) {
 //2. the query returned an empty result set, the credentials were wrong
 if(mysql_num_rows($result) == 0) {
 	$errors[] = 'Wrong username / password combination';
-	return false;
+	return $errors;
 }
 
 //set the $_SESSION['signed_in'] variable to TRUE

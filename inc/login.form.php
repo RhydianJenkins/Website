@@ -1,23 +1,5 @@
 <br />
 <div class="container">
-	<script>
-		$(function () {
-			var loginForm = $('#login-form');
-			var registerForm = $('#register-form');
-			
-			$(loginForm).submit(function (event) {
-				$.ajax({
-					url: "./res/php_scripts/login_script.php",
-					type: "POST",
-					datatype: 'json',
-					data: loginForm.serialize(),
-					success: function (response) {},
-					error: function (response) {}
-				});
-				event.preventDefault();
-			});
-		});
-    </script>
 	<div class="row">
 		<div class="col-md-6 col-md-offset-3">
 			<div class="panel panel-login">
@@ -35,7 +17,8 @@
 				<div class="panel-body">
 					<div class="row">
 						<div class="col-lg-12">
-							<form id="login-form" style="display: block;">
+							<form id="login-form" style="display: block;"  method="POST" action="">
+								<input type="hidden" name="login" id="login" >
 								<div class="form-group">
 									<input id="login-username" type="text" name="username" id="username" tabindex="1" class="form-control" placeholder="Username" value="rljtest">
 								</div>
@@ -57,13 +40,14 @@
 									<div class="row">
 										<div class="col-lg-12">
 											<div class="text-center">
-												<a href="http://phpoll.com/recover" tabindex="5" class="forgot-password">Forgot Password?</a>
+												<a href="#" tabindex="5" class="forgot-password">Forgot Password?</a>
 											</div>
 										</div>
 									</div>
 								</div>
 							</form>
-							<form id="register-form" style="display: none;">
+							<form id="register-form" style="display: none;" method="POST" action="">
+								<input type="hidden" name="register" id="register" >
 								<div class="form-group">
 									<input type="text" name="username" id="username" tabindex="1" class="form-control" placeholder="Username" value="">
 								</div>

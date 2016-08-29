@@ -12,56 +12,48 @@
 		</div>
 
 		<!-- Collect the nav links, forms, and other content for toggling -->
-		<div class="collapse navbar-collapse navbar-ex1-collapse">
-			<ul class="nav navbar-nav">
-				<!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-				<li class="hidden"><a class="page-scroll" href="#page-top"></a></li>
-				<!-- Results -->
-				<li>
-					<a class="dropdown-toggle pointer-hover" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-						Results <span class="caret"></span>
-					</a>
-					<ul class="dropdown-menu">
-						<?php
-							$resultsFiles = array_diff(scandir(RESULTS_PATH), array('.', '..'));
-							// go through each resultsFile and create a UL to it
-							foreach($resultsFiles as $file) {
-								$fileName = ucwords(substr(str_replace('_', ' ', $file), 0, strrpos(str_replace('_', ' ', $file), "."))); // make it look pretty
-								
-								echo "<li><a href=\"results.php?target=".$file."\">".$fileName."</a></li>";
-							}
-						?>
-						<li role="separator" class="divider"></li>
-						<li><a href="results.php?target=results_rules.php">Rules</a></li>
-					</ul>
-				</li>
-				<!-- Forum -->
-				<li><a href="forum.php">Forum</a></li>
-				
-				<!-- Sign in / Register -->
-				<li id="signin-status">
+		<form method="POST" target="">
+			<div class="collapse navbar-collapse navbar-ex1-collapse">
+				<ul class="nav navbar-nav">
+					<!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+					<li class="hidden"><a class="page-scroll" href="#page-top"></a></li>
+					<!-- Results -->
+					<li>
+						<a class="dropdown-toggle pointer-hover" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Results <span class="caret"></span>
+						</a>
+						<ul class="dropdown-menu">
+							<?php
+								$resultsFiles = array_diff(scandir(RESULTS_PATH), array('.', '..'));
+								// go through each resultsFile and create a UL to it
+								foreach($resultsFiles as $file) {
+									$fileName = ucwords(substr(str_replace('_', ' ', $file), 0, strrpos(str_replace('_', ' ', $file), "."))); // make it look pretty
+									
+									echo "<li><a href=\"results.php?target=".$file."\">".$fileName."</a></li>";
+								}
+							?>
+							<li role="separator" class="divider"></li>
+							<li><a href="results.php?target=results_rules.php">Rules</a></li>
+						</ul>
+					</li>
+					<!-- Forum -->
+					<li><a href="forum.php">Forum</a></li>
+					<!-- Sign in / Register -->
+					<li id="signin-status">
 					<?php 
+						if (isset($_POST['logout'])) { session_unset(); }
 						if(isset($_SESSION['signed_in']) && $_SESSION['signed_in']) {
-							echo "<a id=\"logout-button\" href=\"#\">Logged in as ".$_SESSION['user_name']." (LOGOUT)</a> ";
+							echo "
+								<input type=\"hidden\" name=\"logout\" />
+								<a id=\"logout-button\" onclick=\"this.parentNode.submit()\">Logged in as ".$_SESSION['user_name']." (LOGOUT)</a>
+							";
 						} else {
 							echo "<a id=\"login-button\" href=\"login.php\">Log In / Register</a>";
 						}
 					?>
-				</li>
-				
-			</ul>
-		</div><!-- /.navbar-collapse -->
+					</li>
+				</ul>
+			</div><!-- /.navbar-collapse -->
+		</form>
 	</div><!-- /.container -->
 </nav>
-
-<!-- logout functionality -->
-<script>
-$('#logout-button').click(function() {
-	$.ajax({
-        url: '<?php echo SCRIPTS_PATH; ?>reset_session.php',
-		success:function(){
-			alert('You have successfully been logged out');
-		}
-    });    
-});
-</script>
