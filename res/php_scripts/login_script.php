@@ -18,9 +18,9 @@ if(!isset($_POST['password'])) {
 	$errors[] = 'The password field must not be empty.';
 }
 
-//the form has been posted without errors, so save it
-//notice the use of mysql_real_escape_string, keep everything safe!
-//also notice the sha1 function which hashes the password
+// the form has been posted without errors, so save it
+// notice the use of mysql_real_escape_string, keep everything safe!
+// also notice the sha1 function which hashes the password
 $sql = "SELECT 
 			user_id,
 			user_name,
@@ -35,24 +35,24 @@ $sql = "SELECT
 $result = mysql_query($sql);
 
 if(!$result) {
-	//something went wrong, return $errors
-	//echo mysql_error(); //debugging purposes, uncomment when needed
+	// something went wrong, return $errors
+	// echo mysql_error(); //debugging purposes, uncomment when needed
 	$errors[] = 'Something went wrong when trying to access the database, please try again later.';
 	return $errors;
 }
 
-//the query was successfully executed, there are 2 possibilities
-//1. the query returned data, the user can be signed in
-//2. the query returned an empty result set, the credentials were wrong
+// The query was successfully executed, there are 2 possibilities
+// 1. the query returned data, the user can be signed in
+// 2. the query returned an empty result set, the credentials were wrong
 if(mysql_num_rows($result) == 0) {
 	$errors[] = 'Wrong username / password combination';
 	return $errors;
 }
 
-//set the $_SESSION['signed_in'] variable to TRUE
+// Set the $_SESSION['signed_in'] variable to TRUE
 $_SESSION['signed_in'] = true;
 
-//we also put the user_id and user_name values in the $_SESSION, so we can use it at various pages
+// We also put the user_id and user_name values in the $_SESSION, so we can use it at various pages
 while($row = mysql_fetch_assoc($result)) {
 	$_SESSION['user_id']    = $row['user_id'];
 	$_SESSION['user_name']  = $row['user_name'];

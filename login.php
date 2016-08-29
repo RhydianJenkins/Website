@@ -41,11 +41,11 @@
 			// user has logged in
 			echo 'Account created, you can now log in';
 		}	
-	} else {
-		// no login / register attempt, show form
-		include INC_PATH . 'login.form.php';
 	}
 ?>
+
+<!-- Form -->
+<?php include INC_PATH . 'login.form.php'; ?>
 
 <!-- Bootstrap Core JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>

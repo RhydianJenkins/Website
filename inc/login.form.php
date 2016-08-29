@@ -20,10 +20,10 @@
 							<form id="login-form" style="display: block;"  method="POST" action="">
 								<input type="hidden" name="login" id="login" >
 								<div class="form-group">
-									<input id="login-username" type="text" name="username" id="username" tabindex="1" class="form-control" placeholder="Username" value="rljtest">
+									<input id="login-username" type="text" name="username" id="username" tabindex="1" class="form-control" placeholder="Username" value="<?php echo isset($_POST['username']) ? $_POST['username'] : '' ; ?>">
 								</div>
 								<div class="form-group">
-									<input id="login-password" type="password" name="password" id="password" tabindex="2" class="form-control" placeholder="Password" value="rljtest">
+									<input id="login-password" type="password" name="password" id="password" tabindex="2" class="form-control" placeholder="Password">
 								</div>
 								<!-- <div class="form-group text-center">
 									<input type="checkbox" tabindex="3" class="" name="remember" id="remember">
@@ -36,7 +36,7 @@
 										</div>
 									</div>
 								</div>
-								<div class="form-group">
+								<!-- <div class="form-group">
 									<div class="row">
 										<div class="col-lg-12">
 											<div class="text-center">
@@ -44,15 +44,15 @@
 											</div>
 										</div>
 									</div>
-								</div>
+								</div> -->
 							</form>
 							<form id="register-form" style="display: none;" method="POST" action="">
 								<input type="hidden" name="register" id="register" >
 								<div class="form-group">
-									<input type="text" name="username" id="username" tabindex="1" class="form-control" placeholder="Username" value="">
+									<input type="text" name="username" id="username" tabindex="1" class="form-control" placeholder="Username" value="<?php echo isset($_POST['username']) ? $_POST['username'] : '' ; ?>">
 								</div>
 								<div class="form-group">
-									<input type="email" name="email" id="email" tabindex="1" class="form-control" placeholder="Email Address" value="">
+									<input type="email" name="email" id="email" tabindex="1" class="form-control" placeholder="Email Address" value="<?php echo isset($_POST['email']) ? $_POST['email'] : '' ; ?>">
 								</div>
 								<div class="form-group">
 									<input type="password" name="password" id="password" tabindex="2" class="form-control" placeholder="Password">
