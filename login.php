@@ -30,7 +30,7 @@
 			var_dump($scriptResponse);
 		} else {
 			// user has logged in
-			echo 'Logged in';
+			header("location: " . ROOT_PATH);
 		}
 	} else if (isset($_POST['register'])) {
 		$scriptResponse = include(SCRIPTS_PATH . "register_script.php");

@@ -6,7 +6,7 @@
 </div>
 
 <!-- Welcome -->
-<div class="container m-a-1">
+<div class="container" style="padding: 10px;">
 	<div class="row">
 		<div class="col-lg-8">
 			<h1>Welcome</h1>
@@ -22,7 +22,7 @@
 </div>
 
 <!-- Location -->
-<div class="container">
+<div class="container" style="padding: 10px;>
 	<div class="row p-16">
 		<div class="col-lg-4">
 			<?php include(INC_PATH . "map.html"); ?> <!-- TODO: style this properly on smaller screens -->
