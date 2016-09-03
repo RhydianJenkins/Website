@@ -22,7 +22,7 @@
 </div>
 
 <!-- Location -->
-<div class="container" style="padding: 10px;>
+<div class="container" style="padding: 10px;">
 	<div class="row p-16">
 		<div class="col-lg-4">
 			<?php include(INC_PATH . "map.html"); ?> <!-- TODO: style this properly on smaller screens -->

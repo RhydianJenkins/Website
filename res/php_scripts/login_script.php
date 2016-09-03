@@ -6,9 +6,14 @@
 	If valid, session data will be updated to that user
 */
 
-include(SCRIPTS_PATH . "connect.php");
-
 $errors = array(); /* declare the array for later use just incase we want it in the future */
+
+if(!require(SCRIPTS_PATH . "/connect.php")) {
+	//echo mysql_error(); //debugging purposes, uncomment when needed
+	$errors[] = 'Something went wrong while trying to access the database. Please try again later.';
+	return $errors;
+}
+
 
 if(!isset($_POST['username'])) {
 	$errors[] = 'The username field must not be empty.';

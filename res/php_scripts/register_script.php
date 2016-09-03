@@ -6,7 +6,11 @@
 	If valid, a new user will be created and 'true' will be returned
 */
 
-include(SCRIPTS_PATH . "/connect.php");
+if(!require(SCRIPTS_PATH . "/connect.php")) {
+	//echo mysql_error(); //debugging purposes, uncomment when needed
+	$errors[] = 'Something went wrong while trying to access the database. Please try again later.';
+	return $errors;
+}
 
 $errors = array(); /* declare the array for later use just incase we want it in the future */
  

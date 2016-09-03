@@ -1,4 +1,7 @@
 <?php
+// Error reporting
+//error_reporting(0);	// off, no error reporting
+
 // Start the session
 session_start();
 

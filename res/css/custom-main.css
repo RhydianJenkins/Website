@@ -3,7 +3,9 @@ body {
 }
 
 /* THEME COLOURS */
-.bg-theme-color-1 {}
+.bg-theme-color-1 {
+	background: #4593e3;
+}
 .bg-theme-color-2 {}
 .bg-theme-color-3 {}
 
@@ -17,12 +19,14 @@ body {
 	background-image: url("//c7.staticflickr.com/6/5758/22625523766_5887ee8df6_h.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: 50% 50%;
+    background-position: 50% 90%;
 }
 
 /* GENERIC */
 .padding-256 { padding: 256px; }
 .pointer-hover { cursor: pointer; }
+.text-black { color: black; }
+.clear { clear: both; }
 
 /* FAQ */
 .panel-title [data-toggle="collapse"]:after {
