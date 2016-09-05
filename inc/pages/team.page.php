@@ -24,7 +24,7 @@
 				<div class="col-md-3">
 					<a href="#" class="member-profile">
 						<div class="unhover_img">
-						<img src="<?php echo IMGS_PATH; ?>facebank/BobTaylor.jpg" alt="" />
+						<img src="<?php echo IMGS_PATH; ?>facebank/BobTaylor.jpg" alt="" />	
 						</div>
 						<div class="hover_img">
 						<img src="<?php echo IMGS_PATH; ?>facebank/BobTaylor.jpg" alt="" />

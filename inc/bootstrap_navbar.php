@@ -22,6 +22,8 @@
 						Results <span class="caret"></span>
 					</a>
 					<ul class="dropdown-menu">
+						<li><a href="results.php?target=results_rules.php">Rules</a></li>
+						<li role="separator" class="divider"></li>
 						<?php
 							$resultsFiles = array_diff(scandir(RESULTS_PATH), array('.', '..'));
 							// go through each resultsFile and create a UL to it
@@ -31,8 +33,6 @@
 								echo "<li><a href=\"results.php?target=".$file."\">".$fileName."</a></li>";
 							}
 						?>
-						<li role="separator" class="divider"></li>
-						<li><a href="results.php?target=results_rules.php">Rules</a></li>
 					</ul>
 				</li>
 				<!-- Forum -->
