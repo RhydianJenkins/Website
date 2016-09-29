@@ -31,8 +31,6 @@
 <!-- Footer -->
 <?php include INC_PATH . 'footer.php'; ?>
 
-<?php include INC_PATH . 'irc_test.php'; ?>
-
 <!-- Bootstrap Core JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
