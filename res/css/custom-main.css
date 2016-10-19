@@ -16,7 +16,7 @@ body {
 }
 
 .bg-img-1 {
-	background-image: url("//c7.staticflickr.com/6/5758/22625523766_5887ee8df6_h.jpg");
+    background-image: url("../imgs/bg_img_1.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 90%;
