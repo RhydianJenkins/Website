@@ -15,7 +15,7 @@
 		?>
 
 
-			<li><a href="?target=rules">Rules</a></li>
+			<li><a href="?target=instructions">Sailing Instructions</a></li>
 			<li id="back-to-top" style="display: none;"><a href="#top">Back to top</a></li>
 		</ul>
 	</nav>

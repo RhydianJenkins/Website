@@ -22,7 +22,7 @@
 						Results <span class="caret"></span>
 					</a>
 					<ul class="dropdown-menu">
-						<li><a href="results.php?target=results_rules.php">Rules</a></li>
+						<li><a href="results.php?target=sailing_instructions.php">Sailing Instructions</a></li>
 						<li role="separator" class="divider"></li>
 						<?php
 							$resultsFiles = array_diff(scandir(RESULTS_PATH), array('.', '..'));
