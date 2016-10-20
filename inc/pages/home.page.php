@@ -1,6 +1,6 @@
 <!-- Welcome Header -->
-<div class="w3-container bg-img-1 w3-center w3-padding-256">
-	<h1 class="w3-margin w3-jumbo w3-animate-opacity">Tata Steel Sailing Club</h1>
+<div class="container-fluid bg-img-1 w3-center w3-padding-256">
+	<h1 id="main-header" class="w3-animate-opacity">Tata Steel Sailing Club</h1>
 	<p class="w3-xlarge w3-animate-opacity">Port Talbot</p>
 </div>
 

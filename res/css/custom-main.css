@@ -166,3 +166,12 @@ body {
 	background-color: #1CA347;
 	border-color: #1CA347;
 }
+
+/* HOME PAGE */
+#main-header {
+	font-family: 'Trocchi', serif;
+	font-size: 64px;
+	font-weight: bold;
+	line-height: 124px;
+	margin: 0;
+}
