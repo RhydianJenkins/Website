@@ -35,23 +35,8 @@
 						?>
 					</ul>
 				</li>
-				<!-- Forum -->
-				<li><a href="forum.php">Forum</a></li>
 				<!-- Contact Us -->
 				<li><a href="team.php">Our Team</a></li>
-			</ul>
-			<ul class="nav navbar-nav navbar-right">
-				<!-- Sign in / Register -->
-				<li id="signin-status">
-				<?php 
-					if (isset($_POST['logout'])) { session_unset(); }
-					if (isset($_SESSION['signed_in']) && $_SESSION['signed_in']) {
-						echo "<a id=\"logout-button\" href=\"logout.php\">Logged in as " . $_SESSION['user_name'] . " (LOGOUT)</a>";
-					} else {
-						echo "<a id=\"login-button\" href=\"login.php\">Log In / Register</a>";
-					}
-				?>
-				</li>
 			</ul>
 		</div><!-- /.navbar-collapse -->
 	</div><!-- /.container -->

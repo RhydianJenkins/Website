@@ -44,7 +44,7 @@
 				}
 				if (!$fileFound) {
 					// we didnt find a file to print, go to rules
-					include(INC_PATH . 'sailing_instructions.php');
+					include(PAGES_PATH . 'sailing_instructions.page.php');
 				}
 			?>
 		</div>
