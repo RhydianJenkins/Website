@@ -9,7 +9,7 @@
 <!-- awesome fonts css -->
 <link rel="stylesheet" type="text/css" href="<?php echo STYLES_PATH . "font-awesome.min.css"; ?>" />
 <!-- bootstrap 3.3.7 css -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="<?php echo STYLES_PATH . 'bootstrap/bootstrap.min.css' ?>">
 <!-- custom css -->
 <link rel="stylesheet" type="text/css" href="<?php echo STYLES_PATH . "custom-main.css"; ?>" />
 <!-- jQuery -->
@@ -32,7 +32,7 @@
 <?php include INC_PATH . 'footer.php'; ?>
 
 <!-- Bootstrap Core JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="<?php echo JS_PATH . 'bootstrap.min.js' ?>"></script>
 
 </body>
 </html>
