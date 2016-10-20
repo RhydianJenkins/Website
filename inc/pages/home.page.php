@@ -2,7 +2,6 @@
 <div class="w3-container bg-img-1 w3-center w3-padding-256">
 	<h1 class="w3-margin w3-jumbo w3-animate-opacity">Tata Steel Sailing Club</h1>
 	<p class="w3-xlarge w3-animate-opacity">Port Talbot</p>
-	<button class="w3-btn w3-padding-16 w3-large w3-margin-top w3-animate-opacity">Book an induction</button>
 </div>
 
 <!-- Welcome -->
