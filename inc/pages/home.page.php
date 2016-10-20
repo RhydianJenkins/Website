@@ -16,7 +16,7 @@
 			</div>
 
 			<div class="col-lg-4">
-				<img style="overflow: hidden; height: 300px; width: 300px;" src="//c7.staticflickr.com/6/5758/22625523766_5887ee8df6_h.jpg" />
+				<img style="overflow: hidden; height: 300px; width: 300px;" src="<?php echo IMGS_PATH . 'boats1.jpg'; ?>" />
 			</div>
 		</div>
 	</div>
