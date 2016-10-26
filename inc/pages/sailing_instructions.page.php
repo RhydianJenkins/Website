@@ -18,7 +18,7 @@
 	
 		<h2>5 Schedule of races</h2>
 		<div class="content" align="center">  
-		<img src="res/imgs/Race_Programme_2016.jpg" style="border:1px solid black;max-width:100%;" alt="Race_Programme_2016.jpg">
+		<img src="<?= IMGS_PATH . 'Race_Programme_2016.jpg' ?>" style="border:1px solid black;max-width:100%;" alt="Race_Programme_2016.jpg">
 		</a>
 		</div>
 		
