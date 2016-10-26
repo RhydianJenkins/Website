@@ -2,13 +2,6 @@ body {
 	padding-top: 50px; /* To account for the nav bar */
 }
 
-/* THEME COLOURS */
-.bg-theme-color-1 {
-	background: #4593e3;
-}
-.bg-theme-color-2 {}
-.bg-theme-color-3 {}
-
 #results-side-nav {
 	position: fixed;
 	top: 200px;
@@ -19,14 +12,17 @@ body {
     background-image: url("../imgs/bg_img_1.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: 50% 90%;
+    background-position: left;
 }
 
 /* GENERIC */
 .padding-256 { padding: 256px; }
+.padding-20 { padding: 20px; }
 .pointer-hover { cursor: pointer; }
 .text-black { color: black; }
+.text-center { text-align: center; }
 .clear { clear: both; }
+.bg-theme-color-1 { background: #4593e3; }
 
 /* FAQ */
 .panel-title [data-toggle="collapse"]:after {

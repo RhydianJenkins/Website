@@ -6,16 +6,16 @@
 
 <!-- Welcome -->
 <div class="container-fluid">
-	<div class="container" style="padding: 10px;">
+	<div class="container padding-20">
 		<div class="row">
-			<div class="col-lg-8">
+			<div class="col-sm-8">
 				<h1>Welcome</h1>
 				<p class="w3-padding-16">The club is situated three miles south of Port Talbot, South Wales and was formerly known as the Corus Sailing Club, Margam.</p>
 
 				<p class="w3-padding-16">The reservoir is over one mile long by approximately half a mile wide, where racing takes place every Sunday throughout the whole year (for those brave enough!) and also on Saturdays, Tuesday evenings and Wednesday evenings through the Spring and Summer months.</p>
 			</div>
 
-			<div class="col-lg-4">
+			<div class="col-sm-4 text-center">
 				<img style="overflow: hidden; height: 300px; width: 300px;" src="<?php echo IMGS_PATH . 'boats1.jpg'; ?>" />
 			</div>
 		</div>
@@ -24,12 +24,12 @@
 
 <!-- Location -->
 <div class="container-fluid" style="background-color: rgb(240, 240, 240);">
-	<div class="container" style="padding: 10px;">
-		<div class="row p-16">
-			<div class="col-lg-4">
-				<?php include(INC_PATH . "map.html"); ?> <!-- TODO: style this properly on smaller screens -->
+	<div class="container padding-20">
+		<div class="row">
+			<div class="col-sm-6">
+				<?php include(INC_PATH . "map.html"); ?>
 			</div>
-			<div class="col-lg-8">
+			<div class="col-sm-6">
 				<h1>Location</h1>
 				<address>
 					<strong>Tata Steel Sailing Club</strong><br />
@@ -46,7 +46,7 @@
 </div>
 
 <!-- FAQ -->
-<div class="w3-row-padding w3-padding-64 container-fluid">
+<div class="container-fluid w3-row-padding w3-padding-64">
 	<div class="w3-content">
 		<?php include INC_PATH . 'faq.php'; ?>
 	</div>
