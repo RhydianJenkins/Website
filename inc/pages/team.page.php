@@ -2,93 +2,312 @@
 <section id="speakers">
 	<div class="container-fluid">
 		<h3>Tata Steel Sailing Club Committee members and other contacts</h3> <!-- Section Title -->
+		<h5><i>Just click on an image to email</i>
+		</h5>
 		<div class="separator"></div>
-		<div class="container">
-			
+		
 			<!-- First Row of Speakers -->
-			<div class="row1">
+			<div class="row">
+				<H3>Flag Officers</h3>
+			
+				<div class="col-md-1">
+				</div>
+				
+				<div class="col-md-2">
+					<a href="mailto:commodore@tatasteelsailing.org.uk" class="member-profile">
+						<div class="unhover_img">
+						<img src="<?php echo IMGS_PATH; ?>facebank/JonBennett.jpg" alt="" />
+						</div>
+						<div class="hover_img">
+						<img src="<?php echo IMGS_PATH; ?>facebank/JonBennett.jpg" alt="" />
+						</div>
+						<span style="color: black;">Commodore</span>
+						<h4><span>Jon </span> Bennett</h4>
+					</a>
+				</div>
+				
+				<div class="col-md-2">
+					<a href="mailto:vice-commodore@tatasteelsailing.org.uk" class="member-profile">
+						<div class="unhover_img">
+						<img src="<?php echo IMGS_PATH; ?>facebank/OscarChess.jpg" alt="" />
+						</div>
+						<div class="hover_img">
+						<img src="<?php echo IMGS_PATH; ?>facebank/OscarChess.jpg" alt="" />
+						</div>
+						<span style="color: black;">Vice Commodore</span>
+						<h4><span>Oscar </span> Chess</h4>
+						</a>
+				</div>
+				
+				<div class="col-md-2">
+					<a href="mailto:rear-commodore@tatasteelsailing.org.uk" class="member-profile">
+						<div class="unhover_img">
+						<img src="<?php echo IMGS_PATH; ?>facebank/PaulGovier.jpg" alt="" />
+						</div>
+						<div class="hover_img">
+						<img src="<?php echo IMGS_PATH; ?>facebank/PaulGovier.jpg" alt="" />
+						</div>
+						<span style="color: black;">Rear Commodore</span>
+						<h4><span>Paul </span> Govier</h4>
+						</a>
+				</div>
+			
+				<div class="col-md-2">
+					<a href="mailto:secretary@tatasteelsailing.org.uk" class="member-profile">
+						<div class="unhover_img">
+						<img src="<?php echo IMGS_PATH; ?>facebank/DaveWilliams.jpg" alt="" />
+						</div>
+						<div class="hover_img">
+						<img src="<?php echo IMGS_PATH; ?>facebank/DaveWilliams.jpg" alt="" />
+						</div>
+						<span style="color: black;">Secretary</span>
+						<h4><span>Dave </span> Williams</h4>
+						</a>
+				</div>
+								
+				<div class="col-md-2">
+					<a href="mailto:treasurer@tatasteelsailing.org.uk" class="member-profile">
+						<div class="unhover_img">
+						<img src="<?php echo IMGS_PATH; ?>facebank/NickKing.jpg" alt="" />	
+						</div>
+						<div class="hover_img">
+						<img src="<?php echo IMGS_PATH; ?>facebank/NickKing.jpg" alt="" />
+						</div>
+						<span style="color: black;">Hon Treasurer</span>
+						<h4><span>Nick</span> King</h4>
+					</a>
+				</div>
+				
+			</div> <!-- End First Row -->
+			
+			<div class="clear"></div>
+			
+			<!-- Second Row of Speakers -->
+			
+		<div class="container">
+			<div class="row">
+			<h3>Management Committee</h3>
 			
 				<div class="col-md-3">
+					<a href="mailto:training@tatasteelsailing.org.uk" class="member-profile">
+						<div class="unhover_img">
+						<img src="<?php echo IMGS_PATH; ?>facebank/JeremyMartin.jpg" alt="" />
+						</div>
+						<div class="hover_img">
+						<img src="<?php echo IMGS_PATH; ?>facebank/JeremyMartin.jpg" alt="" />
+						</div>
+						<span style="color: black;">Training Centre Principal</span>
+						<h4><span>Jeremy</span> Martin</h4>
+					</a>
+				</div>
+				
+				<div class="col-md-3">
 					<a href="#" class="member-profile">
+						<div class="unhover_img">
+						<img src="<?php echo IMGS_PATH; ?>facebank/unknown.jpg" alt="" />
+						</div>
+						<div class="hover_img">
+						<img src="<?php echo IMGS_PATH; ?>facebank/unknown.jpg" alt="" />
+						</div>
+						<span style="color: black;">Training Administrator</span>
+						<h4><span>Bill </span> Millien</h4>
+					</a>
+				</div>
+				
+				<div class="col-md-3">
+					<a href="mailto:membership@tatasteelsailing.org.uk" class="member-profile">
+						<div class="unhover_img">
+						<img src="<?php echo IMGS_PATH; ?>facebank/RuthEvans.jpg" alt="" />
+						</div>
+						<div class="hover_img">
+						<img src="<?php echo IMGS_PATH; ?>facebank/RuthEvans.jpg" alt="" />
+						</div>
+						<span style="color: black;">Young Persons Welfare Officer</span>
+						<h4><span>Ruth </span> Evans</h4>
+					</a>
+				</div>
+				
+				<div class="col-md-3">
+					<a href="mailto:windsurfing@tatasteelsailing.org.uk" class="member-profile">
 						<div class="unhover_img">
 						<img src="<?php echo IMGS_PATH; ?>facebank/AlanBreeze.jpg" alt="" />
 						</div>
 						<div class="hover_img">
 						<img src="<?php echo IMGS_PATH; ?>facebank/AlanBreeze.jpg" alt="" />
 						</div>
-						<span style="color: black;">Creative Director</span>
+						<span style="color: black; text-wrap: none">Windsurfing Member</span>
 						<h4><span>Alan </span> Breeze</h4>
 					</a>
 				</div>
 				
 				<div class="col-md-3">
-					<a href="#" class="member-profile">
-						<div class="unhover_img">
-						<img src="<?php echo IMGS_PATH; ?>facebank/BobTaylor.jpg" alt="" />	
-						</div>
-						<div class="hover_img">
-						<img src="<?php echo IMGS_PATH; ?>facebank/BobTaylor.jpg" alt="" />
-						</div>
-						<span style="color: black;">Web Designer</span>
-						<h4><span>Bob</span> Taylor</h4>
-					</a>
-				</div>
-				
-				<div class="col-md-3">
-					<a href="#" class="member-profile">
+					<a href="mailto:membership@tatasteelsailing.org.uk" class="member-profile">
 						<div class="unhover_img">
 						<img src="<?php echo IMGS_PATH; ?>facebank/DaveT.jpg" alt="" />
 						</div>
 						<div class="hover_img">
 						<img src="<?php echo IMGS_PATH; ?>facebank/DaveT.jpg" alt="" />
 						</div>
-						<span style="color: black;">Photographer</span>
-						<h4><span>Dave</span> Tozer</h4>
-					</a>					
-				</div>
-				
-				<div class="col-md-3">
-					<a href="#" class="member-profile">
-						<div class="unhover_img">
-						<img src="<?php echo IMGS_PATH; ?>facebank/DJEdwards.jpg" alt="" />
-						</div>
-						<div class="hover_img">
-						<img src="<?php echo IMGS_PATH; ?>facebank/DJEdwards.jpg" alt="" />
-						</div>
-						<span style="color: black;">SEO Expert</span>
-						<h4><span>DJ</span> Edwards</h4>
-					</a>						
-				</div>
-				
-			</div> <!-- End First Row -->
-			<div class="clear"></div>
-			
-			<!-- Second Row of Speakers -->
-			<div class="row2">
-			
-				<div class="col-md-3">
-					<a href="#" class="member-profile">
-						<div class="unhover_img">
-						<img src="<?php echo IMGS_PATH; ?>facebank/JimBrooksDowsett.jpg" alt="" />
-						</div>
-						<div class="hover_img">
-						<img src="<?php echo IMGS_PATH; ?>facebank/JimBrooksDowsett.jpg" alt="" />
-						</div>
-						<span style="color: black;">Creative Director</span>
-						<h4><span>Jim</span> Brooks-Dowsett</h4>
+						<span style="color: black;">Membership Secretary</span>
+						<h4><span>Dave </span> Tozer</h4>
 					</a>
 				</div>
 				
 				<div class="col-md-3">
-					<a href="#" class="member-profile">
+					<a href="mailto:membership@tatasteelsailing.org.uk" class="member-profile">
+						<div class="unhover_img">
+						<img src="<?php echo IMGS_PATH; ?>facebank/DaveT.jpg" alt="" />
+						</div>
+						<div class="hover_img">
+						<img src="<?php echo IMGS_PATH; ?>facebank/DaveT.jpg" alt="" />
+						</div>
+						<span style="color: black;">Membership Secretary</span>
+						<h4><span>Dave </span> Tozer</h4>
+					</a>
+				</div>
+				
+				<div class="col-md-3">
+					<a href="mailto:membership@tatasteelsailing.org.uk" class="member-profile">
+						<div class="unhover_img">
+						<img src="<?php echo IMGS_PATH; ?>facebank/DaveT.jpg" alt="" />
+						</div>
+						<div class="hover_img">
+						<img src="<?php echo IMGS_PATH; ?>facebank/DaveT.jpg" alt="" />
+						</div>
+						<span style="color: black;">Membership Secretary</span>
+						<h4><span>Dave </span> Tozer</h4>
+					</a>
+				</div>
+				
+				<div class="col-md-3">
+					<a href="mailto:membership@tatasteelsailing.org.uk" class="member-profile">
+						<div class="unhover_img">
+						<img src="<?php echo IMGS_PATH; ?>facebank/DaveT.jpg" alt="" />
+						</div>
+						<div class="hover_img">
+						<img src="<?php echo IMGS_PATH; ?>facebank/DaveT.jpg" alt="" />
+						</div>
+						<span style="color: black;">Membership Secretary</span>
+						<h4><span>Dave </span> Tozer</h4>
+					</a>
+				</div>
+				
+				<div class="col-md-3">
+					<a href="mailto:membership@tatasteelsailing.org.uk" class="member-profile">
+						<div class="unhover_img">
+						<img src="<?php echo IMGS_PATH; ?>facebank/DaveT.jpg" alt="" />
+						</div>
+						<div class="hover_img">
+						<img src="<?php echo IMGS_PATH; ?>facebank/DaveT.jpg" alt="" />
+						</div>
+						<span style="color: black;">Membership Secretary</span>
+						<h4><span>Dave </span> Tozer</h4>
+					</a>
+				</div>
+				
+				<div class="col-md-3">
+					<a href="mailto:membership@tatasteelsailing.org.uk" class="member-profile">
+						<div class="unhover_img">
+						<img src="<?php echo IMGS_PATH; ?>facebank/DaveT.jpg" alt="" />
+						</div>
+						<div class="hover_img">
+						<img src="<?php echo IMGS_PATH; ?>facebank/DaveT.jpg" alt="" />
+						</div>
+						<span style="color: black;">Membership Secretary</span>
+						<h4><span>Dave </span> Tozer</h4>
+					</a>
+				</div>
+				
+				<div class="col-md-3">
+					<a href="mailto:membership@tatasteelsailing.org.uk" class="member-profile">
+						<div class="unhover_img">
+						<img src="<?php echo IMGS_PATH; ?>facebank/DaveT.jpg" alt="" />
+						</div>
+						<div class="hover_img">
+						<img src="<?php echo IMGS_PATH; ?>facebank/DaveT.jpg" alt="" />
+						</div>
+						<span style="color: black;">Membership Secretary</span>
+						<h4><span>Dave </span> Tozer</h4>
+					</a>
+				</div>
+				
+				<div class="col-md-3">
+					<a href="mailto:membership@tatasteelsailing.org.uk" class="member-profile">
+						<div class="unhover_img">
+						<img src="<?php echo IMGS_PATH; ?>facebank/DaveT.jpg" alt="" />
+						</div>
+						<div class="hover_img">
+						<img src="<?php echo IMGS_PATH; ?>facebank/DaveT.jpg" alt="" />
+						</div>
+						<span style="color: black;">Membership Secretary</span>
+						<h4><span>Dave </span> Tozer</h4>
+					</a>
+				</div>
+				
+			<h3>Non - Committee roles and other activities</h3>
+			
+				<div class="col-md-3">
+					<a href="mailto:membership@tatasteelsailing.org.uk" class="member-profile">
+						<div class="unhover_img">
+						<img src="<?php echo IMGS_PATH; ?>facebank/DaveT.jpg" alt="" />
+						</div>
+						<div class="hover_img">
+						<img src="<?php echo IMGS_PATH; ?>facebank/DaveT.jpg" alt="" />
+						</div>
+						<span style="color: black;">Membership Secretary</span>
+						<h4><span>Dave </span> Tozer</h4>
+					</a>
+				</div>
+				
+				<div class="col-md-3">
+					<a href="mailto:membership@tatasteelsailing.org.uk" class="member-profile">
+						<div class="unhover_img">
+						<img src="<?php echo IMGS_PATH; ?>facebank/DaveT.jpg" alt="" />
+						</div>
+						<div class="hover_img">
+						<img src="<?php echo IMGS_PATH; ?>facebank/DaveT.jpg" alt="" />
+						</div>
+						<span style="color: black;">Membership Secretary</span>
+						<h4><span>Dave </span> Tozer</h4>
+					</a>
+				</div>
+				
+				<div class="col-md-3">
+					<a href="mailto:membership@tatasteelsailing.org.uk" class="member-profile">
+						<div class="unhover_img">
+						<img src="<?php echo IMGS_PATH; ?>facebank/DaveT.jpg" alt="" />
+						</div>
+						<div class="hover_img">
+						<img src="<?php echo IMGS_PATH; ?>facebank/DaveT.jpg" alt="" />
+						</div>
+						<span style="color: black;">Membership Secretary</span>
+						<h4><span>Dave </span> Tozer</h4>
+					</a>
+				</div>
+				
+				<div class="col-md-3">
+					<a href="mailto:membership@tatasteelsailing.org.uk" class="member-profile">
+						<div class="unhover_img">
+						<img src="<?php echo IMGS_PATH; ?>facebank/DaveT.jpg" alt="" />
+						</div>
+						<div class="hover_img">
+						<img src="<?php echo IMGS_PATH; ?>facebank/DaveT.jpg" alt="" />
+						</div>
+						<span style="color: black;">Membership Secretary</span>
+						<h4><span>Dave </span> Tozer</h4>
+					</a>
+				</div>
+				
+				<div class="col-md-3">
+					<a href="mailto:compound@tatasteelsailing.org.uk" class="member-profile">
 						<div class="unhover_img">
 						<img src="<?php echo IMGS_PATH; ?>facebank/JimBrooksDowsett.jpg" alt="" />
 						</div>
 						<div class="hover_img">
 						<img src="<?php echo IMGS_PATH; ?>facebank/JimBrooksDowsett.jpg" alt="" />
 						</div>
-						<span style="color: black;">Creative Director</span>
-						<h4><span>Jim</span> Brooks-Dowsett</h4>
+						<span style="color: black;">Compound Manager</span>
+						<h4><span>Martyn</span> Wassel</h4>
 					</a>
 				</div>
 				
@@ -124,7 +343,7 @@
 			<!-- Third Row of Speakers -->
 			<div class="row3">
 			
-				<div class="col-md-3">
+				<div class="col-md-2">
 					<a href="#" class="member-profile">
 						<div class="unhover_img">
 						<img src="<?php echo IMGS_PATH; ?>facebank/NickKing.jpg" alt="" />
@@ -137,7 +356,7 @@
 					</a>
 				</div>
 				
-				<div class="col-md-3">
+				<div class="col-md-2">
 					<a href="#" class="member-profile">
 						<div class="unhover_img">
 						<img src="<?php echo IMGS_PATH; ?>facebank/OscarChess.jpg" alt="" />
@@ -150,7 +369,7 @@
 					</a>
 				</div>
 				
-				<div class="col-md-3">
+				<div class="col-md-2">
 					<a href="#" class="member-profile">
 						<div class="unhover_img">
 						<img src="<?php echo IMGS_PATH; ?>facebank/PaulGovier.jpg" alt="" />
@@ -163,7 +382,7 @@
 					</a>					
 				</div>
 				
-				<div class="col-md-3">
+				<div class="col-md-2">
 					<a href="#" class="member-profile">
 						<div class="unhover_img">
 						<img src="<?php echo IMGS_PATH; ?>facebank/WillEmbury.jpg" alt="" />
@@ -176,24 +395,9 @@
 					</a>
 				</div>
 				
-			</div>	<!-- End Third Row -->	
-
-			<!-- View All Button -->
-			<div class="col-md-12">
-				<button id="fadeInBtn" class="w3-btn">View All</button>
-			</div>
+			</div>	<!-- End Third Row -->
 
 		</div>
 	</div>
 
-	<!-- jQuery Code for the View All Button -->
-	<script>
-	$(document).ready(function(){
-	  $("#fadeInBtn").click(function(){
-		$("div.row2").fadeIn();
-		$("div.row3").fadeIn();
-		$("#fadeInBtn").hide();
-	  });
-	});
-	</script>
 </section>
