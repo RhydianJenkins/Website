@@ -10,22 +10,29 @@
 	}
 	
 	$results = array_reverse($results, true);
-	//echo'<pre>';var_dump($results); die();
 ?>
 <div id="results-side-nav" class="small visible-lg">
 	<nav>
 		<ul class="nav nav-list">
-		
-			<?php foreach($results as $year) : ?>
-				<li><ul class="nav nav-list">
-				<?php foreach($year as $result) : ?>
-					<?php $resultName = ucwords(substr(str_replace('_', ' ', $result), 0, strrpos(str_replace('_', ' ', $result), "."))); ?>
-					<li><a href="?target=<?= $result ?>"><?= $resultName ?></a></li>
+			<?php if (empty($_GET['year'])) : ?>
+				<?php foreach($results as $year => $files) : ?>
+					<li>
+						<h4 id="results-year" style="padding-left: 10px;"><?= $year ?></h4>
+						<ul class="nav nav-list">
+							<?php foreach($files as $file) : ?>
+								<?php
+									$fileName = ucwords(substr(str_replace('_', ' ', $file), 0, strrpos(str_replace('_', ' ', $file), ".")));
+								?>
+								<li><a href="?target=<?= $file ?>"><?= $fileName ?></a></li>
+							<?php endforeach ; ?>
+						</ul>
+					</li>
 				<?php endforeach ; ?>
-				</ul></li>
-			<?php endforeach ; ?>
+			<?php else : ?>
+				
+			<?php endif ; ?>
 
-			<li><a href="?target=instructions">Sailing Instructions</a></li>
+			<li id="back-to-top-divider" role="separator" class="divider"><hr /></li>
 			<li id="back-to-top" style="display: none;"><a href="#top">Back to top</a></li>
 		</ul>
 	</nav>
@@ -35,8 +42,10 @@
 	$(window).on("resize scroll", function(e){
 		if ($(this).scrollTop() > 0) {
 			$('#back-to-top').fadeIn();
+			$('#back-to-top-divider').fadeIn();
 		} else {
 			$('#back-to-top').fadeOut();
+			$('#back-to-top-divider').fadeOut();
 		}
 	});
 </script>

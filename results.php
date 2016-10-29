@@ -29,19 +29,21 @@
 		<div class="col-lg-10 text-center">
 			<!-- Find and include the correct table -->
 			<?php
-				// grab all files in results path bar '.' and '..'
-				$resultsFiles = array_diff(scandir(RESULTS_PATH), array('.', '..'));
 				$fileFound = false;
 				
-				// go through each file and 
-				foreach($resultsFiles as $file) {
-					if ($file == $_GET['target']) {
-						$fileName = ucwords(substr(str_replace('_', ' ', $file), 0, strrpos(str_replace('_', ' ', $file), "."))); // make it look pretty
-						
-						include(RESULTS_PATH . $file);
+				if (!empty($_GET['year'])) {				
+					$results = array_values(array_reverse(array_diff(scandir(RESULTS_PATH.$_GET['year']), array('.', '..')), true));
+
+					foreach($results as $result) {
+
+						$filteredResultName = ucwords(substr(str_replace('_', ' ', $result), 0, strrpos(str_replace('_', ' ', $result), "."))); // make it look pretty
+					
+						include(RESULTS_PATH . $_GET['year'] . '/' . $result);
 						$fileFound = true;
+
 					}
 				}
+				
 				if (!$fileFound) {
 					// we didnt find a file to print, go to rules
 					include(PAGES_PATH . 'sailing_instructions.page.php');
