@@ -1,3 +1,6 @@
+<div class="outer">
+<div class="inner">
+
 <table>
 <tr><td>
 
@@ -153,3 +156,5 @@ Upon successful completion of the level 2 course, you will have knowledge of:
 
 
 </td> </tr></table>
+
+</div></div>

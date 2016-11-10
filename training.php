@@ -12,6 +12,8 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <!-- custom css -->
 <link rel="stylesheet" type="text/css" href="<?php echo STYLES_PATH . "custom-main.css"; ?>" />
+<!-- legacy css -->
+<link rel="stylesheet" type="text/css" href="<?php echo STYLES_PATH . "legacy.css"; ?>" />
 <!-- jQuery -->
 <script src="<?php echo JS_PATH . 'jquery.min.js'?>"></script>
 </head>
