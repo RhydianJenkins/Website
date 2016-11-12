@@ -104,18 +104,18 @@
 				<div class="col-md-3">
 					<a href="#" class="member-profile">
 						<div class="unhover_img">
-						<img src="<?php echo IMGS_PATH; ?>facebank/unknown.jpg" alt="" />
+						<img src="<?php echo IMGS_PATH; ?>facebank/PaulBambridge.jpg" alt="" />
 						</div>
 						<div class="hover_img">
-						<img src="<?php echo IMGS_PATH; ?>facebank/unknown.jpg" alt="" />
+						<img src="<?php echo IMGS_PATH; ?>facebank/PaulBambridge.jpg" alt="" />
 						</div>
-						<span style="color: black;">Training Administrator</span>
-						<h4><span>Bill </span> Millien</h4>
+						<span style="color: black;">Race Officer</span>
+						<h4><span>Paul </span> Bambridge</h4>
 					</a>
 				</div>
 				
 				<div class="col-md-3">
-					<a href="mailto:membership@tatasteelsailing.org.uk" class="member-profile">
+					<a href="mailto:welfare@tatasteelsailing.org.uk" class="member-profile">
 						<div class="unhover_img">
 						<img src="<?php echo IMGS_PATH; ?>facebank/RuthEvans.jpg" alt="" />
 						</div>
@@ -135,7 +135,7 @@
 						<div class="hover_img">
 						<img src="<?php echo IMGS_PATH; ?>facebank/AlanBreeze.jpg" alt="" />
 						</div>
-						<span style="color: black; text-wrap: none">Windsurfing Member</span>
+						<span style="color: black; text-wrap: none">Windsurfing Rep</span>
 						<h4><span>Alan </span> Breeze</h4>
 					</a>
 				</div>
@@ -148,7 +148,7 @@
 						<div class="hover_img">
 						<img src="<?php echo IMGS_PATH; ?>facebank/WillEmbury.jpg" alt="" />
 						</div>
-						<span style="color: black;">Windsurfing Member</span>
+						<span style="color: black;">Windsurfing Rep</span>
 						<h4><span>Will </span> Embury</h4>
 					</a>
 				</div>
@@ -187,7 +187,7 @@
 						<div class="hover_img">
 						<img src="<?php echo IMGS_PATH; ?>facebank/BobTaylor.jpg" alt="" />
 						</div>
-						<span style="color: black;">Committe Member</span>
+						<span style="color: black;">Race Officer</span>
 						<h4><span>Bob </span> Taylor</h4>
 					</a>
 				</div>
@@ -198,50 +198,24 @@
 					</a>
 				</div>
 				
-				<div class="col-md-3">
-					<a href="#" class="member-profile">
-						<div class="unhover_img">
-						<img src="<?php echo IMGS_PATH; ?>facebank/DJEdwards.jpg" alt="" />
-						</div>
-						<div class="hover_img">
-						<img src="<?php echo IMGS_PATH; ?>facebank/DJEdwards.jpg" alt="" />
-						</div>
-						<span style="color: black;">Committe Member</span>
-						<h4><span>DJ </span> Edwards</h4>
-					</a>
-				</div>
-				
-				<div class="col-md-3">
-					<a href="#" class="member-profile">
-						<div class="unhover_img">
-						<img src="<?php echo IMGS_PATH; ?>facebank/RhysJones.jpg" alt="" />
-						</div>
-						<div class="hover_img">
-						<img src="<?php echo IMGS_PATH; ?>facebank/RhysJones.jpg" alt="" />
-						</div>
-						<span style="color: black;">Committe Member</span>
-						<h4><span>Rhys </span> Jones</h4>
-					</a>
-				</div>
-				
 			</div>
 				
 			<h3>Non - Committee roles and other activities</h3>
 			
-				<div class="col-md-3">
+				<div class="col-md-4">
 					<a href="mailto:membership@tatasteelsailing.org.uk" class="member-profile">
 						<div class="unhover_img">
-						<img src="<?php echo IMGS_PATH; ?>facebank/DaveT.jpg" alt="" />
+						<img src="<?php echo IMGS_PATH; ?>facebank/unknown.jpg" alt="" />
 						</div>
 						<div class="hover_img">
-						<img src="<?php echo IMGS_PATH; ?>facebank/DaveT.jpg" alt="" />
+						<img src="<?php echo IMGS_PATH; ?>facebank/unknown.jpg" alt="" />
 						</div>
 						<span style="color: black;">Membership Secretary</span>
-						<h4><span>Dave </span> Tozer</h4>
+						<h4><span>Dave </span> Burch</h4>
 					</a>
 				</div>
 				
-				<div class="col-md-3">
+				<div class="col-md-4">
 					<a href="mailto:compound@tatasteelsailing.org.uk" class="member-profile">
 						<div class="unhover_img">
 						<img src="<?php echo IMGS_PATH; ?>facebank/unknown.jpg" alt="" />
@@ -253,21 +227,8 @@
 						<h4><span>Martyn </span> Wassel</h4>
 					</a>
 				</div>
-				
-				<div class="col-md-3">
-					<a href="#" class="member-profile">
-						<div class="unhover_img">
-						<img src="<?php echo IMGS_PATH; ?>facebank/JimBrooksDowsett.jpg" alt="" />
-						</div>
-						<div class="hover_img">
-						<img src="<?php echo IMGS_PATH; ?>facebank/JimBrooksDowsett.jpg" alt="" />
-						</div>
-						<span style="color: black;">Winsurfing Rep</span>
-						<h4><span>Jim </span> Brooks-Dowsett</h4>
-					</a>
-				</div>
 						
-				<div class="col-md-3">
+				<div class="col-md-4">
 					<a href="#" class="member-profile">
 						<div class="unhover_img">
 						<img src="<?php echo IMGS_PATH; ?>facebank/KenWilfort.jpg" alt="" />
@@ -275,70 +236,13 @@
 						<div class="hover_img">
 						<img src="<?php echo IMGS_PATH; ?>facebank/KenWilfort.jpg" alt="" />
 						</div>
-						<span style="color: black;">Photographer</span>
+						<span style="color: black;">Result Steward</span>
 						<h4><span>Ken</span> Wilfort</h4>
 					</a>					
 				</div>
 							
 			</div>	<!-- End Second Row -->	
 			<div class="clear"></div>
-			
-			<!-- Third Row of Speakers -->
-			<div class="row3">
-			
-				<div class="col-md-2">
-					<a href="#" class="member-profile">
-						<div class="unhover_img">
-						<img src="<?php echo IMGS_PATH; ?>facebank/NickKing.jpg" alt="" />
-						</div>
-						<div class="hover_img">
-						<img src="<?php echo IMGS_PATH; ?>facebank/NickKing.jpg" alt="" />
-						</div>
-						<span style="color: black;">Creative Director</span>
-						<h4><span>Nick</span> King</h4>
-					</a>
-				</div>
-				
-				<div class="col-md-2">
-					<a href="#" class="member-profile">
-						<div class="unhover_img">
-						<img src="<?php echo IMGS_PATH; ?>facebank/OscarChess.jpg" alt="" />
-						</div>
-						<div class="hover_img">
-						<img src="<?php echo IMGS_PATH; ?>facebank/OscarChess.jpg" alt="" />
-						</div>
-						<span style="color: black;">Web Designer</span>
-						<h4><span>Oscar</span> Chess</h4>
-					</a>
-				</div>
-				
-				<div class="col-md-2">
-					<a href="#" class="member-profile">
-						<div class="unhover_img">
-						<img src="<?php echo IMGS_PATH; ?>facebank/PaulGovier.jpg" alt="" />
-						</div>
-						<div class="hover_img">
-						<img src="<?php echo IMGS_PATH; ?>facebank/PaulGovier.jpg" alt="" />
-						</div>
-						<span style="color: black;">Photographer</span>
-						<h4><span>Paul</span> Govier</h4>
-					</a>					
-				</div>
-				
-				<div class="col-md-2">
-					<a href="#" class="member-profile">
-						<div class="unhover_img">
-						<img src="<?php echo IMGS_PATH; ?>facebank/WillEmbury.jpg" alt="" />
-						</div>
-						<div class="hover_img">
-						<img src="<?php echo IMGS_PATH; ?>facebank/WillEmbury.jpg" alt="" />
-						</div>
-						<span style="color: black;">SEO Expert</span>
-						<h4><span>Will</span> Embury</h4>
-					</a>
-				</div>
-				
-			</div>	<!-- End Third Row -->
 
 		</div>
 	</div>
