@@ -19,8 +19,8 @@
 			});
 		});
     </script>
-	<p id="form-message" class="w3-center w3-padding-128 w3-text-green w3-large">Thank you for the email.</p> <!-- TODO: make same height as #ajax-contact-div -->
-	<div id="ajax-contact-div" class="container">
+	<!---<p id="form-message" class="w3-center w3-padding-128 w3-text-green w3-large">Thank you for the email.</p> <!-- TODO: make same height as #ajax-contact-div -->
+	<!---<div id="ajax-contact-div" class="container">
 		<form id="ajax-form">
 			<div class="row">
 				<div class="col-lg-12 text-center">
@@ -55,4 +55,4 @@
 </section>
 
 <script src="<?php echo JS_PATH . 'jqBootstrapValidation.js'?>"></script>
-<script src="<?php echo JS_PATH . 'contact_me.js'?>"></script>
+<script src="<?php echo JS_PATH . 'contact_me.js'?>"></script> --->
