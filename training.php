@@ -12,8 +12,8 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <!-- custom css -->
 <link rel="stylesheet" type="text/css" href="<?php echo STYLES_PATH . "custom-main.css"; ?>" />
-<!-- meet the team css -->
-<link rel="stylesheet" type="text/css" href="<?php echo STYLES_PATH . "meet-the-team-style.css"; ?>" />
+<!-- legacy css -->
+<link rel="stylesheet" type="text/css" href="<?php echo STYLES_PATH . "legacy.css"; ?>" />
 <!-- jQuery -->
 <script src="<?php echo JS_PATH . 'jquery.min.js'?>"></script>
 </head>
@@ -23,9 +23,7 @@
 <?php include INC_PATH . 'bootstrap_navbar.php'; ?>
 
 <!-- Page -->
-<?php include INC_PATH . 'pages/team.page.php'; ?>
-
-<hr />
+<?php include INC_PATH . 'pages/training.page.tmp.php'; ?>
 
 <!-- Footer -->
 <?php include INC_PATH . 'footer.php'; ?>
