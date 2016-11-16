@@ -21,7 +21,7 @@
 <?php include INC_PATH . 'bootstrap_navbar.php'; ?>
 
 <div class="container-fluid">
-	<div class="row-fluid show-grid">
+	<div class="row">
 		<div class="col-lg-2">
 			<!-- Sidebar -->
 			<?php include INC_PATH . 'results_sidebar.php'; ?>
@@ -30,23 +30,13 @@
 			<!-- Find and include the correct table -->
 			<?php
 				$fileFound = false;
-				
 				if (!empty($_GET['year'])) {				
 					$results = array_values(array_reverse(array_diff(scandir(RESULTS_PATH.$_GET['year']), array('.', '..')), true));
-
 					foreach($results as $result) {
-
 						$filteredResultName = ucwords(substr(str_replace('_', ' ', $result), 0, strrpos(str_replace('_', ' ', $result), "."))); // make it look pretty
-					
 						include(RESULTS_PATH . $_GET['year'] . '/' . $result);
 						$fileFound = true;
-
 					}
-				}
-				
-				if (!$fileFound) {
-					// we didnt find a file to print, go to rules
-					include(PAGES_PATH . 'sailing_instructions.page.php');
 				}
 			?>
 		</div>
