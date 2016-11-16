@@ -26,21 +26,18 @@
 				<!-- Results -->
 				<li>
 					<a class="dropdown-toggle pointer-hover" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-						Sailing <span class="caret"></span>
+						Results <span class="caret"></span>
 					</a>
 					<ul class="dropdown-menu">
-						<li><a href="results.php?target=sailing_instructions.php">Sailing Instructions</a></li>
-						<li role="separator" class="divider"></li>
-						
-						<li class="dropdown-header">Results</li>
-
+						<!--<li class="dropdown-header">Select a year</li>-->
 						<?php foreach($years as $year) : ?>							
 							<li><a href="results.php?year=<?= $year ?>"><?= $year ?></a></li>
 						<?php endforeach ; ?>
 					</ul>
 				</li>
-				
-				<!-- Contact Us -->
+				<!-- Sailing Instructions -->
+				<li><a href="instructions.php">Sailing Instructions</a></li>
+				<!-- Team Page -->
 				<li><a href="team.php">Our Team</a></li>
 				<!-- Health and Safety -->
 				<li><a href="healthandsafety.php">Health/Safety</a></li>

@@ -4,12 +4,14 @@
 
 // Start the session
 session_start();
-
+ 
 // Names
 define("SITE_NAME", "Tata Steel Sailing Club");
 
 // Paths
 define("ROOT_PATH", "./");
+//define("ROOT_PATH", "http://".$_SERVER['SERVER_NAME']);
+//define("ROOT_PATH", realpath(dirname(__FILE__)) . '/');	// make sure files are readable by the server!
 define("STYLES_PATH", ROOT_PATH . "res/css/");
 define("JS_PATH", ROOT_PATH . "res/js/");
 define("IMGS_PATH", ROOT_PATH . "res/imgs/");
