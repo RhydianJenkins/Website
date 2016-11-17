@@ -26,13 +26,13 @@
 				</li>
 			<?php endforeach ; ?>
 
-			<?php /*<li id="back-to-top-divider" role="separator" class="divider"><hr /></li>
-			<li id="back-to-top" style="display: none;"><a href="#top">Back to top</a></li>*/ ?>
 		</ul>
 	</nav>
 </div> 
 
 <?php /*
+<li id="back-to-top-divider" role="separator" class="divider"><hr /></li>
+<li id="back-to-top" style="display: none;"><a href="#top">Back to top</a></li>
 <!-- Hide the 'back to top' link if not scrolled -->
 <script>
 	$(window).on("resize scroll", function(e){
