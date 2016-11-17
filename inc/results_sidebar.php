@@ -10,7 +10,6 @@
 	}
 	
 	$results = array_reverse($results, true);
-//echo '<pre>';var_dump($results); die;
 ?>
 <div class="text-center">
 	<nav>
@@ -27,12 +26,13 @@
 				</li>
 			<?php endforeach ; ?>
 
-			<li id="back-to-top-divider" role="separator" class="divider"><hr /></li>
-			<li id="back-to-top" style="display: none;"><a href="#top">Back to top</a></li>
+			<?php /*<li id="back-to-top-divider" role="separator" class="divider"><hr /></li>
+			<li id="back-to-top" style="display: none;"><a href="#top">Back to top</a></li>*/ ?>
 		</ul>
 	</nav>
 </div> 
 
+<?php /*
 <!-- Hide the 'back to top' link if not scrolled -->
 <script>
 	$(window).on("resize scroll", function(e){
@@ -44,4 +44,4 @@
 			$('#back-to-top-divider').fadeOut();
 		}
 	});
-</script>
+</script>*/ ?>

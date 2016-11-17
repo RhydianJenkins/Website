@@ -1,6 +1,5 @@
 <?php
 	// TODO: text wrap not perfect on long file names 
-
 	$years = array_values(array_reverse(array_diff(scandir(RESULTS_PATH), array('.', '..')), true));
 ?>
 <!-- Navigation -->
@@ -24,17 +23,7 @@
 				<li class="hidden"><a class="page-scroll" href="#page-top"></a></li>
 				
 				<!-- Results -->
-				<li>
-					<a class="dropdown-toggle pointer-hover" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-						Results <span class="caret"></span>
-					</a>
-					<ul class="dropdown-menu">
-						<!--<li class="dropdown-header">Select a year</li>-->
-						<?php foreach($years as $year) : ?>							
-							<li><a href="results.php?year=<?= $year ?>"><?= $year ?></a></li>
-						<?php endforeach ; ?>
-					</ul>
-				</li>
+				<li><a href="results.php">Results</a></li>
 				<!-- Sailing Instructions -->
 				<li><a href="instructions.php">Sailing Instructions</a></li>
 				<!-- Team Page -->
@@ -47,3 +36,17 @@
 		</div><!-- /.navbar-collapse -->
 	</div><!-- /.container -->
 </nav>
+
+<?php /*
+<li>
+	<a class="dropdown-toggle pointer-hover" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+		Results <span class="caret"></span>
+	</a>
+	<ul class="dropdown-menu">
+		<!--<li class="dropdown-header">Select a year</li>-->
+		<?php foreach($years as $year) : ?>							
+			<li><a href="results.php?year=<?= $year ?>"><?= $year ?></a></li>
+		<?php endforeach ; ?>
+	</ul>
+</li>
+*/ ?>

@@ -20,28 +20,8 @@
 <!-- Navbar -->
 <?php include INC_PATH . 'bootstrap_navbar.php'; ?>
 
-<div class="container-fluid">
-	<div class="row">
-		<div class="col-lg-2">
-			<!-- Sidebar -->
-			<?php include INC_PATH . 'results_sidebar.php'; ?>
-		</div>
-		<div class="col-lg-10 text-center">
-			<!-- Find and include the correct table -->
-			<?php
-				$fileFound = false;
-				if (!empty($_GET['year'])) {				
-					$results = array_values(array_reverse(array_diff(scandir(RESULTS_PATH.$_GET['year']), array('.', '..')), true));
-					foreach($results as $result) {
-						$filteredResultName = ucwords(substr(str_replace('_', ' ', $result), 0, strrpos(str_replace('_', ' ', $result), "."))); // make it look pretty
-						include(RESULTS_PATH . $_GET['year'] . '/' . $result);
-						$fileFound = true;
-					}
-				}
-			?>
-		</div>
-	</div>
-</div>
+<!-- Page -->
+<?php include INC_PATH . 'pages/results.page.php'; ?>
 
 <!-- Footer -->
 <?php include INC_PATH . 'footer.php'; ?>
