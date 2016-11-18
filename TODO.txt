@@ -1,0 +1,19 @@
+Answer FAQ
+
+Home picture should not scale
+
+Re-style tmp pages
+
+Re-style front page font (header text)
+
+Results page
+	> make instructions page he default page
+	> remove insructions from navbar
+	
+New pages:
+	> calendar
+	> gallery
+	> useful links / resources (forecast)
+	> about us
+	> sign up / join us / membership
+
