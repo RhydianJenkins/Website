@@ -9,7 +9,7 @@
 		</div>
 		<div id="collapseOne" class="panel-collapse collapse">
 			<div class="panel-body">
-				No, anyone can join the club - not just Tata Steel employees! Associate Members make up the ulk of the club's membership
+				No, anyone can join the club - not just Tata Steel employees! Associate Members make up the bulk of the club's membership
 			</div>
 		</div>
 	</div>
@@ -48,7 +48,7 @@
 		</div>
 		<div id="collapseFour" class="panel-collapse collapse">
 			<div class="panel-body">
-				Membership fees very depending on your circumstances. Download the application form, it details the various offers
+				Membership fees vary depending on your circumstances. Download the application form, it details the various offers
 			</div>
 		</div>
 	</div>
