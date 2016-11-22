@@ -2,12 +2,6 @@ body {
 	padding-top: 50px; /* To account for the nav bar */
 }
 
-#results-side-nav {
-	position: fixed;
-	top: 200px;
-	left: -5px;
-}
-
 .bg-img-1 {
     background-image: url("../imgs/bg_img_1.jpg");
     background-size: cover;
