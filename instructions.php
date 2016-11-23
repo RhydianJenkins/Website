@@ -21,7 +21,7 @@
 <?php include INC_PATH . 'bootstrap_navbar.php'; ?>
 
 <!-- Page -->
-<?php include INC_PATH . 'pages/results.page.php'; ?>
+<?php include PAGES_PATH . 'sailing_instructions.page.php'; ?>
 
 <!-- Footer -->
 <?php include INC_PATH . 'footer.php'; ?>
