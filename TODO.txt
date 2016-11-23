@@ -9,12 +9,12 @@ Re-style front page font (header text)
 Results page
 	> make instructions page he default page
 	> remove insructions from navbar
-	
+
 New pages:
 	> calendar
         - Dad, you feel comfortable taking this one?
 	> gallery
-        - needs discussion on how you want to handle this one.
+        - Dad, this needs discussion on how you want to handle this one.
             There is NO WAY IN HELL I am doing it like the legacy site did it.
 	> useful links / resources (forecast)
 	> about us
