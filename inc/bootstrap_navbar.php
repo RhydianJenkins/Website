@@ -32,6 +32,8 @@
 				<li><a href="healthandsafety.php">Health/Safety</a></li>
 				<!-- Training -->
 				<li><a href="training.php">Training</a></li>
+				<!-- Gallery -->
+				<li><a href="gallery.php">Gallery</a></li>
 			</ul>
 		</div><!-- /.navbar-collapse -->
 	</div><!-- /.container -->

@@ -12,7 +12,10 @@ Results page
 	
 New pages:
 	> calendar
+        - Dad, you feel comfortable taking this one?
 	> gallery
+        - needs discussion on how you want to handle this one.
+            There is NO WAY IN HELL I am doing it like the legacy site did it.
 	> useful links / resources (forecast)
 	> about us
 	> sign up / join us / membership
