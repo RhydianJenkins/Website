@@ -29,9 +29,5 @@
 <!-- Bootstrap Core JavaScript -->
 <script src="<?php echo JS_PATH . 'bootstrap.min.js' ?>"></script>
 
-<!-- Contact Form JavaScript -->
-<script src="<?php echo JS_PATH . 'jqBootstrapValidation.js'?>"></script>
-<script src="<?php echo JS_PATH . 'contact_me.js'?>"></script>
-
 </body>
 </html>

@@ -1,22 +1,18 @@
-Answer FAQ
-
 Home picture should not scale
 
 Re-style tmp pages
 
 Re-style front page font (header text)
 
-Results page
-	> make instructions page he default page
-	> remove insructions from navbar
+Results page cleanup
 
 New pages:
 	> calendar
-        - Dad, you feel comfortable taking this one?
+        	- Dad, you feel comfortable taking this one?
 	> gallery
-        - Dad, this needs discussion on how you want to handle this one.
-            There is NO WAY IN HELL I am doing it like the legacy site did it.
+        	- Dad, this needs discussion on how you want to handle this one.
 	> useful links / resources (forecast)
 	> about us
 	> sign up / join us / membership
 
+Navbar has too many elements and does not cope well when screen is medium size

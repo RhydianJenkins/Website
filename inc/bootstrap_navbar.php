@@ -1,5 +1,4 @@
 <?php
-	// TODO: text wrap not perfect on long file names 
 	$years = array_values(array_reverse(array_diff(scandir(RESULTS_PATH), array('.', '..')), true));
 ?>
 <!-- Navigation -->
@@ -24,8 +23,6 @@
 				
 				<!-- Results -->
 				<li><a href="results.php">Results</a></li>
-				<!-- Sailing Instructions -->
-				<li><a href="instructions.php">Sailing Instructions</a></li>
 				<!-- Team Page -->
 				<li><a href="team.php">Our Team</a></li>
 				<!-- Health and Safety -->
@@ -34,11 +31,18 @@
 				<li><a href="training.php">Training</a></li>
 				<!-- Gallery -->
 				<li><a href="gallery.php">Gallery</a></li>
+				<!-- Calendar -->
+				<li><a href="calendar.php">Calendar</a></li>
+				<!-- Useful Link -->
+				<li><a href="useful-links.php">Useful Links</a></li>
+				<!-- About -->
+				<li><a href="about.php">About</a></li>
+				<!-- Membership -->
+				<li><a href="membership.php">Membership</a></li>
 			</ul>
 		</div><!-- /.navbar-collapse -->
 	</div><!-- /.container -->
 </nav>
-
 <?php /*
 <li>
 	<a class="dropdown-toggle pointer-hover" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">

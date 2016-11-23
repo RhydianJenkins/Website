@@ -25,9 +25,6 @@
 
 <hr />
 
-<!-- Contact form -->
-<?php include(INC_PATH . "contact.form.php"); ?>
-
 <!-- Footer -->
 <?php include INC_PATH . 'footer.php'; ?>
 

@@ -4,7 +4,7 @@
 
 // Start the session
 session_start();
- 
+
 // Names
 define("SITE_NAME", "Tata Steel Sailing Club");
 
