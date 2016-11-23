@@ -52,7 +52,7 @@
 			</div>
 		</div>
 	</div>
-	
+
 	<div class="panel panel-default pointer-hover">
 		<div class="panel-heading accordion-toggle collapsed" data-toggle="collapse" data-parent="#faq" href="#collapseFive">
 			<h4 class="panel-title">
