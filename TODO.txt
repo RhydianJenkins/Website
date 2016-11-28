@@ -6,6 +6,9 @@ Re-style front page font (header text)
 
 Results page cleanup
 
+Fix contact form
+	> the path for the mailer script has changed and needs to point back to the correct place
+
 New pages:
 	> calendar
         	- Dad, you feel comfortable taking this one?
