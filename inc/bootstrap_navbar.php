@@ -37,8 +37,6 @@
 				<li><a href="useful-links.php">Useful Links</a></li>
 				<!-- About -->
 				<li><a href="about.php">About</a></li>
-				<!-- Membership -->
-				<li><a href="membership.php">Membership</a></li>
 			</ul>
 		</div><!-- /.navbar-collapse -->
 	</div><!-- /.container -->
