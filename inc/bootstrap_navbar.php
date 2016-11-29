@@ -33,8 +33,6 @@
 				<li><a href="gallery.php">Gallery</a></li>
 				<!-- Calendar -->
 				<li><a href="calendar.php">Calendar</a></li>
-				<!-- Useful Link -->
-				<li><a href="useful-links.php">Useful Links</a></li>
 				<!-- About -->
 				<li><a href="about.php">About</a></li>
 			</ul>
