@@ -1,3 +1,7 @@
+/****************************************************************************************/
+/****** DAD: Download all results and gallery albums from site and give to rhydian ******/
+/****************************************************************************************/
+
 Home picture should not scale
 
 Re-style tmp pages
