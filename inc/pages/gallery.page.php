@@ -4,7 +4,8 @@ TODO:
 
 Make sure all thumbnail images are the same size (preferebly cast to 400x300 px)
 Make a script that generates the slides. Can't ahve all the albums on the same page - it will be a mess
-
+Maybe look into disabling bootstraps autoscroll
+Maybe look into getting the image to fit the frame on larger screens perfectly? (margin-0-auto is a tmp fix)
 -->
 
 <div class="container">
@@ -90,19 +91,19 @@ Make a script that generates the slides. Can't ahve all the albums on the same p
                     <!-- Wrapper for slides -->
                     <div class="carousel-inner">
                         <div class="item active">
-                            <img class="img-responsive" src="http://placehold.it/800x300" alt="...">
+                            <img class="img-responsive margin-0-auto" src="http://placehold.it/800x400" alt="...">
                             <div class="carousel-caption">
                                 One Image Description
                             </div>
                         </div>
                         <div class="item">
-                            <img class="img-responsive" src="http://placehold.it/800x300" alt="...">
+                            <img class="img-responsive margin-0-auto" src="http://placehold.it/800x300" alt="...">
                             <div class="carousel-caption">
                                 Another Image Description
                             </div>
                         </div>
                         <div class="item">
-                            <img class="img-responsive" src="http://placehold.it/800x300" alt="...">
+                            <img class="img-responsive margin-0-auto" src="http://placehold.it/800x300" alt="...">
                             <div class="carousel-caption">
                                 And another Image Description
                             </div>
