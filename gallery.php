@@ -21,7 +21,7 @@
 <?php include INC_PATH . 'bootstrap_navbar.php'; ?>
 
 <!-- Page -->
-<?php include INC_PATH . 'pages/gallery.page.tmp.php'; ?>
+<?php include INC_PATH . 'pages/gallery.page.php'; ?>
 
 <hr />
 

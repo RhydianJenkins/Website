@@ -141,3 +141,8 @@ body {
 	margin: 0;
 	color: black;
 }
+
+/* GALLERY */
+.thumb {
+    margin-bottom: 30px;
+}
