@@ -14,8 +14,6 @@ Fix contact form
 	> the path for the mailer script has changed and needs to point back to the correct place
 
 New pages:
-	> calendar
-        	- Dad, you feel comfortable taking this one?
 	> gallery
         	- Dad, this needs discussion on how you want to handle this one.
 	> useful links / resources (forecast)
