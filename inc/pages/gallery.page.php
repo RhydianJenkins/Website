@@ -2,33 +2,55 @@
 
 TODO:
 
-Make sure all thumbnail images are the same size (preferebly cast to 400x300 px)
-Make a script that generates the slides. Can't ahve all the albums on the same page - it will be a mess
-Maybe look into disabling bootstraps autoscroll
-Maybe look into getting the image to fit the frame on larger screens perfectly? (margin-0-auto is a tmp fix)
-BUG: when you click on an image, all other images are replaced by that one.
+Back button
+
+Make the album name after 'Galley' pretty
+
+Order the albums somehow
 
 -->
 
 <?php
-    $images = scandir(GALLERY_PATH . 'album_one');
-    $images = array_values(preg_grep('/\.(jpg|jpeg|png|gif)(?:[\?\#].*)?$/i', $images));
+    $albumFound = false;
+    $albums = array_filter(scandir(GALLERY_PATH), function($item) {
+        return $item[0] !== '.';
+    });
+    foreach ($albums as $album) {
+        $allFiles = scandir(GALLERY_PATH . $album);
+        $allImages = array_values(preg_grep('/\.(jpg|jpeg|png|gif)(?:[\?\#].*)?$/i', $allFiles));
+        $albumsArray[$album] = $allImages[array_rand($allImages)];    // Set to random image
+    }
+    if (!empty($_GET['album']) && file_exists(GALLERY_PATH . $_GET['album'])) {
+        $albumFound = true;
+        $images = scandir(GALLERY_PATH . $_GET['album']);
+        $images = array_values(preg_grep('/\.(jpg|jpeg|png|gif)(?:[\?\#].*)?$/i', $images));
+    }
 ?>
 
 <div class="container">
     <div class="row">
 
         <div class="col-lg-12">
-            <h1 class="page-header">Gallery</h1>
+            <h1 class="page-header">Gallery<?= $albumFound ? ' - ' . $_GET['album'] : '' ; ?></h1>
         </div>
         
-        <?php foreach($images as $image) : ?>
-            <div class="col-lg-3 col-md-4 col-xs-6 thumb pointer-hover">
-                <a class="thumbnail">
-                    <img class="img-responsive center-block" src="<?= GALLERY_PATH . 'album_one/' . $image; ?>" data-toggle="modal" data-target="#myModal" alt="">
-                </a>
-            </div>
-        <?php endforeach ; ?>
+        <?php if (!$albumFound) : ?>
+            <?php foreach($albumsArray as $albumName => $albumCover) : ?>
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb pointer-hover">
+                    <a class="thumbnail" href="?album=<?= $albumName; ?>">
+                        <img class="img-responsive center-block" src="<?= GALLERY_PATH . $albumName . '/' . $albumCover; ?>">
+                    </a>
+                </div>
+            <?php endforeach ; ?>
+        <?php else : ?>
+            <?php foreach($images as $image) : ?>
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb pointer-hover">
+                    <a class="thumbnail">
+                        <img class="img-responsive center-block" src="<?= GALLERY_PATH . 'album_one/' . $image; ?>" data-toggle="modal" data-target="#myModal" alt="">
+                    </a>
+                </div>
+            <?php endforeach ; ?>
+        <?php endif ; ?>
 
     </div>
 </div>
