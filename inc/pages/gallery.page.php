@@ -8,6 +8,8 @@ Make the album name after 'Galley' pretty
 
 Order the albums somehow
 
+album names cnanot have spaces?
+
 -->
 
 <?php
