@@ -10,83 +10,34 @@ BUG: when you click on an image, all other images are replaced by that one.
 
 -->
 
-<div class="container">
+<?php
+    $images = scandir(GALLERY_PATH . 'album_one');
+    $images = array_values(preg_grep('/\.(jpg|jpeg|png|gif)(?:[\?\#].*)?$/i', $images));
+?>
 
+<div class="container">
     <div class="row">
 
         <div class="col-lg-12">
             <h1 class="page-header">Gallery</h1>
         </div>
+        
+        <?php foreach($images as $image) : ?>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb pointer-hover">
+                <a class="thumbnail">
+                    <img class="img-responsive center-block" src="<?= GALLERY_PATH . 'album_one/' . $image; ?>" data-toggle="modal" data-target="#myModal" alt="">
+                </a>
+            </div>
+        <?php endforeach ; ?>
 
-        <div class="col-lg-3 col-md-4 col-xs-6 thumb pointer-hover">
-            <a class="thumbnail">
-                <img class="img-responsive center-block" src="http://placehold.it/400x300" data-toggle="modal" data-target="#myModal" alt="">
-            </a>
-        </div>
-        <div class="col-lg-3 col-md-4 col-xs-6 thumb pointer-hover">
-            <a class="thumbnail">
-                <img class="img-responsive center-block" src="http://placehold.it/400x300" data-toggle="modal" data-target="#myModal" alt="">
-            </a>
-        </div>
-        <div class="col-lg-3 col-md-4 col-xs-6 thumb pointer-hover">
-            <a class="thumbnail">
-                <img class="img-responsive center-block" src="http://placehold.it/400x300" data-toggle="modal" data-target="#myModal" alt="">
-            </a>
-        </div>
-        <div class="col-lg-3 col-md-4 col-xs-6 thumb pointer-hover">
-            <a class="thumbnail">
-                <img class="img-responsive center-block" src="http://placehold.it/400x300" data-toggle="modal" data-target="#myModal" alt="">
-            </a>
-        </div>
-        <div class="col-lg-3 col-md-4 col-xs-6 thumb pointer-hover">
-            <a class="thumbnail">
-                <img class="img-responsive center-block" src="http://placehold.it/400x300" data-toggle="modal" data-target="#myModal" alt="">
-            </a>
-        </div>
-        <div class="col-lg-3 col-md-4 col-xs-6 thumb pointer-hover">
-            <a class="thumbnail">
-                <img class="img-responsive center-block" src="http://placehold.it/400x300" data-toggle="modal" data-target="#myModal" alt="">
-            </a>
-        </div>
-        <div class="col-lg-3 col-md-4 col-xs-6 thumb pointer-hover">
-            <a class="thumbnail">
-                <img class="img-responsive center-block" src="http://placehold.it/400x300" data-toggle="modal" data-target="#myModal" alt="">
-            </a>
-        </div>
-        <div class="col-lg-3 col-md-4 col-xs-6 thumb pointer-hover">
-            <a class="thumbnail">
-                <img class="img-responsive center-block" src="http://placehold.it/400x300" data-toggle="modal" data-target="#myModal" alt="">
-            </a>
-        </div>
-        <div class="col-lg-3 col-md-4 col-xs-6 thumb pointer-hover">
-            <a class="thumbnail">
-                <img class="img-responsive center-block" src="http://placehold.it/400x300" data-toggle="modal" data-target="#myModal" alt="">
-            </a>
-        </div>
-        <div class="col-lg-3 col-md-4 col-xs-6 thumb pointer-hover">
-            <a class="thumbnail">
-                <img class="img-responsive center-block" src="http://placehold.it/400x300" data-toggle="modal" data-target="#myModal" alt="">
-            </a>
-        </div>
-        <div class="col-lg-3 col-md-4 col-xs-6 thumb pointer-hover">
-            <a class="thumbnail">
-                <img class="img-responsive center-block" src="http://placehold.it/400x300" data-toggle="modal" data-target="#myModal" alt="">
-            </a>
-        </div>
-        <div class="col-lg-3 col-md-4 col-xs-6 thumb pointer-hover">
-            <a class="thumbnail">
-                <img class="img-responsive center-block" src="http://placehold.it/400x300" data-toggle="modal" data-target="#myModal" alt="">
-            </a>
-        </div>
     </div>
-
-</div><!-- /.container -->
+</div>
 
 <div id="myModal" class="modal fade" role="dialog">
     <div class="modal-dialog modal-lg">
         <div class="modal-content">
             <div class="modal-body">
-                <img class="showimage img-responsive center-block" style="width: 100%; height: 100%;" src="" />
+                <img id="large-image" class="showimage img-responsive center-block" style="width: 100%; height: 100%; max-height: 800px;" src="" />
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -99,7 +50,7 @@ BUG: when you click on an image, all other images are replaced by that one.
 $(document).ready(function () {
         $('#myModal').on('show.bs.modal', function (e) {
             var image = $(e.relatedTarget).attr('src');
-            $(".img-responsive").attr("src", image);
+            $("#large-image").attr("src", image);
         });
 });
 </script>

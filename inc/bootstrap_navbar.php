@@ -39,6 +39,7 @@
 		</div><!-- /.navbar-collapse -->
 	</div><!-- /.container -->
 </nav>
+
 <?php /*
 <li>
 	<a class="dropdown-toggle pointer-hover" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">

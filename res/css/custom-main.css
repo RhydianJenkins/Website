@@ -147,3 +147,8 @@ body {
 .thumb {
     margin-bottom: 30px;
 }
+
+.thumbnail img {
+	width: 400px !important;
+	height: 300px !important;
+}
