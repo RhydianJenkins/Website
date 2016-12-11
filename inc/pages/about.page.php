@@ -1,7 +1,5 @@
 <div class="container-fluid">
     <div class="container">
-
-        <p>Work here!</p>
-
+        <h1 class="page-header">About</h1>
     </div>
 </div>

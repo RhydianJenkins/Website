@@ -1,5 +1,8 @@
-<div class="outer">
-<div class="inner">
+<div class="container-fluid">
+    <div class="container">
+        <h1 class="page-header">Training</h1>
+    </div>
+</div>
 
 <table>
 <tr><td>
@@ -155,6 +158,6 @@ Upon successful completion of the level 2 course, you will have knowledge of:
 </table>
 
 
-</td> </tr></table>
+</td> </tr>
 
-</div></div>
+</table>

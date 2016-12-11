@@ -1,5 +1,8 @@
-<h1 class="text-center bg-theme-color-1">TEMP - COPIED FROM LEGACY SITE</h1>
-<br /><br />
+<div class="container-fluid">
+    <div class="container">
+        <h1 class="page-header">Health and Safety</h1>
+    </div>
+</div>
 
 <table align="Center"><tr><td align="Center">
 <h2>Safeguarding and Protecting Children and Young People</h2>
