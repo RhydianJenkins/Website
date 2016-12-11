@@ -1,4 +1,4 @@
-<div id="gmap_canvas" style="overflow: hidden; height: 500px; width: 100%;">
+<div id="gmap_canvas" style="overflow: hidden; height: inherit; width: 100%;">
 	<style>#gmap_canvas img{max-width:none!important;background:none!important}</style>
 </div>
 
@@ -6,8 +6,8 @@
 <script>
 	function init_map(){
 		var options = {
-			zoom:12,
-			center:new google.maps.LatLng(51.5489492,-3.7385435999999572),
+			zoom: 12,
+			center: new google.maps.LatLng(51.5489492,-3.7385435999999572),
 			mapTypeId: google.maps.MapTypeId.ROADMAP,
 			scrollwheel: false
 		};

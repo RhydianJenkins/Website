@@ -22,6 +22,7 @@ body {
 .padding-20 { padding: 20px !important; }
 .pointer-hover { cursor: pointer; }
 .text-black { color: black; }
+.text-white { color: white; }
 .text-center { text-align: center !important; }
 .clear { clear: both; }
 .bg-theme-color-1 { background: #4593e3; }

@@ -9,14 +9,13 @@
 </div>
 
 <!-- Welcome -->
-<div class="container-fluid" style="background-color: rgba(240, 240, 240, 1); min-height: 500px;">
+<div class="container-fluid" style="background-color: rgba(240, 240, 240, 1); min-height: 400px;">
 	<div class="container padding-20">
 		<div class="row">
 			<div class="col-sm-8">
-				<h1>Welcome</h1>
-				<p class="w3-padding-16">The club is situated three miles south of Port Talbot, South Wales and was formerly known as the Corus Sailing Club, Margam.</p>
-
-				<p class="w3-padding-16">The reservoir is over one mile long by approximately half a mile wide, where racing takes place every Sunday throughout the whole year (for those brave enough!) and also on Saturdays, Tuesday evenings and Wednesday evenings through the Spring and Summer months.</p>
+				<h1 class="page-header">Welcome</h1>
+				<p>The club is situated three miles south of Port Talbot, South Wales and was formerly known as the Corus Sailing Club, Margam.</p>
+				<p>The reservoir is over one mile long by approximately half a mile wide, where racing takes place every Sunday throughout the whole year (for those brave enough!) and also on Saturdays, Tuesday evenings and Wednesday evenings through the Spring and Summer months.</p>
 			</div>
 
 			<div class="col-sm-4 text-center">
@@ -27,37 +26,37 @@
 </div>
 
 <!-- Location -->
-<div class="container-fluid" style="height: 500px; padding-left: 0; padding-right: 0;">
+<div class="container-fluid" style="height: 400px; padding-left: 0; padding-right: 0;">
 	<?php include(INC_PATH . "map.html"); ?>
 </div>
 
 <!-- FAQ -->
-<div class="container-fluid" style="background-color: rgba(240, 240, 240, 1); min-height: 500px;">
+<div class="container-fluid" style="background-color: rgba(0, 0, 0, 0.5); min-height: 400px;">
 	<div class="container padding-20">
 		<div class="row">
 			<div class="col-sm-12">
-				<div class="w3-content">
-					<?php include INC_PATH . 'faq.php'; ?>
-				</div>
+				<?php include INC_PATH . 'faq.php'; ?>
 			</div>
 		</div>
 	</div>
 </div>
 
-<!-- Empty gap -->
-<div class="container-fluid" style="height: 500px;"></div>
-
-<!-- Unused! (TODO) -->
-<div class="container-fluid" style="background-color: rgba(240, 240, 240, 1); height: 500px;"></div>
+<!-- Facebook feed -->
+<div class="container-fluid" style="background-color: rgba(240, 240, 240, 1); height: 400px;">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12">
+			<h1 class="page-header">Facebook feed (TODO)</h1>
+			</div>
+		</div>
+	</div>
+</div>
 
 <!-- Blur bg image on scroll -->
 <script>
 $(window).scroll(function() {
-    // Get scroll position
-    var s = $(window).scrollTop(),
-    // scroll value and opacity
-    opacityVal = (s / 400.0);
-    // opacity value 0% to 100%
+    var s = $(window).scrollTop();
+    var opacityVal = (s / 300.0);
     $('#fullImageBackground-blur').css('opacity', opacityVal);
 });
 </script>

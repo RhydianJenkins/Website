@@ -1,5 +1,5 @@
 <div class="panel-group" id="faq">
-	<h1>Frequently Asked Questions</h1>
+	<h1 class="page-header text-white">Frequently Asked Questions</h1>
 	
 	<div class="panel panel-default pointer-hover">
 		<div class="panel-heading accordion-toggle collapsed" data-toggle="collapse" data-parent="#faq" href="#collapseOne">
