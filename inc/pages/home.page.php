@@ -9,7 +9,7 @@
 </div>
 
 <!-- Welcome -->
-<div class="container-fluid" style="background-color: rgba(240, 240, 240, 0.8);">
+<div class="container-fluid" style="background-color: rgba(240, 240, 240, 1); min-height: 500px;">
 	<div class="container padding-20">
 		<div class="row">
 			<div class="col-sm-8">
@@ -27,30 +27,12 @@
 </div>
 
 <!-- Location -->
-<div class="container-fluid" style="background-color: rgba(240, 240, 240, 0.9);">
-	<div class="container padding-20">
-		<div class="row">
-			<div class="col-sm-6">
-				<?php include(INC_PATH . "map.html"); ?>
-			</div>
-			<div class="col-sm-6">
-				<h1>Location</h1>
-				<address>
-					<strong>Tata Steel Sailing Club</strong><br />
-					Eglwys Nunydd Reservoir<br />
-					Off Longlands Lane<br /> <!-- TODO: is this the real address? -->
-					Margam<br />
-					Port Talbot<br />
-					SA13 2NS<br />
-				</address>
-				<p>Tata Steel Sailing Club is located just off Junction 38 of the M4. If traveling from the East, i.e. traveling from the Cardiff direction take the first exit off the J38 roundabout. If traveling from the West, i.e. traveling, from the Swansea direction take the 3rd exit off the J38 roundabout.</p>
-			</div>
-		</div>
-	</div>
+<div class="container-fluid" style="height: 500px; padding-left: 0; padding-right: 0;">
+	<?php include(INC_PATH . "map.html"); ?>
 </div>
 
 <!-- FAQ -->
-<div class="container-fluid" style="background-color: rgba(240, 240, 240, 0.8);">
+<div class="container-fluid" style="background-color: rgba(240, 240, 240, 1); min-height: 500px;">
 	<div class="container padding-20">
 		<div class="row">
 			<div class="col-sm-12">
@@ -61,6 +43,12 @@
 		</div>
 	</div>
 </div>
+
+<!-- Empty gap -->
+<div class="container-fluid" style="height: 500px;"></div>
+
+<!-- Unused! (TODO) -->
+<div class="container-fluid" style="background-color: rgba(240, 240, 240, 1); height: 500px;"></div>
 
 <!-- Blur bg image on scroll -->
 <script>
