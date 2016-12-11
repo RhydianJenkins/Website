@@ -42,13 +42,9 @@
 </div>
 
 <!-- Facebook feed -->
-<div class="container-fluid" style="background-color: rgba(240, 240, 240, 1); height: 400px;">
+<div class="container-fluid" style="background-color: rgba(240, 240, 240, 1); min-height: 400px;">
 	<div class="container">
-		<div class="row">
-			<div class="col-sm-12">
-				<h1 class="page-header">Facebook feed (TODO)</h1>
-			</div>
-		</div>
+		<?php include INC_PATH . 'facebook.php'; ?>
 	</div>
 </div>
 
