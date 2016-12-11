@@ -5,7 +5,7 @@
 <!-- Welcome Header -->
 <div class="container-fluid text-center padding-256" style="height: 960px;">
 	<h1 id="main-header" class="w3-animate-opacity">Tata Steel Sailing Club</h1>
-	<p class="w3-xlarge w3-animate-opacity">Port Talbot</p>
+	<p id="second-header" class="w3-xlarge w3-animate-opacity">Port Talbot</p>
 </div>
 
 <!-- Welcome -->
@@ -43,7 +43,7 @@
 					Port Talbot<br />
 					SA13 2NS<br />
 				</address>
-				<p class="w3-padding-16">Tata Steel Sailing Club is located just off Junction 38 of the M4. If traveling from the East, i.e. traveling from the Cardiff direction take the first exit off the J38 roundabout. If traveling from the West, i.e. traveling, from the Swansea direction take the 3rd exit off the J38 roundabout.</p>
+				<p>Tata Steel Sailing Club is located just off Junction 38 of the M4. If traveling from the East, i.e. traveling from the Cardiff direction take the first exit off the J38 roundabout. If traveling from the West, i.e. traveling, from the Swansea direction take the 3rd exit off the J38 roundabout.</p>
 			</div>
 		</div>
 	</div>
@@ -51,8 +51,14 @@
 
 <!-- FAQ -->
 <div class="container-fluid" style="background-color: rgba(240, 240, 240, 0.8);">
-	<div class="w3-content">
-		<?php include INC_PATH . 'faq.php'; ?>
+	<div class="container padding-20">
+		<div class="row">
+			<div class="col-sm-12">
+				<div class="w3-content">
+					<?php include INC_PATH . 'faq.php'; ?>
+				</div>
+			</div>
+		</div>
 	</div>
 </div>
 
