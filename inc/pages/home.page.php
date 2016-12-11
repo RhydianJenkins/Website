@@ -8,25 +8,30 @@
 	<p id="second-header" class="w3-xlarge w3-animate-opacity">Port Talbot</p>
 </div>
 
+<!-- Carousel -->
+<div class="container-fluid" style="height: 800px; padding-left: 0; padding-right: 0;">
+	<?php include INC_PATH . 'carousel.php'; ?>
+</div>
+
 <!-- Welcome -->
-<div class="container-fluid" style="background-color: rgba(240, 240, 240, 1); min-height: 400px;">
+<div class="container-fluid" style="background-color: rgba(0, 0, 0, 0.6); min-height: 400px;">
 	<div class="container padding-20">
 		<div class="row">
 			<div class="col-sm-8">
-				<h1 class="page-header">Welcome</h1>
-				<p>The club is situated three miles south of Port Talbot, South Wales and was formerly known as the Corus Sailing Club, Margam.</p>
-				<p>The reservoir is over one mile long by approximately half a mile wide, where racing takes place every Sunday throughout the whole year (for those brave enough!) and also on Saturdays, Tuesday evenings and Wednesday evenings through the Spring and Summer months.</p>
+				<h1 class="page-header text-white">Welcome</h1>
+				<p class="text-white">The club is situated three miles south of Port Talbot, South Wales and was formerly known as the Corus Sailing Club, Margam.</p>
+				<p class="text-white">The reservoir is over one mile long by approximately half a mile wide, where racing takes place every Sunday throughout the whole year (for those brave enough!) and also on Saturdays, Tuesday evenings and Wednesday evenings through the Spring and Summer months.</p>
 			</div>
 
 			<div class="col-sm-4 text-center">
-				<img style="overflow: hidden; height: 300px; width: 300px;" src="<?php echo IMGS_PATH . 'boats1.jpg'; ?>" />
+				<img style="overflow: hidden; height: 360px; width: 360px;" src="<?= IMGS_PATH . 'boats1.jpg'; ?>" />
 			</div>
 		</div>
 	</div>
 </div>
 
 <!-- Location -->
-<div class="container-fluid" style="height: 400px; padding-left: 0; padding-right: 0;">
+<div class="container-fluid" style="height: 800px; padding-left: 0; padding-right: 0;">
 	<?php include(INC_PATH . "map.html"); ?>
 </div>
 
