@@ -3,7 +3,7 @@
 <div id="fullImageBackground-blur" style="opacity: 0;"></div>
 
 <!-- Welcome Header -->
-<div class="container-fluid text-center padding-256" style="height: 960px;">
+<div class="container-fluid text-center" style="height: 960px;">
 	<h1 id="main-header" class="w3-animate-opacity">Tata Steel Sailing Club</h1>
 	<p id="second-header" class="w3-xlarge w3-animate-opacity">Port Talbot</p>
 </div>
@@ -31,7 +31,7 @@
 </div>
 
 <!-- FAQ -->
-<div class="container-fluid" style="background-color: rgba(0, 0, 0, 0.5); min-height: 400px;">
+<div class="container-fluid" style="background-color: rgba(0, 0, 0, 0.6); min-height: 400px;">
 	<div class="container padding-20">
 		<div class="row">
 			<div class="col-sm-12">
@@ -46,7 +46,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-12">
-			<h1 class="page-header">Facebook feed (TODO)</h1>
+				<h1 class="page-header">Facebook feed (TODO)</h1>
 			</div>
 		</div>
 	</div>
