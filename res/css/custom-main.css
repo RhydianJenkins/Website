@@ -1,5 +1,5 @@
 body {
-	padding-top: 50px; /* To account for the nav bar */
+	margin-top: 50px; /* To account for the nav bar */
 }
 
 .bg-img-1 {
@@ -9,9 +9,10 @@ body {
     background-position: bottom;
 }
 
-/* GENERIC */
-.padding-256 { padding: 256px; }
-.padding-20 { padding: 20px; }
+/* GENERIC CLASSES */
+.padding-256 { padding: 256px !important; }
+.padding-128 { padding: 128px !important; }
+.padding-20 { padding: 20px !important; }
 .pointer-hover { cursor: pointer; }
 .text-black { color: black; }
 .text-center { text-align: center !important; }
@@ -19,6 +20,42 @@ body {
 .bg-theme-color-1 { background: #4593e3; }
 .theme-color-1 { color: #4593e3; }
 .margin-0-auto { margin: 0 auto !important; }
+.opacity-0 { opacity: 0 !important; }
+
+/* FRONT PAGE */
+#fullImageBackground {
+	background: url("../imgs/bg_img_1.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+	position:fixed;
+	width:100%;
+	height:100%;
+	top:0;
+	left:0;
+	z-index:-2;
+}
+
+#fullImageBackground-blur {
+	background: url("../imgs/bg_img_1.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+	position:fixed;
+	width:100%;
+	height:100%;
+	top:0;
+	left:0;
+	z-index:-1;
+	/* blur */
+	-webkit-filter: blur(3px);
+	-moz-filter: blur(3px);
+	-o-filter: blur(3px);
+	-ms-filter: blur(3px);
+	filter: blur(3px);	
+}
 
 /* FORUM */
 .forum.table > tbody > tr > td {

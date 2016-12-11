@@ -1,11 +1,15 @@
+<!-- Blurred bg body -->
+<div id="fullImageBackground"></div>
+<div id="fullImageBackground-blur" style="opacity: 0;"></div>
+
 <!-- Welcome Header -->
-<div class="container-fluid bg-img-1 w3-center w3-padding-256">
+<div class="container-fluid text-center padding-256" style="height: 960px;">
 	<h1 id="main-header" class="w3-animate-opacity">Tata Steel Sailing Club</h1>
 	<p class="w3-xlarge w3-animate-opacity">Port Talbot</p>
 </div>
 
 <!-- Welcome -->
-<div class="container-fluid">
+<div class="container-fluid" style="background-color: rgba(240, 240, 240, 0.8);">
 	<div class="container padding-20">
 		<div class="row">
 			<div class="col-sm-8">
@@ -23,7 +27,7 @@
 </div>
 
 <!-- Location -->
-<div class="container-fluid" style="background-color: rgb(240, 240, 240);">
+<div class="container-fluid" style="background-color: rgba(240, 240, 240, 0.9);">
 	<div class="container padding-20">
 		<div class="row">
 			<div class="col-sm-6">
@@ -46,8 +50,20 @@
 </div>
 
 <!-- FAQ -->
-<div class="container-fluid w3-row-padding w3-padding-64">
+<div class="container-fluid" style="background-color: rgba(240, 240, 240, 0.8);">
 	<div class="w3-content">
 		<?php include INC_PATH . 'faq.php'; ?>
 	</div>
 </div>
+
+<!-- Blur bg image on scroll -->
+<script>
+$(window).scroll(function() {
+    // Get scroll position
+    var s = $(window).scrollTop(),
+    // scroll value and opacity
+    opacityVal = (s / 400.0);
+    // opacity value 0% to 100%
+    $('#fullImageBackground-blur').css('opacity', opacityVal);
+});
+</script>

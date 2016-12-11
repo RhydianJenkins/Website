@@ -23,8 +23,6 @@
 <!-- Page -->
 <?php include INC_PATH . 'pages/home.page.php'; ?>
 
-<hr />
-
 <!-- Footer -->
 <?php include INC_PATH . 'footer.php'; ?>
 
