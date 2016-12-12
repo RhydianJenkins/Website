@@ -1,14 +1,17 @@
-<!-- SPEAKERS SECTION -->	
+<div class="container-fluid">
+    <div class="container">
+        <div class="page-header">
+            <h1>Tata Steel Sailing Club Committee members and other contacts</h1>
+            <soft>Just click on an image to email</soft>
+        </div>
+    </div>
+</div>
 <section id="speakers">
 	<div class="container-fluid">
-		<h3>Tata Steel Sailing Club Committee members and other contacts</h3> <!-- Section Title -->
-		<h5><i>Just click on an image to email</i>
-		</h5>
-		<div class="separator"></div>
 		
 			<!-- First Row of Speakers -->
 			<div class="row">
-				<H3>Flag Officers</h3>
+				<h3>Flag Officers</h3>
 			
 				<div class="col-md-1">
 				</div>
@@ -200,7 +203,7 @@
 				
 			</div>
 				
-			<h3>Non - Committee roles and other activities</h3>
+			<h3>Non-committee roles and other activities</h3>
 			
 				<div class="col-md-4">
 					<a href="mailto:membership@tatasteelsailing.org.uk" class="member-profile">
