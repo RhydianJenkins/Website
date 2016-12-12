@@ -3,9 +3,11 @@
 <div id="fullImageBackground-blur" style="opacity: 0;"></div>
 
 <!-- Welcome Header -->
-<div class="container-fluid text-center" style="height: 960px;">
-	<h1 id="main-header" class="w3-animate-opacity">Tata Steel Sailing Club</h1>
-	<p id="second-header" class="w3-xlarge w3-animate-opacity">Port Talbot</p>
+<div class="container-fluid text-center padding-0" style="height: 960px;">
+    <div id="header-text-wrapper">
+        <h1 id="main-header" class="w3-animate-opacity">Tata Steel Sailing Club</h1>
+        <p id="second-header" class="w3-animate-opacity">Port Talbot</p>
+    </div>
 </div>
 
 <!-- Welcome -->

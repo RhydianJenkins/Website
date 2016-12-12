@@ -33,7 +33,22 @@ body {
 .border-top-3 { border-top: solid 3px; }
 .border-bottom-3 { border-bottom: solid 3px; }
 
-/* FRONT PAGE */
+/* FORUM */
+.forum.table > tbody > tr > td {
+    vertical-align: middle;
+}
+.forum .fa {
+    width: 1em;
+    text-align: center;
+}
+.forum.table th.cell-stat {
+    width: 6em;
+}
+.forum.table th.cell-stat-2x {
+    width: 14em;
+}
+
+/* HOME PAGE */
 #fullImageBackground {
 	background: url("../imgs/bg_img_1.jpg") no-repeat center center fixed;
 	-webkit-background-size: cover;
@@ -86,22 +101,11 @@ body {
     -o-background-size: cover;
 }
 
-/* FORUM */
-.forum.table > tbody > tr > td {
-    vertical-align: middle;
-}
-.forum .fa {
-    width: 1em;
-    text-align: center;
-}
-.forum.table th.cell-stat {
-    width: 6em;
-}
-.forum.table th.cell-stat-2x {
-    width: 14em;
+#header-text-wrapper {
+    margin-top: 256px;
+    background-color: rgba(255, 255, 255, 0.2);
 }
 
-/* HOME PAGE */
 #main-header {
 	font-family: 'Trocchi', serif;
 	font-size: 128px;
@@ -110,7 +114,6 @@ body {
 	margin: 0;
 	color: rgba(8, 8, 8, 1);
 	font-size: 128px;
-	padding-top: 256px;
 }
 
 #second-header {
