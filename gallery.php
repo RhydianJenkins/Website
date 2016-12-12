@@ -4,8 +4,6 @@
 <?php require("config.php"); ?>
 <title><?php echo SITE_NAME; ?></title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<!-- w3 template css -->
-<link rel="stylesheet" type="text/css" href="<?php echo STYLES_PATH . "w3c.css"; ?>" />
 <!-- awesome fonts css -->
 <link rel="stylesheet" type="text/css" href="<?php echo STYLES_PATH . "font-awesome.min.css"; ?>" />
 <!-- bootstrap 3.3.7 css -->

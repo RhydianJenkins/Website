@@ -8,7 +8,7 @@ Make the album name after 'Galley' pretty
 
 Order the albums somehow
 
-album names cnanot have spaces?
+album names cannot have spaces?
 
 -->
 
@@ -38,7 +38,7 @@ album names cnanot have spaces?
         
         <?php if (!$albumFound) : ?>
             <?php foreach($albumsArray as $albumName => $albumCover) : ?>
-                <div class="col-lg-3 col-md-4 col-xs-6 thumb pointer-hover">
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb pointer-hover padding-0" style="padding-bottom: 0px;">
                     <a class="thumbnail" href="?album=<?= $albumName; ?>">
                         <img class="img-responsive center-block" src="<?= GALLERY_PATH . $albumName . '/' . $albumCover; ?>">
                     </a>
@@ -46,7 +46,7 @@ album names cnanot have spaces?
             <?php endforeach ; ?>
         <?php else : ?>
             <?php foreach($images as $image) : ?>
-                <div class="col-lg-3 col-md-4 col-xs-6 thumb pointer-hover">
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb pointer-hover padding-0" style="padding-bottom: 0px;">
                     <a class="thumbnail">
                         <img class="img-responsive center-block" src="<?= GALLERY_PATH . 'album_one/' . $image; ?>" data-toggle="modal" data-target="#myModal" alt="">
                     </a>
