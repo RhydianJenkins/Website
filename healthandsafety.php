@@ -12,8 +12,6 @@
 <link rel="stylesheet" href="<?php echo STYLES_PATH . 'bootstrap/bootstrap.min.css' ?>">
 <!-- custom css -->
 <link rel="stylesheet" type="text/css" href="<?php echo STYLES_PATH . "custom-main.css"; ?>" />
-<!-- legacy css -->
-<link rel="stylesheet" type="text/css" href="<?php echo STYLES_PATH . "legacy.css"; ?>" />
 <!-- jQuery -->
 <script src="<?php echo JS_PATH . 'jquery.min.js'?>"></script>
 </head>
