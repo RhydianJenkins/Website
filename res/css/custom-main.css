@@ -113,6 +113,16 @@ body {
     -o-background-size: cover;
 }
 
+.fill-bottom {
+    width: 100%;
+    height: 100%;
+    background-position: bottom;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
 #header-text-wrapper {
     margin-top: 256px;
     margin-bottom: 256px;

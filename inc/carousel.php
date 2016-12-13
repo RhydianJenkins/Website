@@ -15,7 +15,7 @@
     <div class="carousel-inner">
         <?php foreach($carouselImages as $key => $carouselImage) : ?>
             <div class="item<?= ($key === 0) ? ' active' : '' ; ?>">
-                <div class="fill" style="background-image:url('<?= IMGS_PATH . 'carousel/' . $carouselImage; ?>');"></div>
+                <div class="fill-bottom" style="background-image:url('<?= IMGS_PATH . 'carousel/' . $carouselImage; ?>');"></div>
             </div>
         <?php endforeach ; ?>
     </div>
