@@ -81,14 +81,16 @@
 					</a>
 				</div>
 				
+				<div class="col-md-1">
+				</div>
+
 			</div> <!-- End First Row -->
 			
 			<div class="clear"></div>
 			
-			<!-- Second Row of Speakers -->
-			
-		<div class="container">
+			<!-- Second Row -->
 			<div class="row">
+			
 			<h3>Management Committee</h3>
 			
 				<div class="col-md-3">
@@ -142,7 +144,10 @@
 						<h4><span>Alan </span> Breeze</h4>
 					</a>
 				</div>
-				
+			</div>
+
+			<div class="row">
+
 				<div class="col-md-3">
 					<a href="mailto:windsurfing@tatasteelsailing.org.uk" class="member-profile">
 						<div class="unhover_img">
@@ -192,12 +197,6 @@
 						</div>
 						<span style="color: black;">Race Officer</span>
 						<h4><span>Bob </span> Taylor</h4>
-					</a>
-				</div>
-				
-				<div class="col-md-3">
-					<a href="#" class="member-profile">
-						
 					</a>
 				</div>
 				
