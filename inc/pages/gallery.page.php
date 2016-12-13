@@ -48,7 +48,7 @@ album names cannot have spaces?
             <?php foreach($images as $image) : ?>
                 <div class="col-lg-3 col-md-4 col-xs-6 thumb pointer-hover padding-0" style="padding-bottom: 0px;">
                     <a class="thumbnail">
-                        <img class="img-responsive center-block" src="<?= GALLERY_PATH . 'album_one/' . $image; ?>" data-toggle="modal" data-target="#myModal" alt="">
+                        <img class="img-responsive center-block" src="<?= GALLERY_PATH . $_GET['album'] . '/' . $image; ?>" data-toggle="modal" data-target="#myModal" alt="">
                     </a>
                 </div>
             <?php endforeach ; ?>
