@@ -1,7 +1,7 @@
 body {
 	margin-top: 50px; /* To account for the nav bar */
 	/* font */
-	font-family: 'Maven Pro';
+	font-family: "Segoe UI", Arial, sans-serif;
 	font-style: normal;
 	font-weight: 800;
 	src: local('Maven Pro Regular'), local('MavenProRegular'), url(http://fonts.gstatic.com/s/mavenpro/v7/MG9KbUZFchDs94Tbv9U-pVtXRa8TVwTICgirnJhmVJw.woff2) format('woff2');
@@ -103,26 +103,28 @@ body {
 
 #header-text-wrapper {
     margin-top: 256px;
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: rgba(255, 255, 255, 0.1);
 }
 
 #main-header {
-	font-family: 'Trocchi', serif;
+    /*font-family: 'Verdana, Geneva, sans-serif';*/
 	font-size: 128px;
 	font-weight: bold;
 	line-height: 128px;
 	margin: 0;
-	color: rgba(8, 8, 8, 1);
+	color: rgba(16, 16, 16, 1);
 	font-size: 128px;
+    text-transform: uppercase;
+    letter-spacing: -10px;
 }
 
 #second-header {
-	font-family: 'Trocchi', serif;
+    /*font-family: 'Verdana, Geneva, sans-serif';*/
 	font-size: 64px;
 	font-weight: bold;
 	line-height: 64px;
 	margin: 0;
-	color: rgba(8, 8, 8, 1);
+	color: rgba(16, 16, 16, 1);
 	font-size: 64px;
 }
 
