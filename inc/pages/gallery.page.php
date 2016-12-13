@@ -39,7 +39,7 @@ album names cannot have spaces?
         <?php if (!$albumFound) : ?>
             <?php foreach($albumsArray as $albumName => $albumCover) : ?>
                 <div class="col-lg-3 col-md-4 col-xs-6 thumb pointer-hover padding-0" style="padding-bottom: 0px;">
-                    <a class="thumbnail" href="?album=<?= $albumName; ?>">
+                    <a class="thumbnail" href="?page=gallery&album=<?= $albumName; ?>">
                         <img class="img-responsive center-block" src="<?= GALLERY_PATH . $albumName . '/' . $albumCover; ?>">
                     </a>
                 </div>
