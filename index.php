@@ -12,6 +12,8 @@
 <link rel="stylesheet" href="<?php echo STYLES_PATH . 'bootstrap/bootstrap.min.css' ?>">
 <!-- custom css -->
 <link rel="stylesheet" type="text/css" href="<?php echo STYLES_PATH . "custom-main.css"; ?>" />
+<!-- scroll arrow css -->
+<link rel="stylesheet" type="text/css" href="<?php echo STYLES_PATH . "scroll-arrow.css"; ?>" />
 <!-- jQuery -->
 <script src="<?php echo JS_PATH . 'jquery.min.js'?>"></script>
 </head>
