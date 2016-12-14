@@ -20,7 +20,7 @@
 					<ul class="nav nav-list">
 						<?php foreach($files as $file) : ?>
 							<?php $fileName = ucwords(substr(str_replace('_', ' ', $file), 0, strrpos(str_replace('_', ' ', $file), "."))); ?>
-							<li><a href="?year=<?= $year ?>&target=<?= $file ?>"><?= $fileName ?></a></li>
+							<li><a href="?page=results&year=<?= $year ?>&target=<?= $file ?>"><?= $fileName ?></a></li>
 						<?php endforeach ; ?>
 					</ul>
 				</li>
