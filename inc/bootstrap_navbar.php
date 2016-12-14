@@ -30,8 +30,6 @@
 				<li><a href="?page=gallery">Gallery</a></li>
 				<!-- Calendar -->
 				<li><a href="?page=calendar">Calendar</a></li>
-				<!-- About -->
-				<li><a href="?page=about">About</a></li>
 			</ul>
 		</div><!-- /.navbar-collapse -->
 	</div><!-- /.container -->
