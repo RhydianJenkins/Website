@@ -7,7 +7,7 @@
         </div>
 
         <!-- Table -->
-        <div class="col-lg-10 text-center">
+        <div class="col-lg-10">
             <?php
                 $fileFound = false;
                 if (!empty($_GET['year']) && file_exists(RESULTS_PATH . $_GET['year'])) {
