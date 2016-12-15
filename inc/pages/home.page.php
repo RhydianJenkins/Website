@@ -3,10 +3,10 @@
 <div id="fullImageBackground-blur" style="opacity: 0;"></div>
 
 <!-- Welcome Header -->
-<div id="welcome-div" class="container-fluid text-center padding-0">
+<div id="welcome-div" class="w3-animate-opacity container-fluid text-center padding-0">
     <div id="header-text-wrapper">
-        <h1 id="main-header" class="w3-animate-opacity">Tata Steel Sailing Club</h1>
-        <p id="second-header" class="w3-animate-opacity">Port Talbot</p>
+        <h1 id="main-header">Tata Steel Sailing Club</h1>
+        <p id="second-header">Port Talbot</p>
 		<a class="arrow-wrap smoothScroll" href="#anchor"><span class="arrow"></span></a>
     </div>
 </div>
