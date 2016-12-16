@@ -46,9 +46,8 @@
 
 <!-- Blur bg image and scroll arrow opacity on scroll -->
 <script>
-$(window).scroll(function() {
-    var s = $(window).scrollTop();
-    var opacityVal = (s / 600.0);
+$(window).scroll(function() {	
+    var opacityVal = ($(window).scrollTop() / 600.0);
     $('#fullImageBackground-blur').css('opacity', opacityVal);
 	$('.arrow-wrap').css('opacity', 1 - opacityVal);
 });
