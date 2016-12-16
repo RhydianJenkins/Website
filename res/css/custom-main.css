@@ -151,6 +151,12 @@ body {
     padding-top: 15px;
 }
 
+.info-img {
+	width: 250px;
+	height: 250px;
+	margin-bottom: 10px;
+}
+
 /* GALLERY */
 .thumb {
     margin-bottom: 0px;
