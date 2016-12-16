@@ -17,19 +17,23 @@ define("JS_PATH", ROOT_PATH . "res/js/");
 define("IMGS_PATH", ROOT_PATH . "res/imgs/");
 define("GALLERY_PATH", ROOT_PATH . "res/imgs/gallery/");
 define("INC_PATH", ROOT_PATH . "inc/");
-define("SCRIPTS_PATH", ROOT_PATH . "res/php_scripts/");
+define("SCRIPTS_PATH", ROOT_PATH . "res/php/");
 define("RESULTS_PATH", INC_PATH . "results/");
 define("PAGES_PATH", INC_PATH . "pages/");
 
-// get all pages
+// autoload classes
+spl_autoload_register(function ($class) {
+    $file = SCRIPTS_PATH . 'classes/' . $class . 'class.php';
+    if (file_exists($file)) { require $file; }
+});
+
+// routing
 $allPages = array_filter(scandir(PAGES_PATH), function($item) {
     return $item[0] !== '.';
 });
-// filter page names
 foreach ($allPages as $key => $page) {
     $allPages[$key] = substr($page, 0, strpos($page, '.'));
 }
-// set the page
 if (!empty($_GET['page']) && in_array($_GET['page'], $allPages)) {
     $page = $_GET['page'];
 } else {
