@@ -1,8 +1,8 @@
 <?php
 // Check for empty fields
-if(empty($_POST['name']) || empty($_POST['email']) || empty($_POST['message']) || !filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)) {
-	//TODO: Why am I not getting post data?
-	//return false;
+if(empty($_POST['to']) || empty($_POST['subject']) || empty($_POST['message']) || !filter_var($_POST['from'], FILTER_VALIDATE_EMAIL)) {
+	// Not enough data, do nothing
+	return;
 }
 
 $name = strip_tags(htmlspecialchars($_POST['name']));
