@@ -6,7 +6,7 @@
 <div id="welcome-div" class="w3-animate-opacity container-fluid text-center padding-0">
     <div id="header-text-wrapper">
         <h1 id="main-header">Tata Steel Sailing Club</h1>
-        <p id="second-header">Port Talbot</p>
+        <p id="second-header">Margam</p>
 		<a class="arrow-wrap smoothScroll" href="#anchor"><span class="arrow"></span></a>
     </div>
 </div>

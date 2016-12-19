@@ -64,7 +64,7 @@ body {
 }
 
 #fullImageBackground {
-	background: url("../imgs/bg_img_1.jpg") no-repeat center center fixed;
+	background: url("../imgs/bg_img_1.jpg") no-repeat bottom center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
@@ -78,7 +78,7 @@ body {
 }
 
 #fullImageBackground-blur {
-	background: url("../imgs/bg_img_1.jpg") no-repeat center center fixed;
+	background: url("../imgs/bg_img_1.jpg") no-repeat bottom center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
