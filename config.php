@@ -23,7 +23,7 @@ define("PAGES_PATH", INC_PATH . "pages/");
 
 // autoload classes
 spl_autoload_register(function ($class) {
-    $file = SCRIPTS_PATH . 'classes/' . $class . 'class.php';
+    $file = SCRIPTS_PATH . 'classes/' . $class . '.class.php';
     if (file_exists($file)) { require $file; }
 });
 

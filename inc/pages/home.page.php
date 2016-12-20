@@ -1,6 +1,5 @@
 <!-- Blurred bg body -->
 <div id="fullImageBackground"></div>
-<div id="fullImageBackground-blur" style="opacity: 0;"></div>
 
 <!-- Welcome Header -->
 <div id="welcome-div" class="w3-animate-opacity container-fluid text-center padding-0">
@@ -43,15 +42,6 @@
 <div class="container-fluid border-top-3" style="background-color: rgb(255, 255, 255); min-height: 400px;">
 	<?php include INC_PATH . 'facebook.php'; ?>
 </div>
-
-<!-- Blur bg image and scroll arrow opacity on scroll -->
-<script>
-$(window).scroll(function() {	
-    var opacityVal = ($(window).scrollTop() / 600.0);
-    $('#fullImageBackground-blur').css('opacity', opacityVal);
-	$('.arrow-wrap').css('opacity', 1 - opacityVal);
-});
-</script>
 
 <!-- Smooth scrolling -->
 <script src="<?= JS_PATH . 'smoothscroll.js'; ?>"></script>
