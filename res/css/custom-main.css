@@ -77,26 +77,6 @@ body {
 	z-index:-2;
 }
 
-#fullImageBackground-blur {
-	background: url("../imgs/bg_img_1.jpg") no-repeat bottom center fixed;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	background-size: cover;
-	-o-background-size: cover;
-	position:fixed;
-	width:100%;
-	height:100%;
-	top:0;
-	left:0;
-	z-index:-1;
-	/* blur */
-	-webkit-filter: blur(3px);
-	-moz-filter: blur(3px);
-	-o-filter: blur(3px);
-	-ms-filter: blur(3px);
-	filter: blur(3px);	
-}
-
 .carousel, .item, .active {
     height: 100%;
 }
