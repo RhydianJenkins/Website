@@ -1,9 +1,7 @@
 <div class="container-fluid">
-    <div class="container">
-        <div class="page-header">
-            <h1>Tata Steel Sailing Club Committee members and other contacts</h1>
-            <soft>Just click on an image to email</soft>
-        </div>
+    <div class="jumbotron">
+        <h1>Tata Steel Sailing Club Committee members and other contacts</h1>
+        <soft>Just click on an image to email</soft>
     </div>
 </div>
 <section id="speakers">
@@ -11,7 +9,7 @@
 		
 			<!-- First Row of Speakers -->
 			<div class="row">
-				<h3>Flag Officers</h3>
+				<h3 class="page-header">Flag Officers</h3>
 			
 				<div class="col-md-1">
 				</div>
@@ -91,7 +89,7 @@
 			<!-- Second Row -->
 			<div class="row">
 			
-			<h3>Management Committee</h3>
+			<h3 class="page-header">Management Committee</h3>
 			
 				<div class="col-md-3">
 					<a href="mailto:training@tatasteelsailing.org.uk" class="member-profile">
@@ -202,7 +200,7 @@
 				
 			</div>
 				
-			<h3>Non-committee roles and other activities</h3>
+			<h3 class="page-header">Non-committee roles and other activities</h3>
 			
 				<div class="col-md-4">
 					<a href="mailto:membership@tatasteelsailing.org.uk" class="member-profile">
