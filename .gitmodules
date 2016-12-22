@@ -1,0 +1,3 @@
+[submodule "res/php/htmlCleaner"]
+	path = res/php/htmlCleaner
+	url = http://github.com/rhydianjenkins/htmlCleaner.git
