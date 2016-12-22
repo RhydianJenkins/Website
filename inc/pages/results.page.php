@@ -36,4 +36,8 @@
     $('h3').addClass('page-header');
     $('h3').css('margin-top', '50px');
     $('table').addClass('table-striped table-hover table-responsive');
+    $('tr').css('border', 'solid 1px');
+    $('tr').css('padding-top', '10px');
+    $('td').css('padding-bottom', '10px');
+    $('td').css('padding-right', '10px');
 </script>
