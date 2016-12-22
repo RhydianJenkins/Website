@@ -12,6 +12,7 @@ define("SITE_NAME", "Tata Steel Sailing Club");
 define("ROOT_PATH", "./");
 //define("ROOT_PATH", "http://".$_SERVER['SERVER_NAME']);
 //define("ROOT_PATH", realpath(dirname(__FILE__)) . '/');	// make sure files are readable by the server!
+//var_dump(ROOT_PATH);die;
 define("STYLES_PATH", ROOT_PATH . "res/css/");
 define("JS_PATH", ROOT_PATH . "res/js/");
 define("IMGS_PATH", ROOT_PATH . "res/imgs/");
@@ -20,6 +21,7 @@ define("INC_PATH", ROOT_PATH . "inc/");
 define("SCRIPTS_PATH", ROOT_PATH . "res/php/");
 define("RESULTS_PATH", INC_PATH . "results/");
 define("PAGES_PATH", INC_PATH . "pages/");
+define("DOCS_PATH", ROOT_PATH . "res/docs/");
 
 // autoload classes
 spl_autoload_register(function ($class) {
