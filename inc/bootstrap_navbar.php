@@ -18,6 +18,8 @@
 				<!-- Hidden li included to remove active class from about link when scrolled up past about section -->
 				<li class="hidden"><a class="page-scroll" href="#page-top"></a></li>
 				
+				<!-- About Us -->
+				<li><a href="?page=about">About Us</a></li>
 				<!-- Results -->
 				<li><a href="?page=results">Results</a></li>
 				<!-- Team Page -->

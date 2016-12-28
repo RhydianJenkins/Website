@@ -1,11 +1,12 @@
 DAD:
 	> Get me the facebook credentials, or have someone who is admin generate an app key in the developer tools
-	> Those FAQ answers are aweful and you should be ashamed. Please try again and do better - ta.
-	> Get me a copy of the membership form so I can convert it into one you fill out online
+	> Those FAQ answers are aweful and you should be ashamed. Please try again and do better - ta. - Feel free if you thin you can do better
+	> Get me a copy of the membership form so I can convert it into one you fill out online - Done
 
 Integrate a weather api (darksky.net, free upto 1000 calls a day)
 	> I have created an account and have an API key
 	> Sample API endpoint: https://api.darksky.net/forecast/b674a72095f9fc01ca454d46d46b07c8/37.8267,-122.4233
+Don't know what you are taling about
 
 New pages:
 	> about us
