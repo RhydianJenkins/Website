@@ -20,6 +20,8 @@
 				
 				<!-- About Us -->
 				<li><a href="?page=about">About Us</a></li>
+				<!-- Membership -->
+				<li><a href="?page=membership">Membership</a></li>
 				<!-- Results -->
 				<li><a href="?page=results">Results</a></li>
 				<!-- Team Page -->

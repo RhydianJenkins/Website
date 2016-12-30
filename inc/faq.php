@@ -36,7 +36,7 @@
             </div>
             <div id="collapseThree" class="panel-collapse collapse">
                 <div class="panel-body">
-                    Times and dates vary through the seasons. Might be an idea to contact a member first and arrange a visit, although you are very welcome to just turn up at any time we're there
+                    Times and dates vary through the seasons, check the calendar for planned activities. Might be an idea to contact a member first and arrange a visit, although you are very welcome to just turn up at any time we're there
                 </div>
             </div>
         </div>
@@ -49,7 +49,7 @@
             </div>
             <div id="collapseFour" class="panel-collapse collapse">
                 <div class="panel-body">
-                    Membership fees vary depending on your circumstances. Download the application form, it details the various offers
+                    Membership fees vary depending on your circumstances. Download the application form, it details the various offers. The Membership Secretary can help you chhose the best option for you if you need help
                 </div>
             </div>
         </div>
@@ -62,7 +62,7 @@
             </div>
             <div id="collapseFive" class="panel-collapse collapse">
                 <div class="panel-body">
-                    We've had sailing members from 5 years old to 85. Physical fitness is more important than age. Sailing is one of those hobbies that suites all. You just need to pick the boat that suites you.
+                    We've had sailing members from 8 years old to 85. Physical fitness is more important than age. Sailing is one of those hobbies that suites all. You just need to pick the boat that suites you.
                 </div>
             </div>
         </div>
