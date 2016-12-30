@@ -9,6 +9,7 @@ Integrate a weather api (darksky.net, free upto 1000 calls a day)
 Don't know what you are taling about
 
 New pages:
-	> about us
+	> about us - Done
 	> membership (should probably be merged in with training?)
+		- No I think Membership ad training are totaly seperate entities. Not al members have training, and we don't want to infer that you need to have training to be a member
 
