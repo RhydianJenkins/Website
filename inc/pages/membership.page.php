@@ -14,24 +14,24 @@
 
 <p align="left">If you have an queries then please contact the membership secretary:</p>
 
-email:<a href="mailto:membership@tatasteelsailing.org.uk">membership@tatasteelsailing.org.uk</a></p>      
+<strong>email: <a href="mailto:membership@tatasteelsailing.org.uk">membership@tatasteelsailing.org.uk</a></strong></p>      
 
 <p align="left" style="word-spacing: 0; line-height: 100%; margin: 0"></p>        <p align="left" style="word-spacing: 0; line-height: 100%; margin: 0">&nbsp;</p>        <p align="left" style="word-spacing: 0; line-height: 100%; margin: 0">Please note that on becoming a member you agree to adhere to the rules of the club; these are set out in the Rules, Policy, and Advice Folder which is kept in the office; some of the main rules and details of limitations can be seen below</p> 
 
 <h2>Application Forms</h2>
-These forms are available to complete and send to the club as part of your application.<br/>
-Please use this form if you are a Tata Steel Employee:<br/><br/>
-<a class="menu2" href="Documents/2017/Tata SC 2017 Employee Mship Form.doc" target="_blank">Tata Steel Employee Application Form</a><br/><br/>
+<p>These forms are available to complete and send to the club as part of your application.
+</p>
+<p>Please use this form if you are a Tata Steel Employee:</p>
+	<p><a style="text-decoration: none;" href="<?= DOCS_PATH . 'Tata SC 2017 Employee Mship Form.doc'; ?>" target="_blank"><strong>Tata Steel Employee Application Form</strong></a></p>
 
-Please use this form if you are interested in becomng an associate member:<br/><br/>
-<a class="menu2" href="Documents/2017/Tata SC 2017 Assoc Mship Form.doc" target="_blank">Associate Members Application Form</a><br/>
-<hr/>
-<p>You will need to have an Adobe reader installed on your PC to view these files</p>
+<p>Please use this form if you are interested in becomng an associate member:</p>
+	<p><a style="text-decoration: none;" href="<?= DOCS_PATH . 'Tata SC 2017 Assoc Mship Form.doc'; ?>" target="_blank"><strong>Associate Members Application Form</strong></a></p>
 
-<a class="menu2" href="Documents/2017/Tata SC 2017 Employee Mship Form.pdf" target="_blank">Tata Steel Employee Application Form</a><br/><br/>
-<a class="menu2" href="Documents/2017/Tata SC 2017 Assoc Mship Form.pdf" target="_blank">Associate Members Application Form</a> <br/><br/>
+<p>If you prefer to print teh form out and fill it in by hand, we would recommend using the pdf versions of the forms below, You will need to have an Adobe reader installed on your PC to view these files</p>
+	<p><a style="text-decoration: none;" href="<?= DOCS_PATH . 'Tata SC 2017 Employee Mship Form.pdf'; ?>" target="_blank"><strong>Tata Steel Employee Application Form</strong></a></p>
+	<p><a style="text-decoration: none;" href="<?= DOCS_PATH . 'Tata SC 2017 Assoc Mship Form.pdf'; ?>" target="_blank"><strong>Associate Members Application Form</strong></a></p>
 
-Completed membership forms can be sent to the membership secretary through the post or email or you are welcome to come along and meet us at the club.</p>
+<p>Completed membership forms can be sent to the membership secretary through the post or email or you are welcome to come along and meet us at the club.</p>
 
 <p>
 <hr/>
@@ -56,7 +56,7 @@ Completed membership forms can be sent to the membership secretary through the p
 
     <div class="container">
         <h2 class="page-header">Risk Assessment</h2>
-        <p>Please take a few minutes to read our <a style="text-decoration: none;" href="<?= DOCS_PATH . ' Risk_Assessment.pdf'; ?>" target="_blank"><strong>Risk Assessment Document</strong></a></p>
+        <p>Please take a few minutes to read our <a style="text-decoration: none;" href="<?= DOCS_PATH . 'Risk_Assessment.pdf'; ?>" target="_blank"><strong>Risk Assessment Document</strong></a></p>
     </div>
 
     <div class="container">
