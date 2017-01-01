@@ -27,7 +27,7 @@
 <p>Please use this form if you are interested in becomng an associate member:</p>
 	<p><a style="text-decoration: none;" href="<?= DOCS_PATH . 'Tata SC 2017 Assoc Mship Form.doc'; ?>" target="_blank"><strong>Associate Members Application Form</strong></a></p>
 
-<p>If you prefer to print teh form out and fill it in by hand, we would recommend using the pdf versions of the forms below, You will need to have an Adobe reader installed on your PC to view these files</p>
+<p>If you prefer to print the form out and fill it in by hand, we would recommend using the pdf versions of the forms below, You will need to have an Adobe reader installed on your PC to view these files</p>
 	<p><a style="text-decoration: none;" href="<?= DOCS_PATH . 'Tata SC 2017 Employee Mship Form.pdf'; ?>" target="_blank"><strong>Tata Steel Employee Application Form</strong></a></p>
 	<p><a style="text-decoration: none;" href="<?= DOCS_PATH . 'Tata SC 2017 Assoc Mship Form.pdf'; ?>" target="_blank"><strong>Associate Members Application Form</strong></a></p>
 
