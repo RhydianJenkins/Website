@@ -1,8 +1,6 @@
-<img src="Graphics/logo.jpg" width="57" align:"left"; alt="TataLogo"></td><td align="center">
-RYA Approved and Accredited Training Centre
-
-<img src="Graphics/RYA_TC_Logo_Final_small.gif" width="80" align:"left"; alt="RYA Approved"></td></tr></table></
-h4>
+<h1><img src="res/imgs/logo.jpg" width="60" align:"left"; alt="TataLogo"> 
+RYA Approved and Accredited Training Centre 
+<img src="res/imgs/RYA_TC_Logo.gif" width="80" align:"right"; alt="RYA Approved"></h1>
 
 <h3>Tata Steel Sailing Club Margam - Training</h3>
 
@@ -17,9 +15,8 @@ The sail training programmes are suitable for ages 8 to 80+</p>
 You don't have to be able to swim, but it is an aid to confidence on the water</p>
 <p>
 Why not visit the club on a Sunday to gain an understanding of our activities.  Any of our members will be able to direct you to one of our instructors.</p><p>
-Download the appropriate Training application form here: 
-<p align="center"><a class="menu2" href="Documents/Training_membership_form_combined_2016.pdf" target="_blank">Training Application Form</a></p>
-<p align="center"><a class="menu2" href="Documents/Training_membership_form_combined_2016.pdf" target="_blank">Wind Surfing Training Application Form</a></p>
+Download the Training application form here for both sailing and windsurfing training: 
+<p align="center"><a href="res/Docs/Training_form.pdf" target="_blank">Training Application Form</a></p>
 <hr/>
 
 <h3><i>Race Training Course</i></h3>
@@ -62,8 +59,10 @@ We have a fleet of training dinghies to suit youngsters and adults:
 <p style=float:right>
 <img src="res/imgs/AndyPaulGJly.jpg" width="300" align:"left"; alt="Jason and daughter"/></p>
 <p>For picture gallery of training please click this link</p>
-<p align="center"><a href="gallery/Training%20at%20Corus/New/2011TrainingGallery.html"target="_blank">Training at Tata Steel Sailing Club</a><hr/>
-
+<p>                    
+                        <a href="?page=gallery&album=Training" target="blank">Picture gallery
+                    </a>
+     </p>
 <p>All training at the club is provided by its volunteer instructors and assistants.
 </p>
 Thanks also go to Sam Healy, our Welsh Yachting Association (WYA) regional organiser, and to Swansea University Student members who assisted with the Clubs RYA Onboard scheme for local schools, and Neath Port Talbot Council for their grants to support the Onboard scheme.
