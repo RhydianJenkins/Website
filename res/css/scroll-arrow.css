@@ -2,7 +2,7 @@
     position:absolute;
     z-index:1;
     left:50%;
-    bottom:5em;
+    bottom:124px;
     margin-left:-5em;
     background:#111;
     width:10em;
@@ -74,4 +74,11 @@
 .arrow-wrap .arrow {
     -webkit-animation: arrows 2.8s 0.4s;
     -webkit-animation-delay: 3s;
+}
+
+/* MOBILE DEVICE */
+@media only screen and (max-device-width: 480px) {
+    .arrow-wrap {
+        bottom: 1em;
+    }
 }

@@ -116,7 +116,7 @@ body {
 	font-weight: bold;
 	line-height: 90px;
 	margin: 0;
-	color: rgba(16, 16, 16, 1);
+	color: rgb(16, 16, 16);
     text-transform: uppercase;
     letter-spacing: -10px;
 }
@@ -148,4 +148,22 @@ body {
 .thumbnail img {
 	width: 400px !important;
 	height: 300px !important;
+}
+
+
+/* MOBILE DEVICE */
+@media only screen and (max-device-width: 480px) {
+	/* makes the main header text fit on screen */
+	#header-text-wrapper {
+		margin-top: 5em;
+	}
+	/* fixes navbar not switching on mobile devies */
+	.navbar-right .dropdown-menu {
+		right: 0;
+		left: auto;
+	}
+	.navbar-right .dropdown-menu-left {
+		right: auto;
+		left: 0;
+	}
 }
