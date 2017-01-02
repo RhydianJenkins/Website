@@ -152,7 +152,7 @@ body {
 
 
 /* MOBILE DEVICE */
-@media only screen and (max-device-width: 480px) {
+@media only screen and (max-device-width: 667px) {
 	/* makes the main header text fit on screen */
 	#header-text-wrapper {
 		margin-top: 5em;

@@ -77,8 +77,8 @@
 }
 
 /* MOBILE DEVICE */
-@media only screen and (max-device-width: 480px) {
+@media only screen and (max-device-width: 667px) {
     .arrow-wrap {
-        bottom: 1em;
+        bottom: 20px;
     }
 }

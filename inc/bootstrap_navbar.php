@@ -2,7 +2,7 @@
 <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
 	<div class="container">
 		<div class="navbar-header page-scroll">
-			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigationbar">
 				<span class="sr-only">Toggle navigation</span>
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
@@ -12,7 +12,7 @@
 		</div>
 
 		<!-- Collect the nav links, forms, and other content for toggling -->
-		<div class="collapse navbar-collapse navbar-ex1-collapse">
+		<div id="navigationbar" class="collapse navbar-collapse">
 			<ul class="nav navbar-nav">
 				
 				<!-- Hidden li included to remove active class from about link when scrolled up past about section -->
