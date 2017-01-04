@@ -8,7 +8,7 @@ Integrate a weather api (darksky.net, free upto 1000 calls a day)
 	> Sample API endpoint: https://api.darksky.net/forecast/b674a72095f9fc01ca454d46d46b07c8/37.8267,-122.4233
 Don't know what you are taling about
 
-New pages:
+New pages?:
 	> about us - Done
 	> membership (should probably be merged in with training?)
 		- No I think Membership ad training are totaly seperate entities. Not al members have training, and we don't want to infer that you need to have training to be a member
