@@ -24,7 +24,7 @@
         <p>
         Why not visit the club on a Sunday to gain an understanding of our activities.  Any of our members will be able to direct you to one of our instructors.</p><p>
         Download the Training application form here for both sailing and windsurfing training: 
-        <p align="center"><a href="res/Docs/Training_form.pdf" target="_blank">Training Application Form</a></p>
+        <p align="center"><a href="res/docs/Training_form.pdf" target="_blank">Training Application Form</a></p>
         <hr/>
 
         <h3><i>Race Training Course</i></h3>
