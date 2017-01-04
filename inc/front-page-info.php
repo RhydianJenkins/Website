@@ -23,7 +23,7 @@
                 <img class="img-circle info-img" src="<?= IMGS_PATH . 'front-page-racing.jpg'; ?>" />
             </div>
             <p>We have racing all year round at the club, as the resevior is warm enough to sail in without too much discomfort even in the winter months. During the warmer months we have racing three days a week as well as various class and club regattas</p>
-			<p>You will find club racing competative and friendly at the same time in both the General Handicap Fleet as well as the well established Solo Class Fleet</p>
+			<p>You will find club racing competitive and friendly at the same time in both the General Handicap Fleet as well as the well established Solo Class Fleet</p>
         </div>
     </div>
 </div>
