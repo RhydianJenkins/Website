@@ -1,7 +1,8 @@
-<div class="container-fluid" style="padding: 20px;">
-    <div class="row row-eq-height">
+<div class="container-fluid">
 
-        <!-- Select -->
+    <!-- Select -->
+    <section id="select">
+        <h1>Select a result to view</h1>
         <?php
             $years = array_diff(scandir(RESULTS_PATH), array('.', '..'));
             foreach($years as $year) {
@@ -23,8 +24,10 @@
                 <?php endforeach ; ?>
             <?php endforeach ; ?>
         </select>
-        
-        <!-- Table -->
+    </section>
+    
+    <!-- Table -->
+    <section id="table">
         <?php
             $fileFound = false;
             if (!empty($_GET['year']) && file_exists(RESULTS_PATH . $_GET['year'])) {
@@ -43,8 +46,8 @@
                 include(PAGES_PATH . 'sailing_instructions.page.php');
             }
         ?>
+    </section>
 
-    </div>
 </div>
 
 <!-- Add styles to the results -->
