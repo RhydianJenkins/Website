@@ -12,6 +12,8 @@
 <link rel="stylesheet" type="text/css" href="<?php echo STYLES_PATH . "font-awesome.min.css"; ?>" />
 <!-- bootstrap 3.3.7 css -->
 <link rel="stylesheet" type="text/css" href="<?php echo STYLES_PATH . 'bootstrap/bootstrap.min.css' ?>">
+<!-- bootstrap select css -->
+<link rel="stylesheet" type="text/css" href="<?php echo STYLES_PATH . 'bootstrap/bootstrap-select.min.css' ?>">
 <!-- custom css -->
 <link rel="stylesheet" type="text/css" href="<?php echo STYLES_PATH . "custom-main.css"; ?>" />
 <!-- scroll arrow css -->
@@ -20,6 +22,8 @@
 <link rel="stylesheet" type="text/css" href="<?php echo STYLES_PATH . "meet-the-team-style.css"; ?>" />
 <!-- jQuery -->
 <script src="<?php echo JS_PATH . 'jquery.min.js'?>"></script>
+<!-- bootstrap-select -->
+<script src="<?php echo JS_PATH . 'bootstrap-select.min.js'?>"></script>
 </head>
 <body>
 

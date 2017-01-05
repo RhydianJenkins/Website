@@ -1,6 +1,4 @@
 <?php
-// TODO: text wrap not perfect on long file names 
-
 $years = array_diff(scandir(RESULTS_PATH), array('.', '..'));
 foreach($years as $year) {
     $allFiles = scandir(RESULTS_PATH.'/'.$year);
