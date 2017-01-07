@@ -7,7 +7,8 @@
             </div>
             <p>The reservoir is over one mile long by approximately half a mile wide, where cruising can be enjoyed under the safe visibility of the on-duty safety boat crews
 			</p>
-             <p>Tuesday evenings through the Spring and Summer months provide a safe environmnt for casual sailing as well as the opportunity for this to practice their skills in a non-raciing environment.</p>
+             <p>Tuesday evenings through the Spring and Summer months provide a safe environment for casual sailing as well as the opportunity to practice skills in a non-raciing environment.</p>
+			 
         </div>
         <div class="col-md-4 padding-20">
             <h1 class="page-header text-center">Windsurfing</h1>
