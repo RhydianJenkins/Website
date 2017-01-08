@@ -1,34 +1,53 @@
 <div class="container-fluid">
-    <div class="row row-eq-height">
 
-        <!-- Sidebar -->
-        <div class="col-lg-2">
-            <?php include INC_PATH . 'results_sidebar.php'; ?>
-        </div>
+    <!-- Select -->
+    <section id="select">
+        <h1>Select a result to view</h1>
+        <?php
+            $years = array_diff(scandir(RESULTS_PATH), array('.', '..'));
+            foreach($years as $year) {
+                $allFiles = scandir(RESULTS_PATH.'/'.$year);
+                $filteredFiles = array_diff($allFiles, array('.', '..'));
+                $filteredFiles = array_values($filteredFiles);
+                $results[$year] = $filteredFiles;
+            }
 
-        <!-- Table -->
-        <div class="col-lg-10">
-            <?php
-                $fileFound = false;
-                if (!empty($_GET['year']) && file_exists(RESULTS_PATH . $_GET['year'])) {
-                    $results = array_values(array_reverse(array_diff(scandir(RESULTS_PATH . $_GET['year']), array('.', '..')), true));
-                    foreach($results as $result) {
-                        if ($result == $_GET['target']) {
-                            $filteredResultName = ucwords(substr(str_replace('_', ' ', $result), 0, strrpos(str_replace('_', ' ', $result), "."))); // make it look pretty
-                            include(RESULTS_PATH . $_GET['year'] . '/' . $result);
-                            $fileFound = true;
-                        }
+            $results = array_reverse($results, true);
+        ?>
+
+        <select class="selectpicker" data-live-search="true" onchange="location = this.value;">
+            <?php foreach($results as $year => $files) : ?>
+                <optgroup label="<?= $year; ?>">
+                <?php foreach($files as $file) : ?>
+                    <?php $fileName = ucwords(substr(str_replace('_', ' ', $file), 0, strrpos(str_replace('_', ' ', $file), "."))); ?>
+                    <option data-tokens="<?= $year; ?>" value="?page=results&year=<?= $year ?>&target=<?= $file ?>"><?= $fileName; ?></option>
+                <?php endforeach ; ?>
+            <?php endforeach ; ?>
+        </select>
+    </section>
+    
+    <!-- Table -->
+    <section id="table">
+        <?php
+            $fileFound = false;
+            if (!empty($_GET['year']) && file_exists(RESULTS_PATH . $_GET['year'])) {
+                $results = array_values(array_reverse(array_diff(scandir(RESULTS_PATH . $_GET['year']), array('.', '..')), true));
+                foreach($results as $result) {
+                    if ($result == $_GET['target']) {
+                        $filteredResultName = ucwords(substr(str_replace('_', ' ', $result), 0, strrpos(str_replace('_', ' ', $result), "."))); // make it look pretty
+                        include(RESULTS_PATH . $_GET['year'] . '/' . $result);
+                        $fileFound = true;
                     }
                 }
+            }
 
-                // display sailing instructions page if no results found
-                if (!$fileFound) {
-                    include(PAGES_PATH . 'sailing_instructions.page.php');
-                }
-            ?>
-        </div>
+            // display sailing instructions page if no results found
+            if (!$fileFound) {
+                include(PAGES_PATH . 'sailing_instructions.page.php');
+            }
+        ?>
+    </section>
 
-    </div>
 </div>
 
 <!-- Add styles to the results -->

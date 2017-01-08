@@ -155,3 +155,11 @@ body {
 	height: 300px !important;
 }
 
+
+/* RESULTS */
+#select {
+	padding-top: 64px;
+	padding-bottom: 64px;
+	text-align: center;
+	border-bottom: 1px solid;
+}
