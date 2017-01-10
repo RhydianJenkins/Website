@@ -1,15 +1,30 @@
-DAD:
-	> Get me the facebook credentials, or have someone who is admin generate an app key in the developer tools
-	> Those FAQ answers are aweful and you should be ashamed. Please try again and do better - ta. - Feel free if you thin you can do better
-	> Get me a copy of the membership form so I can convert it into one you fill out online - Done
+ANDREW:
+	> Update the health and safety page to include details of membership (found on the membership application forms)
+		- Perhaps rename heathandsafety.page.php to termsandconditions.page.php?
 
-Integrate a weather api (darksky.net, free upto 1000 calls a day)
-	> I have created an account and have an API key
-	> Sample API endpoint: https://api.darksky.net/forecast/b674a72095f9fc01ca454d46d46b07c8/37.8267,-122.4233
-Don't know what you are taling about
+	> Keep results / news up to date
 
-New pages?:
-	> about us - Done
-	> membership (should probably be merged in with training?)
-		- No I think Membership ad training are totaly seperate entities. Not al members have training, and we don't want to infer that you need to have training to be a member
+	> Get opinions on which front page background image people prefer.
 
+	> 
+
+RHYD:
+	> Integrate a weather api (darksky.net, free upto 1000 calls a day)
+		- I have created an account and have an API key
+		- Sample API endpoint: https://api.darksky.net/forecast/b674a72095f9fc01ca454d46d46b07c8/37.8267,-122.4233
+	
+	> Create a HTML membership form on the membership page from the current PDF versions
+
+	> Update FAQ answers once membership form is complete
+
+	> Gallery
+		- Have albums show the album name on the thumbnail picture
+		- Polish UI
+
+	> Back-to-top button on all pages?
+
+	> Mobile devices do not display the front page properly
+
+	> The OOD portal link is not clear enough?
+
+	> Fix the contact us form
