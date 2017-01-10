@@ -16,6 +16,7 @@
         ?>
 
         <select class="selectpicker" data-live-search="true" onchange="location = this.value;">
+            <option value="" selected disabled>Please select</option>
             <?php foreach($results as $year => $files) : ?>
                 <optgroup label="<?= $year; ?>">
                 <?php foreach($files as $file) : ?>
