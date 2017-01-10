@@ -6,7 +6,6 @@ ANDREW:
 
 	> Get opinions on which front page background image people prefer.
 
-	> 
 
 RHYD:
 	> Integrate a weather api (darksky.net, free upto 1000 calls a day)

@@ -1,5 +1,7 @@
-<div class="jumbotron">
-    <h1>Tata Steel Sailing Terms and Conditions</h1>
+<div class="container-fluid">
+    <div class="jumbotron">
+        <h1>Tata Steel Sailing Terms and Conditions</h1>
+    </div>
 </div>
 
 <div class="container">
