@@ -26,7 +26,7 @@
     
         <a class="smoothScroll link-unstyled pointer-hover" data-toggle="collapse" data-parent="#readMore" data-target="#sailingMore" href="#anchor">
             <div class="col-md-3 col-centered vtop rounded grey margin-10 highlight-on-hover training-option-wrapper">
-                <h2 class="page-header text-center">Sailing</h2>
+                <h1 class="page-header text-center">Sailing</h1>
                 <p>
                     These courses are suited for all levels of experience. Whether you are a complete beginner looking to find your sea legs, 
                     or a more experienced sailer looking to touch up your skills, you will find the courses fun and educational.
@@ -37,7 +37,7 @@
     
         <a class="smoothScroll link-unstyled pointer-hover" data-toggle="collapse" data-parent="#readMore" data-target="#racingMore" href="#anchor">
             <div class="col-md-3 col-centered vtop rounded grey margin-10 highlight-on-hover training-option-wrapper">
-                <h2 class="page-header text-center">Racing</h2>
+                <h1 class="page-header text-center">Racing</h1>
                 <p>
                     "Start Racing" courses are held in June and July, and will teach you the neccecary rules you will need to know in order to take part in a sailing race.
                 </p>
@@ -47,7 +47,7 @@
 
         <a class="smoothScroll link-unstyled pointer-hover" data-toggle="collapse" data-parent="#readMore" data-target="#powerboatMore" href="#anchor">
             <div class="col-md-3 col-centered vtop rounded grey margin-10 highlight-on-hover training-option-wrapper">
-                <h2 class="page-header text-center">Powerboat / First Aid</h2>
+                <h1 class="page-header text-center">Powerboat / First Aid</h1>
                 <p>
                     RYA Powerboat / safety boat level 1 and 2 courses are held to ensure our sailing members have the necessary 
                     skills and knowledge to operate the patrol boats competently and safely.
@@ -69,7 +69,7 @@
     <div class="container accordion-group">
         <!-- Sailing -->
         <div class="collapse" style="margin-bottom: 0px;" id="sailingMore">
-            <h2 class="page-header">Sailing</h2>
+            <h1 class="page-header">Sailing</h1>
             <p>
                 A mix of classroom and water based training is practiced during the whole course, 
                 commencing with a safety briefing and getting to know the dinghy. 
@@ -110,17 +110,23 @@
 
         <!-- Racing -->
         <div class="collapse" style="margin-bottom: 0px;" id="racingMore">
-            <h2 class="page-header">Racing</h2>
+            <h1 class="page-header">Racing</h1>
             <p>TODO: What will they learn from these 'Racing' courses</p>
         </div>
 
         <!-- Powerboat / First Aid -->
         <div class="collapse" style="margin-bottom: 0px;" id="powerboatMore">
-            <h2 class="page-header">Powerboat / First Aid</h2>
+            <h1 class="page-header">Powerboat / First Aid</h1>
             <p>TODO: What will they learn from these 'power boat and first aid' courses</p>
             <p>Contact our Training Principal (<a href="mailto:training@tatasteelsailing.org.uk">training@tatasteelsailing.org.uk</a>) about Powerboat and First Aid training.</p>
         </div>
     </div>
+</div>
+
+<!-- Pictures -->
+<div class="container">
+    <h1 class="page-header">Pictures</h1>
+    
 </div>
 
 <!-- Hide collapse tabs when clicking another so only one shows at a time -->
