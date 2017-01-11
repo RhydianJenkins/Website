@@ -18,19 +18,45 @@ body {
     position: static;
 }
 
-/* deprecated */
-/*.bg-img-1 {
-    background-image: url("../imgs/bg_img_1.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: bottom;
-}*/
+/* columns and rows hacks */
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
+}
+.vtop {
+    display: inline-block;
+    vertical-align: top;
+    float: none;
+}
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+.vbottom {
+    display: inline-block;
+    vertical-align: bottom;
+    float: none;
+}
 
 /* GENERIC CLASSES */
 .padding-256 { padding: 256px !important; }
 .padding-128 { padding: 128px !important; }
 .padding-20 { padding: 20px !important; }
+.padding-10 { padding: 10px !important; }
 .padding-0 { padding: 0px !important; }
+.margin-256 { margin: 256px !important; }
+.margin-128 { margin: 128px !important; }
+.margin-20 { margin: 20px !important; }
+.margin-10 { margin: 10px !important; }
+.margin-0 { margin: 0px !important; }
 .pointer-hover { cursor: pointer; }
 .text-black { color: black; }
 .text-white { color: white; }
@@ -42,6 +68,12 @@ body {
 .opacity-0 { opacity: 0 !important; }
 .border-top-3 { border-top: solid 3px; }
 .border-bottom-3 { border-bottom: solid 3px; }
+.faded-bg { background-color: rgba(0, 0, 0, 0.05); }
+.rounded { border-radius: 10px; }
+.grey { background-color: #eee; }
+.link-unstyled { color: inherit; text-decoration: inherit; }
+.link-unstyled:link { color: inherit; text-decoration: inherit; }
+.link-unstyled:hover { color: inherit; text-decoration: inherit; }
 
 /* FORUM */
 .forum.table > tbody > tr > td {
@@ -162,4 +194,44 @@ body {
 	padding-bottom: 64px;
 	text-align: center;
 	border-bottom: 1px solid;
+}
+
+/* TRAINING */
+.highlight-on-hover:hover {
+    webkit-transform: scale(1.1); /* Safari and Chrome */
+    -moz-transform: scale(1.1); /* Firefox */
+    -ms-transform: scale(1.1); /* IE 9 */
+    -o-transform: scale(1.1); /* Opera */
+    transform: scale(1.1);
+    transition-duration: 0.3s;
+    -moz-box-shadow: 5px 5px 5px #999;
+    -webkit-box-shadow: 5px 5px 5px #999;
+    box-shadow: 5px 5px 5px #999;
+}
+
+.bottom-arrow-container {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 30px;
+}
+
+.training-option-wrapper {
+    min-height: 400px;
+    border: 1px solid rgb(50, 60, 70);
+}
+
+.training-option-wrapper:hover #arrow {
+    webkit-transform: scale(2); /* Safari and Chrome */
+    -moz-transform: scale(2); /* Firefox */
+    -ms-transform: scale(2); /* IE 9 */
+    -o-transform: scale(2); /* Opera */
+    transform: scale(2);
+    transition-duration: 0.3s;
+}
+
+/* So that auto scrolling works */
+#readMore {
+    min-height: 800px;
 }

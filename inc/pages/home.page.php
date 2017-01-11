@@ -42,6 +42,3 @@
 <div class="border-top-3" style="background-color: rgb(255, 255, 255); min-height: 400px;">
 	<?php include INC_PATH . 'facebook.php'; ?>
 </div>
-
-<!-- Smooth scrolling -->
-<script src="<?= JS_PATH . 'smoothscroll.js'; ?>"></script>
