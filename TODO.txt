@@ -5,7 +5,8 @@ ANDREW:
 	> Keep results / news up to date
 
 	> Get opinions on which front page background image people prefer.
-
+	
+	> Add more to the 'read more' sections on the training page. Say the same kind of thing for the powerboat and racing training as whats said for the sailing training. 
 
 RHYD:
 	> Integrate a weather api (darksky.net, free upto 1000 calls a day)
