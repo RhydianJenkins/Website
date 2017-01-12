@@ -22,7 +22,7 @@
 
     <p>Completed membership forms can be sent to the membership secretary (<a href="mailto:membership@tatasteelsailing.org.uk">membership@tatasteelsailing.org.uk</a>) or you are welcome to come along and meet us at the club.</p>
     
-    <h3><strong>Please note: by becoming a member at Tata Steel Sailing you understand and accept the <a href="?page=healthandsafety" target="_blank">Terms and Conditions</a></strong></h3>
+    <h3><strong>Please note: by becoming a member at Tata Steel Sailing you understand and accept the <a href="?page=termsandconditions" target="_blank">Terms and Conditions</a></strong></h3>
 
 </div>
 
