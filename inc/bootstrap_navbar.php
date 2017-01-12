@@ -1,6 +1,6 @@
 <!-- Navigation -->
 <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-	<div class="container-fluid">
+	<div class="container-fluid" style="padding-right: 0;">
 		<div class="navbar-header page-scroll">
 			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigationbar">
 				<span class="sr-only">Toggle navigation</span>
