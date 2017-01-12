@@ -15,7 +15,7 @@
         The club is recognised by the Royal Yachting Association (RYA) as an approved training centre offering dinghy sailing, powerboat, safety boat, and 1st aid courses.
         Our instructors hold the appropriate RYA qualifications.
         Training and <a href="?page=membership" target="_blank">membership</a> of the club is open to almost anyone.
-        You do not need to be employed by Tata Steel, however, you will need to join the club first before starting a training course.
+        You <strong>do not</strong> need to be employed by Tata Steel, however, you will need to join the club first before starting a training course.
         Why not visit the club on a Sunday to gain an understanding of our activities. Any of our members will be able to direct you to one of our instructors.
     </p>
 </div>
@@ -111,14 +111,15 @@
         <!-- Racing -->
         <div class="collapse" style="margin-bottom: 0px;" id="racingMore">
             <h1 class="page-header">Racing</h1>
-            <p>TODO: What will they learn from these 'Racing' courses</p>
+            <p>These courses will teach you what you need to know to compete in a sailboat race, and will cover all the rules that a racer will need to know.</p>
+            <p>Upon completion, you will be confident and compitent at taking part in racing on the water.</p>
+            <p>Contact our Training Principal (<a href="mailto:training@tatasteelsailing.org.uk">training@tatasteelsailing.org.uk</a>) about Racing courses to find out more.</p>
         </div>
 
         <!-- Powerboat / First Aid -->
         <div class="collapse" style="margin-bottom: 0px;" id="powerboatMore">
             <h1 class="page-header">Powerboat / First Aid</h1>
-            <p>TODO: What will they learn from these 'power boat and first aid' courses</p>
-            <p>Contact our Training Principal (<a href="mailto:training@tatasteelsailing.org.uk">training@tatasteelsailing.org.uk</a>) about Powerboat and First Aid training.</p>
+            <p>Contact our Training Principal (<a href="mailto:training@tatasteelsailing.org.uk">training@tatasteelsailing.org.uk</a>) about Powerboat and First Aid training ti find out more.</p>
         </div>
     </div>
 </div>
