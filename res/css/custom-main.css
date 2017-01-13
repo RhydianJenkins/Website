@@ -74,6 +74,25 @@ body {
 .link-unstyled { color: inherit; text-decoration: inherit; }
 .link-unstyled:link { color: inherit; text-decoration: inherit; }
 .link-unstyled:hover { color: inherit; text-decoration: inherit; }
+.position-relative { position: relative; }
+.front { z-index: 9999 !important; }
+.back { z-index: -9999 !important; }
+
+.top-text {
+    position: absolute;
+    top: -60px;
+    line-height: 100px;
+    padding: 10px;
+    padding-left: 1em;
+    text-align: center;
+    z-index: 100;
+    margin: 0;
+    font-size: 90px;
+    background-color: rgba(250, 250, 250, 1);
+    border: 1px solid rgb(50, 60, 70);
+    border-left: none;
+    border-radius: 0px 20px 20px 0px;
+}
 
 /* FORUM */
 .forum.table > tbody > tr > td {
