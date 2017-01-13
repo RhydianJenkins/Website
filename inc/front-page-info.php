@@ -1,6 +1,6 @@
 <div class="container padding-20">
     <div class="row">
-        <div class="col-md-4 padding-20">
+        <div class="col-md-4 padding-20 sr2">
             <h1 class="page-header text-center">Sailing</h1>
             <div class="text-center">
                 <img class="img-circle info-img" src="<?= IMGS_PATH . 'front-page-sailing.jpg'; ?>" />
@@ -10,7 +10,7 @@
              <p>Tuesday evenings through the Spring and Summer months provide a safe environment for casual sailing as well as the opportunity to practice skills in a non-raciing environment.</p>
 			 
         </div>
-        <div class="col-md-4 padding-20">
+        <div class="col-md-4 padding-20 sr2">
             <h1 class="page-header text-center">Windsurfing</h1>
             <div class="text-center">
                 <img class="img-circle info-img" src="<?= IMGS_PATH . 'front-page-windsurfing.jpg'; ?>" />
@@ -18,7 +18,7 @@
             <p>Whatever your ability, the Lake is ideal for windsurfing in most wind directions, with a spacious grassy area for rigging, and an easy launching area.</p>
             <p>You don’t have to worry about tides and you can enjoy the luxury of hot showers, hot drinks and the chance to have a chat with other members.</p>
         </div>
-        <div class="col-md-4 padding-20">
+        <div class="col-md-4 padding-20 sr2">
             <h1 class="page-header text-center">Racing</h1>
             <div class="text-center">
                 <img class="img-circle info-img" src="<?= IMGS_PATH . 'front-page-racing.jpg'; ?>" />

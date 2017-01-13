@@ -2,7 +2,7 @@
 <div id="fullImageBackground"></div>
 
 <!-- Welcome Header -->
-<div id="welcome-div" class="w3-animate-opacity container-fluid text-center padding-0">
+<div id="welcome-div" class="container-fluid text-center padding-0 sr1">
     <div id="header-text-wrapper">
         <h1 id="main-header">Tata Steel Sailing Club</h1>
         <p id="second-header">Margam</p>
