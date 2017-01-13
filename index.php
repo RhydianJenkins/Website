@@ -42,5 +42,14 @@
 <!-- Smooth scrolling -->
 <script src="<?= JS_PATH . 'smoothscroll.js'; ?>"></script>
 
+<!-- Carousel -->
+<script>
+    $(document).ready(function(){
+        $('.carousel').carousel({
+            interval: 3000
+        })
+    });
+</script>
+
 </body>
 </html>
