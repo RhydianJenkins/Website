@@ -14,7 +14,7 @@
 				<div class="col-md-1">
 				</div>
 				
-				<div class="col-md-2">
+				<div class="col-md-2 sr1">
 					<a href="mailto:commodore@tatasteelsailing.org.uk" class="member-profile">
 						<div class="unhover_img">
 						<img src="<?php echo IMGS_PATH; ?>facebank/JonBennett.jpg" alt="" />
@@ -27,7 +27,7 @@
 					</a>
 				</div>
 				
-				<div class="col-md-2">
+				<div class="col-md-2 sr1">
 					<a href="mailto:vice-commodore@tatasteelsailing.org.uk" class="member-profile">
 						<div class="unhover_img">
 						<img src="<?php echo IMGS_PATH; ?>facebank/OscarChess.jpg" alt="" />
@@ -40,7 +40,7 @@
 						</a>
 				</div>
 				
-				<div class="col-md-2">
+				<div class="col-md-2 sr1">
 					<a href="mailto:rear-commodore@tatasteelsailing.org.uk" class="member-profile">
 						<div class="unhover_img">
 						<img src="<?php echo IMGS_PATH; ?>facebank/PaulGovier.jpg" alt="" />
@@ -53,7 +53,7 @@
 						</a>
 				</div>
 			
-				<div class="col-md-2">
+				<div class="col-md-2 sr1">
 					<a href="mailto:secretary@tatasteelsailing.org.uk" class="member-profile">
 						<div class="unhover_img">
 						<img src="<?php echo IMGS_PATH; ?>facebank/DaveWilliams.jpg" alt="" />
@@ -66,7 +66,7 @@
 						</a>
 				</div>
 								
-				<div class="col-md-2">
+				<div class="col-md-2 sr1">
 					<a href="mailto:treasurer@tatasteelsailing.org.uk" class="member-profile">
 						<div class="unhover_img">
 						<img src="<?php echo IMGS_PATH; ?>facebank/NickKing.jpg" alt="" />	
@@ -91,7 +91,7 @@
 			
 			<h3 class="page-header">Management Committee</h3>
 			
-				<div class="col-md-3">
+				<div class="col-md-3 sr1">
 					<a href="mailto:training@tatasteelsailing.org.uk" class="member-profile">
 						<div class="unhover_img">
 						<img src="<?php echo IMGS_PATH; ?>facebank/JeremyMartin.jpg" alt="" />
@@ -104,7 +104,7 @@
 					</a>
 				</div>
 				
-				<div class="col-md-3">
+				<div class="col-md-3 sr1">
 					<a href="#" class="member-profile">
 						<div class="unhover_img">
 						<img src="<?php echo IMGS_PATH; ?>facebank/PaulBambridge.jpg" alt="" />
@@ -117,7 +117,7 @@
 					</a>
 				</div>
 				
-				<div class="col-md-3">
+				<div class="col-md-3 sr1">
 					<a href="mailto:welfare@tatasteelsailing.org.uk" class="member-profile">
 						<div class="unhover_img">
 						<img src="<?php echo IMGS_PATH; ?>facebank/RuthEvans.jpg" alt="" />
@@ -130,7 +130,7 @@
 					</a>
 				</div>
 				
-				<div class="col-md-3">
+				<div class="col-md-3 sr1">
 					<a href="mailto:windsurfing@tatasteelsailing.org.uk" class="member-profile">
 						<div class="unhover_img">
 						<img src="<?php echo IMGS_PATH; ?>facebank/AlanBreeze.jpg" alt="" />
@@ -146,7 +146,7 @@
 
 			<div class="row">
 
-				<div class="col-md-3">
+				<div class="col-md-3 sr1">
 					<a href="mailto:windsurfing@tatasteelsailing.org.uk" class="member-profile">
 						<div class="unhover_img">
 						<img src="<?php echo IMGS_PATH; ?>facebank/WillEmbury.jpg" alt="" />
@@ -159,7 +159,7 @@
 					</a>
 				</div>
 				
-				<div class="col-md-3">
+				<div class="col-md-3 sr1">
 					<a href="mailto:webmaster@tatasteelsailing.org.uk" class="member-profile">
 						<div class="unhover_img">
 						<img src="<?php echo IMGS_PATH; ?>facebank/AndrewJenkins.jpg" alt="" />
@@ -172,7 +172,7 @@
 					</a>
 				</div>
 				
-				<div class="col-md-3">
+				<div class="col-md-3 sr1">
 					<a href="#" class="member-profile">
 						<div class="unhover_img">
 						<img src="<?php echo IMGS_PATH; ?>facebank/unknown.jpg" alt="" />
@@ -185,7 +185,7 @@
 					</a>
 				</div>
 					
-				<div class="col-md-3">
+				<div class="col-md-3 sr1">
 					<a href="#" class="member-profile">
 						<div class="unhover_img">
 						<img src="<?php echo IMGS_PATH; ?>facebank/BobTaylor.jpg" alt="" />
@@ -202,7 +202,7 @@
 				
 			<h3 class="page-header">Non-committee roles and other activities</h3>
 			
-				<div class="col-md-4">
+				<div class="col-md-4 sr1">
 					<a href="mailto:membership@tatasteelsailing.org.uk" class="member-profile">
 						<div class="unhover_img">
 						<img src="<?php echo IMGS_PATH; ?>facebank/unknown.jpg" alt="" />
@@ -215,7 +215,7 @@
 					</a>
 				</div>
 				
-				<div class="col-md-4">
+				<div class="col-md-4 sr1">
 					<a href="mailto:compound@tatasteelsailing.org.uk" class="member-profile">
 						<div class="unhover_img">
 						<img src="<?php echo IMGS_PATH; ?>facebank/unknown.jpg" alt="" />
@@ -228,7 +228,7 @@
 					</a>
 				</div>
 						
-				<div class="col-md-4">
+				<div class="col-md-4 sr1">
 					<a href="#" class="member-profile">
 						<div class="unhover_img">
 						<img src="<?php echo IMGS_PATH; ?>facebank/KenWilfort.jpg" alt="" />
