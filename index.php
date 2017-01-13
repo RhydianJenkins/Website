@@ -35,13 +35,13 @@
 <?php include INC_PATH . 'footer.php'; ?>
 
 <!-- Bootstrap Core JavaScript -->
-<script src="<?php echo JS_PATH . 'bootstrap.min.js' ?>"></script>
+<script src="<?php echo JS_PATH . 'bootstrap.min.js'; ?>"></script>
 
 <!-- Smooth scrolling -->
 <script src="<?= JS_PATH . 'smoothscroll.js'; ?>"></script>
 
 <!-- Fade in elements with scrollreveal https://github.com/jlmakes/scrollreveal -->
-<script src="https://unpkg.com/scrollreveal@3.3.2/dist/scrollreveal.min.js"></script>
+<script src="<?php echo JS_PATH . 'scrollreveal.min.js'; ?>"></script>
 <script>
     window.sr = ScrollReveal();
 	sr.reveal('.sr1');
