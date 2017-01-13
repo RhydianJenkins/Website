@@ -25,6 +25,4 @@ RHYD:
 
 	> Mobile devices do not display the front page properly
 
-	> The OOD portal link is not clear enough?
-
 	> Fix the contact us form
