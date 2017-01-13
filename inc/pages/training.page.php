@@ -119,7 +119,7 @@
         <!-- Powerboat / First Aid -->
         <div class="collapse" style="margin-bottom: 0px;" id="powerboatMore">
             <h1 class="page-header">Powerboat / First Aid</h1>
-            <p>Contact our Training Principal (<a href="mailto:training@tatasteelsailing.org.uk">training@tatasteelsailing.org.uk</a>) about Powerboat and First Aid training ti find out more.</p>
+            <p>Contact our Training Principal (<a href="mailto:training@tatasteelsailing.org.uk">training@tatasteelsailing.org.uk</a>) about Powerboat and First Aid training to find out more.</p>
         </div>
     </div>
 </div>
