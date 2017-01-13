@@ -49,7 +49,7 @@
             </div>
             <div id="collapseFour" class="panel-collapse collapse">
                 <div class="panel-body">
-                    Membership fees vary depending on your circumstances. Download the application form, it details the various offers. The Membership Secretary can help you chhose the best option for you if you need help
+                    Membership fees vary depending on your circumstances. Download the application form, it details the various offers. The Membership Secretary can help you choose the best option for you if you need help
                 </div>
             </div>
         </div>
