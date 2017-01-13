@@ -66,8 +66,8 @@ body {
 .theme-color-1 { color: #4593e3; }
 .margin-0-auto { margin: 0 auto !important; }
 .opacity-0 { opacity: 0 !important; }
-.border-top-3 { border-top: solid 3px; }
-.border-bottom-3 { border-bottom: solid 3px; }
+.border-top-3 { border-top: solid 3px rgb(50, 60, 70); }
+.border-bottom-3 { border-bottom: solid 3px rgb(50, 60, 70); }
 .faded-bg { background-color: rgba(0, 0, 0, 0.05); }
 .rounded { border-radius: 10px; }
 .grey { background-color: #eee; }
@@ -88,7 +88,7 @@ body {
     margin: 0;
     font-size: 90px;
     background-color: rgb(255, 255, 255);
-    border: 1px solid rgb(50, 60, 70);
+    border: 3px solid rgb(50, 60, 70);
     border-left: none;
     border-radius: 0px 20px 20px 0px;
 }

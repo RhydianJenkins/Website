@@ -6,9 +6,11 @@
 
 <div class="container">
     <div style="text-align: center;">
-        <h1><img src="<?= IMGS_PATH . 'logo.jpg'; ?>" width="60" align:"left"; alt="TataLogo"> 
-        RYA Approved and Accredited Training Centre 
-        <img src="<?= IMGS_PATH . 'RYA_TC_Logo.gif'; ?>" width="80" align:"right"; alt="RYA Approved"></h1>
+        <h1>
+            <img src="<?= IMGS_PATH . 'logo.jpg'; ?>" width="60" align:"left"; alt="TataLogo">
+            RYA Approved and Accredited Training Centre
+            <img src="<?= IMGS_PATH . 'RYA_TC_Logo.gif'; ?>" width="80" align:"right"; alt="RYA Approved">
+        </h1>
     </div>
 
     <p class="margin-10">
