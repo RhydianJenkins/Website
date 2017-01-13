@@ -24,7 +24,7 @@
  
     <div class="row row-centered">
     
-        <a class="smoothScroll link-unstyled pointer-hover" data-toggle="collapse" data-parent="#readMore" data-target="#sailingMore" href="#anchor">
+        <a class="smoothScroll link-unstyled pointer-hover sr2" data-toggle="collapse" data-parent="#readMore" data-target="#sailingMore" href="#anchor">
             <div class="col-md-3 col-centered vtop rounded grey margin-10 highlight-on-hover training-option-wrapper front">
                 <h1 class="page-header text-center">Sailing</h1>
                 <p>
@@ -35,7 +35,7 @@
             </div>
         </a>
     
-        <a class="smoothScroll link-unstyled pointer-hover" data-toggle="collapse" data-parent="#readMore" data-target="#racingMore" href="#anchor">
+        <a class="smoothScroll link-unstyled pointer-hover sr2" data-toggle="collapse" data-parent="#readMore" data-target="#racingMore" href="#anchor">
             <div class="col-md-3 col-centered vtop rounded grey margin-10 highlight-on-hover training-option-wrapper front">
                 <h1 class="page-header text-center">Racing</h1>
                 <p>
@@ -45,7 +45,7 @@
             </div>
         </a>
 
-        <a class="smoothScroll link-unstyled pointer-hover" data-toggle="collapse" data-parent="#readMore" data-target="#powerboatMore" href="#anchor">
+        <a class="smoothScroll link-unstyled pointer-hover sr2" data-toggle="collapse" data-parent="#readMore" data-target="#powerboatMore" href="#anchor">
             <div class="col-md-3 col-centered vtop rounded grey margin-10 highlight-on-hover training-option-wrapper front">
                 <h1 class="page-header text-center">Powerboat / First Aid</h1>
                 <p>
