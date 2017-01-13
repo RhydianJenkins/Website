@@ -1,4 +1,4 @@
-<div class="container padding-20">
+<div class="container padding-20 sr1">
     <div class="panel-group" id="faq">
         <h1 class="page-header text-white">Frequently Asked Questions</h1>
         
