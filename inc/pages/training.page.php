@@ -25,7 +25,7 @@
     <div class="row row-centered">
     
         <a class="smoothScroll link-unstyled pointer-hover sr2" data-toggle="collapse" data-parent="#readMore" data-target="#sailingMore" href="#anchor">
-            <div class="col-md-3 col-centered vtop rounded grey margin-10 highlight-on-hover training-option-wrapper front">
+            <div class="col-md-3 col-centered vtop rounded margin-10 highlight-on-hover shadow training-option-wrapper front">
                 <h1 class="page-header text-center">Sailing</h1>
                 <p>
                     These courses are suited for all levels of experience. Whether you are a complete beginner looking to find your sea legs, 
@@ -36,7 +36,7 @@
         </a>
     
         <a class="smoothScroll link-unstyled pointer-hover sr2" data-toggle="collapse" data-parent="#readMore" data-target="#racingMore" href="#anchor">
-            <div class="col-md-3 col-centered vtop rounded grey margin-10 highlight-on-hover training-option-wrapper front">
+            <div class="col-md-3 col-centered vtop rounded margin-10 highlight-on-hover shadow training-option-wrapper front">
                 <h1 class="page-header text-center">Racing</h1>
                 <p>
                     "Start Racing" courses are held in June and July, and will teach you the neccecary rules you will need to know in order to take part in a sailing race.
@@ -46,7 +46,7 @@
         </a>
 
         <a class="smoothScroll link-unstyled pointer-hover sr2" data-toggle="collapse" data-parent="#readMore" data-target="#powerboatMore" href="#anchor">
-            <div class="col-md-3 col-centered vtop rounded grey margin-10 highlight-on-hover training-option-wrapper front">
+            <div class="col-md-3 col-centered vtop rounded margin-10 highlight-on-hover shadow training-option-wrapper front">
                 <h1 class="page-header text-center">Powerboat / First Aid</h1>
                 <p>
                     RYA Powerboat / safety boat level 1 and 2 courses are held to ensure our sailing members have the necessary 
@@ -127,7 +127,7 @@
 <!-- Carousel -->
 <div class="container-fluid border-top-3" style="height: 800px; padding-left: 0; padding-right: 0; margin-top: 70px;">
     <div class="position-relative">
-        <h1 class="top-text">Gallery</h1>
+        <h1 class="top-text shadow">Gallery</h1>
     </div>
     <?php
         $carouselImages = scandir(IMGS_PATH . 'gallery/Training');
