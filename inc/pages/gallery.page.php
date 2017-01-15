@@ -44,6 +44,7 @@ album names cannot have spaces?
                 <div class="col-lg-3 col-md-4 col-xs-6 thumb pointer-hover padding-0 sr2">
                     <a class="thumbnail" href="?page=gallery&album=<?= $albumName; ?>">
                         <img class="img-responsive center-block" src="<?= GALLERY_PATH . $albumName . '/' . $albumCover; ?>">
+                        <p class="text-center padding-10 margin-0"><?= $albumName; ?></p>
                     </a>
                 </div>
             <?php endforeach ; ?>
