@@ -2,8 +2,6 @@
 
 TODO:
 
-Back button
-
 Make the album name after 'Galley' pretty
 
 Order the albums somehow
@@ -33,7 +31,12 @@ album names cannot have spaces?
     <div class="row">
 
         <div class="col-lg-12">
-            <h1 class="page-header"><a style="color: rgb(51, 51, 51);" href="?page=gallery">Gallery</a><?= $albumFound ? ' > ' . $_GET['album'] : '' ; ?></h1>
+            <h1 class="page-header">
+                <a style="color: rgb(50, 60, 70);" href="?page=gallery">
+                    Gallery
+                </a> 
+                <?= $albumFound ? ' / ' . $_GET['album'] : '' ; ?>
+            </h1>
         </div>
         
         <?php if (!$albumFound) : ?>
