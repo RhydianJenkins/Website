@@ -1,15 +1,3 @@
-<!--
-
-TODO:
-
-Make the album name after 'Galley' pretty
-
-Order the albums somehow
-
-album names cannot have spaces?
-
--->
-
 <?php
     $albumFound = false;
     $albums = array_filter(scandir(GALLERY_PATH), function($item) {
