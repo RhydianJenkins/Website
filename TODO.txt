@@ -17,12 +17,10 @@ RHYD:
 
 	> Update FAQ answers once membership form is complete
 
-	> Gallery
-		- Have albums show the album name on the thumbnail picture
-		- Polish UI
+	> Order albums somehow on gallery page
 
-	> Back-to-top button on all pages?
+	> Back-to-top button in footer
 
-	> Mobile devices do not display the front page properly
+	> Mobile devices do not display the front page header properly
 
 	> Fix the contact us form
