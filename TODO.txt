@@ -24,3 +24,5 @@ RHYD:
 	> Mobile devices do not display the front page header properly
 
 	> Fix the contact us form
+
+	> Carousel images crop faces off on certain screens and certain image sized
