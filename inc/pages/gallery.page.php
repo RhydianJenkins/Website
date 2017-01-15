@@ -28,20 +28,22 @@ album names cannot have spaces?
 ?>
 
 <div class="container">
-    <div class="row">
+    <div class="col-lg-12">
+        <h1 class="page-header">
+            <a style="color: rgb(50, 60, 70);" href="?page=gallery">
+                <span id="back-arrow" class="fa fa-arrow-left hidden" style="margin-left: -40px; position: absolute;"></span>
+                Albums</a>
+            <?= $albumFound ? '/ ' . $_GET['album'] : '' ; ?>
+        </h1>
+    </div>
+</div>
 
-        <div class="col-lg-12">
-            <h1 class="page-header">
-                <a style="color: rgb(50, 60, 70);" href="?page=gallery">
-                    Gallery
-                </a> 
-                <?= $albumFound ? ' / ' . $_GET['album'] : '' ; ?>
-            </h1>
-        </div>
+<div class="container-fluid" style="margin-left: 10px; margin-right: 10px;">
+    <div class="row">
         
         <?php if (!$albumFound) : ?>
             <?php foreach($albumsArray as $albumName => $albumCover) : ?>
-                <div class="col-lg-3 col-md-4 col-xs-6 thumb pointer-hover padding-0 sr2">
+                <div class="col-lg-2 col-md-3 col-sm-6 col-xs-12 thumb pointer-hover padding-0 sr2">
                     <a class="thumbnail" href="?page=gallery&album=<?= $albumName; ?>">
                         <img class="img-responsive center-block" src="<?= GALLERY_PATH . $albumName . '/' . $albumCover; ?>">
                         <p class="text-center padding-10 margin-0"><?= $albumName; ?></p>
@@ -50,7 +52,7 @@ album names cannot have spaces?
             <?php endforeach ; ?>
         <?php else : ?>
             <?php foreach($images as $image) : ?>
-                <div class="col-lg-3 col-md-4 col-xs-6 thumb pointer-hover padding-0 sr2">
+                <div class="col-lg-2 col-md-3 col-sm-6 col-xs-12 thumb pointer-hover padding-0 sr2">
                     <a class="thumbnail">
                         <img class="img-responsive center-block" src="<?= GALLERY_PATH . $_GET['album'] . '/' . $image; ?>" data-toggle="modal" data-target="#myModal" alt="">
                     </a>
@@ -78,9 +80,16 @@ album names cannot have spaces?
 
 <script>
 $(document).ready(function () {
-        $('#myModal').on('show.bs.modal', function (e) {
-            var image = $(e.relatedTarget).attr('src');
-            $("#large-image").attr("src", image);
-        });
+    $('#myModal').on('show.bs.modal', function (e) {
+        var image = $(e.relatedTarget).attr('src');
+        $("#large-image").attr("src", image);
+    });
 });
 </script>
+
+<?php if ($albumFound) : ?>
+    <!-- show back arrow -->
+    <script>
+        $('#back-arrow').addClass('sr1').removeClass('hidden');
+    </script>
+<?php endif ; ?>

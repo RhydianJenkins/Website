@@ -78,6 +78,7 @@ body {
 .position-relative { position: relative; }
 .front { z-index: 9999 !important; }
 .back { z-index: -9999 !important; }
+.hidden { display: none; }
 .top-text {
     position: absolute;
     top: -60px;
