@@ -62,13 +62,15 @@ album names cannot have spaces?
 </div>
 
 <div id="myModal" class="modal fade" role="dialog">
-    <div class="modal-dialog modal-lg">
-        <div class="modal-content">
-            <div class="modal-body">
-                <img id="large-image" class="showimage img-responsive center-block" style="width: 100%; height: 100%; max-height: 800px;" src="" />
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+    <div class="vertical-alignment-helper">
+        <div class="modal-dialog modal-lg vertical-align-center">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <img id="large-image" class="showimage img-responsive center-block" style="width: 100%; height: 100%; max-height: 800px;" src="" />
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close <span class="fa fa-times"></span></button>
+                </div>
             </div>
         </div>
     </div>
