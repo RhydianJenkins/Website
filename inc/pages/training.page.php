@@ -92,7 +92,7 @@
                     <li>Rigging and boat preparation for sailing</li>
                     <li>Sailing and tacking</li>
                     <li>Sailing terminology</li>
-                    <li>The 5 essentials - boat and sail handlin</li>
+                    <li>The 5 essentials - boat and sail handling</li>
                     <li>Sailing the triangular course</li>
                     <li>Basic rules of sailing</li>
                     <li>Coming alongside / pick up a mooring</li>
