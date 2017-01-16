@@ -29,7 +29,7 @@ spl_autoload_register(function ($class) {
     if (file_exists($file)) { require $file; }
 });
 
-// routing
+// page routing
 $allPages = array_filter(scandir(PAGES_PATH), function($item) {
     return $item[0] !== '.';
 });
@@ -40,4 +40,15 @@ if (!empty($_GET['page']) && in_array($_GET['page'], $allPages)) {
     $page = $_GET['page'];
 } else {
     $page = 'home';
+}
+
+// css
+$allCss = glob(STYLES_PATH . '*.page.css', GLOB_BRACE);
+foreach($allCss as $key => $css) {
+    $allCss[$key] = substr(basename($css), 0, strpos(basename($css), '.'));
+}
+if (!empty($_GET['page']) && in_array($_GET['page'], $allCss)) {
+    $css = $_GET['page'];
+} else {
+    $css = 'home';
 }
