@@ -1,7 +1,7 @@
 <hr class="margin-0" />
 
-<footer style="background-color: rgba(0, 0, 0, 0.6)">
-    <div class="row row-centered padding-20 text-white">
+<footer style="background-color: rgba(0, 0, 0, 0.6);">
+    <div class="row row-centered text-white margin-0 padding-20">
         <div class="col-lg-3 col-md-3 col-sm-3 vcenter">
             <img class="img-circle footer-img" src="<?= IMGS_PATH . 'logo.jpg'; ?>" alt="Club logo">
         </div>
