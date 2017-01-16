@@ -27,11 +27,11 @@
 </div>
 
 <div class="container-fluid" style="margin-left: 10px; margin-right: 10px;">
-    <div class="row">
+    <div class="row row-centered">
         
         <?php if (!$albumFound) : ?>
             <?php foreach($albumsArray as $albumName => $albumCover) : ?>
-                <div class="col-lg-2 col-md-3 col-sm-6 col-xs-12 thumb pointer-hover padding-0 sr2">
+                <div class="col-lg-2 col-md-3 col-sm-6 col-xs-12 col-centered thumb pointer-hover padding-0 sr2">
                     <a class="thumbnail" href="?page=gallery&album=<?= $albumName; ?>">
                         <img class="img-responsive center-block" src="<?= GALLERY_PATH . $albumName . '/' . $albumCover; ?>">
                         <p class="text-center padding-10 margin-0" style="white-space: nowrap;"><?= $albumName; ?></p>
@@ -40,7 +40,7 @@
             <?php endforeach ; ?>
         <?php else : ?>
             <?php foreach($images as $image) : ?>
-                <div class="col-lg-2 col-md-3 col-sm-6 col-xs-12 thumb pointer-hover padding-0 sr2">
+                <div class="col-lg-2 col-md-3 col-sm-6 col-xs-12 col-centered thumb pointer-hover padding-0 sr2">
                     <a class="thumbnail">
                         <img class="img-responsive center-block" src="<?= GALLERY_PATH . $_GET['album'] . '/' . $image; ?>" data-toggle="modal" data-target="#myModal" alt="">
                     </a>
