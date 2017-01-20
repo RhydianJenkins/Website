@@ -12,12 +12,12 @@
 <link rel="stylesheet" type="text/css" href="<?php echo STYLES_PATH . 'bootstrap/bootstrap.min.css' ?>">
 <!-- bootstrap select css -->
 <link rel="stylesheet" type="text/css" href="<?php echo STYLES_PATH . 'bootstrap/bootstrap-select.min.css' ?>">
-<!-- custom css -->
-<link rel="stylesheet" type="text/css" href="<?php echo STYLES_PATH . "custom-main.css"; ?>" />
-<!-- scroll arrow css -->
-<link rel="stylesheet" type="text/css" href="<?php echo STYLES_PATH . "scroll-arrow.css"; ?>" />
-<!-- meet the team css -->
-<link rel="stylesheet" type="text/css" href="<?php echo STYLES_PATH . "meet-the-team-style.css"; ?>" />
+<!-- global css -->
+<link rel="stylesheet" type="text/css" href="<?php echo STYLES_PATH . "global.css"; ?>" />
+<?php if (!empty($css)) : ?>
+<!-- page css -->
+<link rel="stylesheet" type="text/css" href="<?php echo STYLES_PATH . $css . '.page.css'; ?>" />
+<?php endif ; ?>
 <!-- jQuery -->
 <script src="<?php echo JS_PATH . 'jquery.min.js'?>"></script>
 <!-- bootstrap-select -->
