@@ -45,7 +45,9 @@
 	<p>In 1957 the Porthcawl and Kenfig sailing club was founded using Kenfig pool, now part of Kenfig nature reserve, as a base. During  the 1966 season it became clear to the members that the British Steel sailing club provided a size and facilities which would much better suite the development of sailing. Porthcawl and Kenfig sailing club was disbanded and its members joined the British steel sailing club.
 	<p>As a result of this &quot;merger&quot; there followed a period of close association between Porthcawl and British Steel sailing club which can        be seen from the clubs trophy cabinet.
 		<blockquote> <ul> <li>The Offshore Challenge Shield - originally presented to the club by Porthcawl Town Council. Councilor David Howell-Jones was chair of Porthcawl Town council and was instrumental in providing sponsorship. The offshore race was originally held off Porthcawl and is now awarded to the winning Corus club member at the Llanstephan Offshore              Weekend.</li>
-		<li>Porthcawl and Kenfig Open Regatta Trophy (awarded between 1957              and 1966)</li>            <li>Porthcawl Marine Fireball Cup</li>          </ul> 
+		<li>Porthcawl and Kenfig Open Regatta Trophy (awarded between 1957 and 1966)</li>
+		<li>Porthcawl Marine Fireball Cup</li>
+		</ul> 
 		</blockquote>        
 		<p>The association with the steel works is also represented by a number of trophies.</p>        
 	<blockquote>          
