@@ -24,7 +24,7 @@
 		will be the total number of races sailed in that series.
 	</p>
 	<div class="content" align="center">  
-		<img src="<?= IMGS_PATH . 'Race_Programme_2016.jpg' ?>" style="border:1px solid black;max-width:100%;" alt="Race_Programme_2016.jpg">
+		<img src="<?= IMGS_PATH . 'Race_Programme_2017.jpg' ?>" style="border:1px solid black;max-width:100%;" alt="Race_Programme_2017.jpg">
 	</div>
 
 	<h1 class="page-header">6. Class Flags</h1>
