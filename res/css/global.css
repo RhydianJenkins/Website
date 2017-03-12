@@ -132,6 +132,8 @@ body {
 .faded-bg { background-color: rgba(0, 0, 0, 0.05); }
 .rounded { border-radius: 10px; }
 .grey { background-color: #eee; }
+.bg-light-grey { background-color: #fafafa; }
+.bg-white { background-color: white; }
 .link-unstyled { color: inherit; text-decoration: inherit; }
 .link-unstyled:link { color: inherit; text-decoration: inherit; }
 .link-unstyled:hover { color: inherit; text-decoration: inherit; }
