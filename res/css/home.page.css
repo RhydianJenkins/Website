@@ -122,3 +122,14 @@
     -webkit-animation: arrows 2.8s 0.4s;
     -webkit-animation-delay: 3s;
 }
+
+.news-container {
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+    border-radius: 2px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.news-title {
+    border-bottom: 1px solid #ddd;
+}
