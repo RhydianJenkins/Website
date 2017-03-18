@@ -53,7 +53,7 @@
 
 		<div class="sr1 news-container">
             <h1 class="news-title">Push The Boat Out</h1>
-			<a style="text-decoration: none;" href="<?= DOCS_PATH . 'PTBO2017.pdf'; ?>" target="_blank"><img class="img img-responsive" src="<?= IMGS_PATH . 'PTBOHeader.jpg'; ?>" alt="PTBO2017"></img></a>
+			<a style="text-decoration: none;" href="<?= DOCS_PATH . 'PTBO2017.pdf'; ?>" target="_blank"><img class="img img-responsive" src="<?= IMGS_PATH . 'PTBOHeader.JPG'; ?>" alt="PTBO2017"></img></a>
 			
 			<p>Come along and have a go at sailing and windsurfing, all ages from 8 years old. See the Club and meet its members to see what we have on offer.
 			</p>
