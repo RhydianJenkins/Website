@@ -57,6 +57,8 @@
 			
 			<p>Come along and have a go at sailing and windsurfing, all ages from 8 years old. See the Club and meet its members to see what we have on offer.
 			</p>
+			<p>You can download a simple form (MS Word) <a style="text-decoration: none;" href="<?= DOCS_PATH . 'PTBO.docx'; ?>" target="_blank">here</a>, fill it in and email it to Jeremy (email address is on the form) to book your place. Yu can just turn up on the day if you wish, but reserved places will take priority
+			</p>
 			<p>Eglwys Nunydd Reservoir, Off Longlands Lane Margam</p>
 			<p>Port Talbot SA13 2NS</p>
 			<p>For more information:</p>
@@ -64,18 +66,6 @@
 			<p>or call: 01656 861092 317</p>
 		</div>
 		
-			<div class="sr1 news-container">
-            <h1 class="news-title">OOD Rota For 2017</h1>
-            <p>An on-line portal has been set up to allow members to select and manage their own Officer of the Day duties.</p>
-            <p>The portal can be found at<br> <a href= "https://apex.oracle.com/pls/apex/f?p=76809:1" target="_blank">Member's OOD Portal</a>.</p>
-            <p>Please select 3 dates each that suit you. OOD rota has closed and members names missing will be entered by the scheduler.</p>
-            <p>Without knowing your choice, your duties will be allocated and you will need to arrange your own substitues once the rota is finalised. Please make every effort to select dates that suit you.</p>
-        </div>
-
-        <div class="sr1 news-container">
-            <h1 class="news-title">2017 Membership</h1>
-            <p>2017 Application Forms are available on the Membership Page. Please complete the form found there, or email a completed copy to the Membership Secretary at <a href="mailto:membership@tatasteelsailing.org.uk?Subject=2017%20Tata%20Steel%20Sailing%20Club%20membership" target="_top">membership@tatasteelsailing.org.uk</a> who will advise you on fee payment options.</p>
-        </div>
 
     </div>
 </div>
