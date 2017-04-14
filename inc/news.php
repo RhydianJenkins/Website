@@ -57,7 +57,7 @@
 			
 			<p>Come along and have a go at sailing and windsurfing, all ages from 8 years old. See the Club and meet its members to see what we have on offer.
 			</p>
-			<p>You can download a simple form (MS Word) <a style="text-decoration: none;" href="<?= DOCS_PATH . 'PTBO.docx'; ?>" target="_blank">here</a>, fill it in and email it to Jeremy (email address is on the form) to book your place. Yu can just turn up on the day if you wish, but reserved places will take priority
+			<p>You can download a simple form (MS Word) <a style="text-decoration: none;" href="<?= DOCS_PATH . 'PTBO.docx'; ?>" target="_blank">here</a>, fill it in and email it to Jeremy (email address is on the form) to book your place. You can just turn up on the day if you wish, but reserved places will take priority
 			</p>
 			<p>Eglwys Nunydd Reservoir, Off Longlands Lane Margam</p>
 			<p>Port Talbot SA13 2NS</p>
