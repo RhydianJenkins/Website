@@ -4,24 +4,15 @@
         <div class="jumbotron sr1"><h1>News</h1></div>
 
         <div class="sr1 news-container">
-            <h1 class="news-title">TATA STEEL SAILING CLUB SOLO OPEN MEETING <small>SAT 15TH APRIL</small></h1>
+            <h1 class="news-title">TATA STEEL SAILING CLUB 2017 Regatta <small>29<sup>th</sup> and 30<sup>th</sup> APRIL</small></h1>
             <div class="row">
                 <div class="col-md-6">
-                    <img class="img img-responsive" src="<?= GALLERY_PATH . '2007 Solo Open/Solo.jpg'; ?>" alt="Osprey2015"></img>
+                    <img class="img img-responsive" src="<?= GALLERY_PATH . '2015 October Regatta/tata2015_127_22625578386_o.jpg'; ?>" alt="Regatta2015"></img>
                 </div>
                 <div class="col-md-6">
-                    <h3>4 RACES (3 to count). Entry fee: £10.</h3>
-                    <h3>Schedule:</h3>
-                    <ul>
-                        <li>Briefing 10.30am.</li>
-                        <li>Race 1 gun at 11am (approx. 1 hour).</li>
-                        <li>Lunch.</li>
-                        <li>Race 2, 3, 4 (approx. 45 minutes) back to back.</li>
-                    </ul>
+                                        
                     <p>
-                        Nor and SI can be found at 
-                        <a style="text-decoration: none;" href="<?= DOCS_PATH . '2017SoloNOR.pdf'; ?>" target="_blank"><strong>2017 Solo NOR</strong></a> and 
-                        <a style="text-decoration: none;" href="<?= DOCS_PATH . '2017SoloSI.pdf'; ?>" target="_blank"><strong>2017 Solo Sailing Instructions</strong></a>.
+                        Nor and SI to follow
                     </p>
                 </div>
             </div>
