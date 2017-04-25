@@ -11,9 +11,20 @@
                 </div>
                 <div class="col-md-6">
                                         
-                    <p>
-                        Nor and SI to follow
+                    <h2>Registration</h2>
+					<p>
+                           Competitors will register at the Clubhouse on Saturday 10.00 a.m.
+					</p>
+					<h2>Briefing</h2>
+						<p>	A competitors’ briefing will be held at the Race Control hut at 11.30 a.m.
+						</p>
+					<h2>Racing Programme</h2>
+						<p>Race 1  Saturday 12.00.  Races 2 and 3 to be announced.
+						</p>
+						<p>Race 4 Sunday   10.30.   Races 5 and 6 to be announced
                     </p>
+					<p>Sailing Instructions and Notice Of Race can be downloaded here: <a style="text-decoration: none;" href="<?= DOCS_PATH . 'april_regatta_nor.pdf'; ?>" target="_blank"><strong>2017 Regatta NOR</strong></a> and 
+                        <a style="text-decoration: none;" href="<?= DOCS_PATH . 'APRIL_REGATTA_Sis.pdf'; ?>" target="_blank"><strong>2017 2017 Regatta Sailing Instructions</strong></a>
                 </div>
             </div>
         </div>
