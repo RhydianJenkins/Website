@@ -15,12 +15,13 @@
 					<p>
                            Results can now be found at <a style="text-decoration: none;" href="<?= RESULTS_PATH . '2017/2017_Tata_Regatta.html'; ?>" target="_blank"><strong>2017 Regatta Results</strong></a>
 					</p>
-					<h2>Congratations</h2>
+					<h2>Congratulations</h2>
 						<p>	The Series winners are:
+						<ul>Cheryl Wood, RS Vareo National Inlands Championship</ul>
 						<ul>DJ and Sofie Edwards, General Handicap</ul>
 						<ul>Sarah and David Green, Asymetric Fleet</ul>
-						<ul>Cheryl Wodd, RS Vareo National Inlands Championship</ul>
-						<p>May thanks to all that contributed to the event and make it such a great weekend. I hope all enjoyed as much as we did
+						
+						<p>Many thanks to all that contributed to the event and make it such a great weekend. I hope all enjoyed as much as we did
 						</p>
 					
                 </div>
@@ -40,8 +41,8 @@
 						<li>Nor and SI can be found at 
                         <a style="text-decoration: none;" href="<?= DOCS_PATH . '2017OspreyNOR.pdf'; ?>" target="_blank"><strong>2017 Osprey NOR</strong></a> and 
                         <a style="text-decoration: none;" href="<?= DOCS_PATH . '2017OspreySI.pdf'; ?>" target="_blank"><strong>2017 Osprey Sailing Instructions</strong></a></li>
-                    </ul>
-					<p>For further information, please contact David Downs on 07801713481 or <a href="mailto:davdowns@btinternet.com?Subject=2017%20Tata%20Osprey%20Open" target="_top">davdowns@btinternet.com</a>
+                    Camping facilities available</ul>
+					<p>For further information, please contact David Downs on 07801 713 481 or <a href="mailto:davdowns@btinternet.com?Subject=2017%20Tata%20Osprey%20Open" target="_top">davdowns@btinternet.com</a>
 					</p>
                 </div>
 
