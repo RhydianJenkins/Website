@@ -23,6 +23,8 @@
 						
 						<p>Many thanks to all that contributed to the event and make it such a great weekend. I hope all enjoyed as much as we did
 						</p>
+						<p>Photos can be seen on our gallery, courtesy of Joshua East. These are very much compressed versions of the originals, but a full sized version of any individual pictures can be sourced on request
+						</p>
 					
                 </div>
             </div>
@@ -49,6 +51,27 @@
                 <div class="col-md-6">
                     <img class="img img-responsive" src="<?= GALLERY_PATH . '2015 October Regatta/tata2015_009_22651532445_o.jpg'; ?>" alt="Osprey2015"></img>
                 </div>
+            </div>
+        </div>
+		<div class="sr1 news-container">
+            <h1 class="news-title">TATA STEEL SAILING Traveller Series 2017</h1>
+            <div class="row">
+                <div class="col-md-6">
+                    <img class="img img-responsive" src="<?= IMGS_PATH . 'traveller.jpg'; ?>" alt="Traveller2017"></img>
+                </div>
+				<div class="col-md-6">
+                    <h2>Schedule</h2>
+                    <p>Sadly, Llanstephan Sailing Club are no longer able to host our Clubs annual offshore race. 
+					</p>
+					<p>Your Committee have instead put together an exciting new format, an Offshore Travellers series that will incorporate five sea sailing venues across South Wales, please see the poster at the club house and adjacent.
+					</p>
+					<p>The success of this series is totally up to you, the members, so dig out those trailers, grease those hubs and get travelling for some exciting competition.
+					</p>
+					All club members are welcome to join in, If you need any more information on travelling, please email <a href="mailto:webmaster@tatasteelsailing.org.uk?Subject=2017%20Tata%20Traveller%20Series" target="_top">webmaster@tatasteelsailing.org.uk</a> for advice and I'll try to point you in the right direction
+					</p>
+                </div>
+
+                
             </div>
         </div>
 
