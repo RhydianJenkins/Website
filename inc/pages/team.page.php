@@ -175,10 +175,10 @@
 				<div class="col-md-3 sr1">
 					<a href="#" class="member-profile">
 						<div class="unhover_img">
-						<img src="<?php echo IMGS_PATH; ?>facebank/unknown.jpg" alt="" />
+						<img src="<?php echo IMGS_PATH; ?>facebank/JoelWilliams.jpg" alt="" />
 						</div>
 						<div class="hover_img">
-						<img src="<?php echo IMGS_PATH; ?>facebank/unknown.jpg" alt="" />
+						<img src="<?php echo IMGS_PATH; ?>facebank/JoelWilliams.jpg" alt="" />
 						</div>
 						<span style="color: black;">Young Person's Rep</span>
 						<h4><span>Joel </span> Williams</h4>

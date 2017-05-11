@@ -7,7 +7,7 @@
             <h1 class="news-title">TATA STEEL SAILING CLUB 2017 Regatta <small>29<sup>th</sup> and 30<sup>th</sup> APRIL</small></h1>
             <div class="row">
                 <div class="col-md-6">
-                    <img class="img img-responsive" src="<?= GALLERY_PATH . '2015 October Regatta/tata2015_127_22625578386_o.jpg'; ?>" alt="Regatta2015"></img>
+                    <img class="img img-responsive" src="<?= GALLERY_PATH . '2017 Regatta/TataRegatta-138.JPG'; ?>" alt="Regatta2017"></img>
                 </div>
                 <div class="col-md-6">
                                         
