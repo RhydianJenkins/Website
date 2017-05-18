@@ -41,7 +41,7 @@
 						<li>Race 1 gun not before 13:00</li>
 						<li>Courses will vary depending on wind conditions/direction</li>
 						<li>Nor and SI can be found at 
-                        <a style="text-decoration: none;" href="<?= DOCS_PATH . '2017OspreyNOR.pdf'; ?>" target="_blank"><strong>2017 Osprey NOR</strong></a> and 
+                        <a style="text-decoration: none;" href="<?= DOCS_PATH . '2017OspreyNoR.pdf'; ?>" target="_blank"><strong>2017 Osprey NOR</strong></a> and 
                         <a style="text-decoration: none;" href="<?= DOCS_PATH . '2017OspreySI.pdf'; ?>" target="_blank"><strong>2017 Osprey Sailing Instructions</strong></a></li>
                     Camping facilities available</ul>
 					<p>For further information, please contact David Downs on 07801 713 481 or <a href="mailto:davdowns@btinternet.com?Subject=2017%20Tata%20Osprey%20Open" target="_top">davdowns@btinternet.com</a>
