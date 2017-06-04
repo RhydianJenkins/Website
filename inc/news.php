@@ -4,6 +4,26 @@
         <div class="jumbotron sr1"><h1>News</h1></div>
 
         <div class="sr1 news-container">
+            <h1 class="news-title">TATA STEEL SAILING Traveller Series 2017</h1>
+            <div class="row">
+                <div class="col-md-6">
+                    <img class="img img-responsive" src="<?= IMGS_PATH . 'traveller.jpg'; ?>" alt="Traveller2017"></img>
+                </div>
+				<div class="col-md-6">
+                    <h2>Schedule</h2>
+                    <p>The Offshore Travellers series is up and running with the Saundersfoot event with DJ and Sofie Edwards setting the pace early on.
+					</p>
+					<p>The series will incorporate five sea sailing venues across South Wales, please see the poster at the club house and adjacent.
+					</p>
+					<p>The success of this series is totally up to you, the members, so dig out those trailers, grease those hubs and get travelling for some exciting competition. Please contact any of the regular travellers of help or advice on how to get your boat to the various great venues
+					</p>
+					All club members are welcome to join in, If you need any more information on travelling, please email <a href="mailto:webmaster@tatasteelsailing.org.uk?Subject=2017%20Tata%20Traveller%20Series" target="_top">webmaster@tatasteelsailing.org.uk</a> for advice and I'll try to point you in the right direction
+					</p>
+                </div>
+
+                
+            </div>
+		<div class="sr1 news-container">
             <h1 class="news-title">TATA STEEL SAILING CLUB 2017 Regatta <small>29<sup>th</sup> and 30<sup>th</sup> APRIL</small></h1>
             <div class="row">
                 <div class="col-md-6">
@@ -34,62 +54,28 @@
             <h1 class="news-title">TATA STEEL SAILING CLUB Osprey OPEN MEETING <small>SAT 20<sup>th</sup> / SUN 21<sup>st</sup> MAY</small></h1>
             <div class="row">
                 <div class="col-md-6">
-                    <h2>Schedule</h2>
+                    <h2>Results</h2>
                     <ul>
-						<li>Registration opens at 10am</li>
-						<li>Briefing 12:00</li>
-						<li>Race 1 gun not before 13:00</li>
-						<li>Courses will vary depending on wind conditions/direction</li>
-						<li>Nor and SI can be found at 
-                        <a style="text-decoration: none;" href="<?= DOCS_PATH . '2017OspreyNoR.pdf'; ?>" target="_blank"><strong>2017 Osprey NOR</strong></a> and 
-                        <a style="text-decoration: none;" href="<?= DOCS_PATH . '2017OspreySI.pdf'; ?>" target="_blank"><strong>2017 Osprey Sailing Instructions</strong></a></li>
-                    Camping facilities available</ul>
-					<p>For further information, please contact David Downs on 07801 713 481 or <a href="mailto:davdowns@btinternet.com?Subject=2017%20Tata%20Osprey%20Open" target="_top">davdowns@btinternet.com</a>
+						<li>Winners: Simon and Ben Hawkes</li>
+						<li>Runners Up: Ken Brown and Chris Butters</li>
+						<li>Third Place: Paul Heather and Jonathan Osgood</li>
+					</ul>
+                    <p>Well done all, full results are available on the Results Page
+					</p>
+					<p>A full gallery of pictures can be seen via our Gallery Page
+					</p>
+					<p>Check out Ben's cheekey video:</p>
+					<p><iframe width="280" height="156" src="https://www.youtube.com/embed/z-TtrJ8Sl4I" frameborder="0" allowfullscreen></iframe>
 					</p>
                 </div>
 
                 <div class="col-md-6">
-                    <img class="img img-responsive" src="<?= GALLERY_PATH . '2015 October Regatta/tata2015_009_22651532445_o.jpg'; ?>" alt="Osprey2015"></img>
+                    <img class="img img-responsive" src="<?= GALLERY_PATH . '2017 Osprey Open/DSCF1480.JPG'; ?>" alt="Osprey2017"></img>
                 </div>
             </div>
         </div>
-		<div class="sr1 news-container">
-            <h1 class="news-title">TATA STEEL SAILING Traveller Series 2017</h1>
-            <div class="row">
-                <div class="col-md-6">
-                    <img class="img img-responsive" src="<?= IMGS_PATH . 'traveller.jpg'; ?>" alt="Traveller2017"></img>
-                </div>
-				<div class="col-md-6">
-                    <h2>Schedule</h2>
-                    <p>Sadly, Llanstephan Sailing Club are no longer able to host our Clubs annual offshore race. 
-					</p>
-					<p>Your Committee have instead put together an exciting new format, an Offshore Travellers series that will incorporate five sea sailing venues across South Wales, please see the poster at the club house and adjacent.
-					</p>
-					<p>The success of this series is totally up to you, the members, so dig out those trailers, grease those hubs and get travelling for some exciting competition.
-					</p>
-					All club members are welcome to join in, If you need any more information on travelling, please email <a href="mailto:webmaster@tatasteelsailing.org.uk?Subject=2017%20Tata%20Traveller%20Series" target="_top">webmaster@tatasteelsailing.org.uk</a> for advice and I'll try to point you in the right direction
-					</p>
-                </div>
-
-                
-            </div>
-        </div>
-
-		<div class="sr1 news-container">
-            <h1 class="news-title">Push The Boat Out</h1>
-			<a style="text-decoration: none;" href="<?= DOCS_PATH . 'PTBO2017.pdf'; ?>" target="_blank"><img class="img img-responsive" src="<?= IMGS_PATH . 'PTBOHeader.JPG'; ?>" alt="PTBO2017"></img></a>
-			
-			<p>Come along and have a go at sailing and windsurfing, all ages from 8 years old. See the Club and meet its members to see what we have on offer.
-			</p>
-			<p>You can download a simple form (MS Word) <a style="text-decoration: none;" href="<?= DOCS_PATH . 'PTBO.docx'; ?>" target="_blank">here</a>, fill it in and email it to Jeremy (email address is on the form) to book your place. You can just turn up on the day if you wish, but reserved places will take priority
-			</p>
-			<p>Eglwys Nunydd Reservoir, Off Longlands Lane Margam</p>
-			<p>Port Talbot SA13 2NS</p>
-			<p>For more information:</p>
-			<p>email: <a href="mailto:jeremy.martin6@gmail.com?Subject=2017%20Push%20the%20Boat%20Out" target="_top">jeremy.martin6@gmail.com</a>
-			<p>or call: 01656 861092 317</p>
-		</div>
 		
+        </div>		
 
     </div>
 </div>
