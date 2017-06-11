@@ -10,12 +10,22 @@
                     <img class="img img-responsive" src="<?= IMGS_PATH . 'traveller.jpg'; ?>" alt="Traveller2017"></img>
                 </div>
 				<div class="col-md-6">
-                    <h2>Schedule</h2>
-                    <p>The Offshore Travellers series is up and running with the Saundersfoot event with DJ and Sofie Edwards setting the pace early on.
+                    <h2>Saundersfoot (Coppet Week)</h2>
+                    <p>The first of the travellers series began with Saundersfoot Regatta (Coppet Week) on Sunday 28th May. This regatta is held over 5 days with one race per day. Six Club boats travelled to the event giving a great kick start to the new Club traveller series (see the web site for results)
 					</p>
-					<p>The series will incorporate five sea sailing venues across South Wales, please see the poster at the club house and adjacent.
+					<p>It was a mixed week weather wise and the courses were usually a big triangle consisting of a beat followed by two reaches, sometimes kiteable sometimes not
 					</p>
-					<p>The success of this series is totally up to you, the members, so dig out those trailers, grease those hubs and get travelling for some exciting competition. Please contact any of the regular travellers of help or advice on how to get your boat to the various great venues
+					<p>The start lines were interesting, it was a GH fleet with 75 boats entered and it was great to see toppers starting alongside IC Canoes and Lasers luffing Ospreys, the nerves and competitiveness of the fleet was evident by the three general recalls in the first race on the Monday (Sundays racing being cancelled due to lack of wind)
+					</p>
+					<p>The socials during the week were top class and included a dinner ay Wisemans Bridge for all TaTa Steel members on Wed evening followed by a beach barbecue late Thurs afternoon
+					</p>
+					<p>The next regatta in the Traveller Series is Mumbles on the 17<sup>th</sup> and 18<sup>th</sup> June and it would be great to see a few more boats travelling to enjoy some sea sailing and to show off what talent we have at the Club
+					</p>
+					<p>Hope to see you there
+					</p>
+					<p align=right><i>Gordon Evans</i>
+					</p>
+					<p>The series incorporates five sea sailing venues across South Wales. Please contact any of the regular travellers of help or advice on how to get your boat to the various great venues
 					</p>
 					All club members are welcome to join in, If you need any more information on travelling, please email <a href="mailto:webmaster@tatasteelsailing.org.uk?Subject=2017%20Tata%20Traveller%20Series" target="_top">webmaster@tatasteelsailing.org.uk</a> for advice and I'll try to point you in the right direction
 					</p>
