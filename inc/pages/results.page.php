@@ -36,7 +36,9 @@
                 foreach($results as $result) {
                     if ($result == $_GET['target']) {
                         $filteredResultName = ucwords(substr(str_replace('_', ' ', $result), 0, strrpos(str_replace('_', ' ', $result), "."))); // make it look pretty
-                        include(RESULTS_PATH . $_GET['year'] . '/' . $result);
+                        echo "<div style=\"text-align: center;\">";
+						include(RESULTS_PATH . $_GET['year'] . '/' . $result);
+						echo "</div>";
                         $fileFound = true;
                     }
                 }
@@ -55,6 +57,7 @@
 <script>
     $('h3').addClass('page-header');
     $('h3').css('margin-top', '50px');
+	$('table').css('margin', '0 auto');
     $('table').addClass('table-striped table-hover table-responsive');
     $('tr').css('border', 'solid 1px');
     $('tr').css('padding-top', '10px');
