@@ -10,23 +10,15 @@
                     <img class="img img-responsive" src="<?= IMGS_PATH . 'traveller.jpg'; ?>" alt="Traveller2017"></img>
                 </div>
 				<div class="col-md-6">
-                    <h2>Mumbles</h2>
-					<p>The Mumbles Regatta was enjoyed by four travelling boats along with Tata member Alex Shaw, who sails at both clubs. The weather and sailing conditions were what dreams were made of with a solid F3 wind and bright sunshine greeting all sailors on the Saturday.
+                    <h2>Tenby</h2>
+					<p>What a great weekend at Tenby.
 					</p>
-					<p>The first race got off to a start first time, although Andrew and Rebecca missed the start sequence and Dave and Bill missing the whole race due to a rigging issue after launch. The wind shift on the left side of the beat was taken advantage of by all boats with those making use of the slight pin bias bumping them up the fleet resulting in a close call on the windward mark
-					</p>
-					<p>The reaches were well set giving great racing conditions. Andrew and Rebecca filled the boat up with water during a tack taken too quickly – head faster than body! – giving Gordon and Ruth a clean get away they held for the three lap race
-					</p>
-					<p>Bob was comfortable with the win on handicap after battling it out with the slow handicap boats
-					</p>
-					<p>The second race saw Dave and Bill join in, but the wind was starting to build as the sea breeze gathered momentum. Andrew and Rebecca had a few interesting moments to contend with (Genoa sheets coming undone 10 seconds before the start, spinnaker pole coming apart on the reach, main sheet tangle on the boom) which put them in catch up mode for the whole race, giving Gordon and Ruth a clear path to take the race from Bob in second. Alex and Richard just held Andrew and Rebecca off the finish line with Dave and Bill cursing a crash on the gybe that put them in the water for a cooling dip
-					</p>
-					<p>Race three saw a slightly bigger course with the wind picking up a little more and the tide now playing a part as well. Andrew and Rebecca went with the RS700 to follow the tide to the right whist others went for the wind bend to the left. It gave the Osprey a lead at the windward mark they were able to hold for the race. Dave and Bill managed to keep upright all through the race to finish a credible 3rd in the regatta race, second in the traveller race behind Bob with the Osprey 3rd.
-					</p>
-					<p>Sunday saw the race officer scooting around the bay in a rib looking for some wind. After over an hour of this, we had to concede to abandoning racing for the Sunday and take a discard from the Saturday results
-					</p>
-					<p>It left Bob in first, with Gordon and Ruth in second. Results can be seen at <a style="text-decoration: none;" href="<?= RESULTS_PATH . '2017/Resources/Mumbles 2017 Results.html'; ?>" target="_blank"><strong>Mumbles Results</strong></a>
+					<p>Results can be seen at <a style="text-decoration: none;" href="<?= RESULT_RES_PATH . 'Tenby 2017 Results.html'; ?>" target="_blank"><strong>Tenby Results</strong></a>
                     </p>
+					<p>Traveller's Series Results updated, see Results page to see the latest standings
+					</p>
+					<p>Report to follow
+					</p>
 					<p align=right><i>Andrew Jenkins</i>
 					</p>
 					<p>The series incorporates five sea sailing venues across South Wales. Please contact any of the regular travellers of help or advice on how to get your boat to the various great venues
