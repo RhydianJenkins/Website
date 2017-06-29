@@ -13,13 +13,23 @@
                     <h2>Tenby</h2>
 					<p>What a great weekend at Tenby.
 					</p>
+					<p>The weekend of the 24<sup>th</sup> and 25<sup>th</sup> of June saw Tenby Sailing Club take their turn to host the TaTa Travellers, a magnificent effort was made by Club members with seven boats travelling to the Tenby Regatta.
+					</p>
+					<p> All seven sailed in the three races on the Saturday, the OOD set a large triangular course in Tenby Bay. The starts were challenging with 37 boats competing to be first away from what was a very short start line. All Club boats were competitive but the F4 winds and the tidal effect of the beats coupled with some tight three sail off wind legs made for some exciting sailing.  There was the inevitable capsizes and some gear failure amongst our members but it was a fantastic afternoon of sailing and everyone had a tale to tell when back in the club house.
+					</p>
+					<p>Sunday was the famous Round Caldey Island Race, a 12.15 start 15 mins after the cruisers.  Unfortunately Robin was not allowed around on his Europe as he did not make the PY cut off point. But for Rhys and Gary on the RS400 it was their first time around and both were keenly looking forward to the experience. It was a reaching start with a long one sided beat up to St Margaret’s Sound.  The wind was building all the time and after the fleet had beaten their way through the sound they were met by a F5 and large breaking waves.  At this stage the TaTa fleet were competing well with all boats all towards the front of the fleet. A tight two sail planning reach was followed by a three sail screamer down past Caldey Island, unfortunately one of our Ospreys had decided to take a swim before re-joining the race. Dave and Bill made it round the island this time, even though they had to be "rescued" to get them back to the beach. Next year, they might want to run the whole race.
+					</p>
+					<p>Kites were dropped at the corner of the Island before the boats headed off on yet another two sail reach to a mark off Monkestone Point and then a beat back to the finish line off Tenby beach, the lead boat crossing in 1hr 15 mins.  All agreed it was fantastic sailing and on times a real adventure.
+					</p>
+					
+					<p>The circuit moves on to Pembroke Yacht Club this weekend where there is a similar race formula to that of Tenby, 3 races on the Saturday with a long distance race on the Sunday.
+					</p>
 					<p>Results can be seen at <a style="text-decoration: none;" href="<?= RESULT_RES_PATH . 'Tenby 2017 Results.html'; ?>" target="_blank"><strong>Tenby Results</strong></a>
                     </p>
 					<p>Traveller's Series Results updated, see Results page to see the latest standings
 					</p>
-					<p>Report to follow
-					</p>
-					<p align=right><i>Andrew Jenkins</i>
+					
+					<p align=right><i>Gordon Evans</i>
 					</p>
 					<p>The series incorporates five sea sailing venues across South Wales. Please contact any of the regular travellers of help or advice on how to get your boat to the various great venues
 					</p>
