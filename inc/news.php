@@ -8,29 +8,29 @@
             <div class="row">
                 <div class="col-md-6">
                     <img class="img img-responsive" src="<?= IMGS_PATH . 'traveller.jpg'; ?>" alt="Traveller2017"></img>
+					<br>
+					<img class="img img-responsive" src="<?= IMGS_PATH . 'Pembroke2017.jpg'; ?>" alt="Pembroke2017"></img>
+					<p align="Center">Tata boats at Pembroke</p>
                 </div>
 				<div class="col-md-6">
-                    <h2>Tenby</h2>
-					<p>What a great weekend at Tenby.
+                    <h2>Pembroke</h2>
+					<p>The travelling fleet were feeling the strain of the pace of the series at Pembroke with only two boats making the trip. It was great to see fellow travellers Paul and John and Ken and Chris in their Ospreys, with Ken making the 5 hour trip from Kent to enjoy the fabulous weather in Milford Haven
 					</p>
-					<p>The weekend of the 24<sup>th</sup> and 25<sup>th</sup> of June saw Tenby Sailing Club take their turn to host the TaTa Travellers, a magnificent effort was made by Club members with seven boats travelling to the Tenby Regatta.
+					<p>Saturday, 1st July, and a clever delay on the start, undoubtedly influenced by the Lions victory in New Zealand, allowed the breeze to pick up to a comfortable F3 North Westerly, bring a slight chop and healthy blow to help the Ospreys and hinder the fireball.
 					</p>
-					<p> All seven sailed in the three races on the Saturday, the OOD set a large triangular course in Tenby Bay. The starts were challenging with 37 boats competing to be first away from what was a very short start line. All Club boats were competitive but the F4 winds and the tidal effect of the beats coupled with some tight three sail off wind legs made for some exciting sailing.  There was the inevitable capsizes and some gear failure amongst our members but it was a fantastic afternoon of sailing and everyone had a tale to tell when back in the club house.
+					<p>True to form, Gordon and Ruth took the first race on a tight trapezoid course with a full beat up against a turning neap tide. The second race saw Gordon getting frustrated on the start line and forced to retire with equipment failure. The wind built slightly for the third race and the tide turning to push the Osprey to the front end of the fleet. The course was \changed to a triangle sausage to allow for variation and to challenge the different boat attributes and spread the opportunities
 					</p>
-					<p>Sunday was the famous Round Caldey Island Race, a 12.15 start 15 mins after the cruisers.  Unfortunately Robin was not allowed around on his Europe as he did not make the PY cut off point. But for Rhys and Gary on the RS400 it was their first time around and both were keenly looking forward to the experience. It was a reaching start with a long one sided beat up to St Margaret’s Sound.  The wind was building all the time and after the fleet had beaten their way through the sound they were met by a F5 and large breaking waves.  At this stage the TaTa fleet were competing well with all boats all towards the front of the fleet. A tight two sail planning reach was followed by a three sail screamer down past Caldey Island, unfortunately one of our Ospreys had decided to take a swim before re-joining the race. Dave and Bill made it round the island this time, even though they had to be "rescued" to get them back to the beach. Next year, they might want to run the whole race.
+					<p>Day 2 saw a lighter wind for the 12 mile 7 Forts race and a running start helped the Osprey to get out near the front of the fleet early and allow them some clean air. The Fireball was playing catch-up on the 5 mile beat against the tide, always a difficult ask.
 					</p>
-					<p>Kites were dropped at the corner of the Island before the boats headed off on yet another two sail reach to a mark off Monkestone Point and then a beat back to the finish line off Tenby beach, the lead boat crossing in 1hr 15 mins.  All agreed it was fantastic sailing and on times a real adventure.
+					<p>There was some stunning scenery to be enjoyed for those with the time to do it throughout the delightfull harbour – just needed to avoid the commercial traffic and numerous sailboats brought out by the fine weather. It was dreamy Osprey conditions that lead them to a clean sweep 1-2-3 for the day.
 					</p>
-					
-					<p>The circuit moves on to Pembroke Yacht Club this weekend where there is a similar race formula to that of Tenby, 3 races on the Saturday with a long distance race on the Sunday.
+					<p>The event was noted for its great race management, fabulous weather, friendly hospitality and top class facilities
 					</p>
-					<p>Results can be seen at <a style="text-decoration: none;" href="<?= RESULT_RES_PATH . 'Tenby 2017 Results.html'; ?>" target="_blank"><strong>Tenby Results</strong></a>
+					<p>Results can be seen at <a style="text-decoration: none;" href="<?= RESULT_RES_PATH . 'Pembroke 2017 Results.html'; ?>" target="_blank"><strong>Pembroke Results</strong></a>
                     </p>
 					<p>Traveller's Series Results updated, see Results page to see the latest standings
 					</p>
 					
-					<p align=right><i>Gordon Evans</i>
-					</p>
 					<p>The series incorporates five sea sailing venues across South Wales. Please contact any of the regular travellers of help or advice on how to get your boat to the various great venues
 					</p>
 					All club members are welcome to join in, If you need any more information on travelling, please email <a href="mailto:webmaster@tatasteelsailing.org.uk?Subject=2017%20Tata%20Traveller%20Series" target="_top">webmaster@tatasteelsailing.org.uk</a> for advice and I'll try to point you in the right direction
