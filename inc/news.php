@@ -26,6 +26,10 @@
 					</p>
 					<p>The event was noted for its great race management, fabulous weather, friendly hospitality and top class facilities
 					</p>
+					<p>PYC have released this great video of the event:
+					</p>
+					<p><iframe width="400" height="225" src="https://www.youtube.com/embed/kk2TQCbnz0w" frameborder="0" allowfullscreen></iframe>
+					</p>
 					<p>Results can be seen at <a style="text-decoration: none;" href="<?= RESULT_RES_PATH . 'Pembroke 2017 Results.html'; ?>" target="_blank"><strong>Pembroke Results</strong></a>
                     </p>
 					<p>Traveller's Series Results updated, see Results page to see the latest standings
