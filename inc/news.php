@@ -4,6 +4,32 @@
         <div class="jumbotron sr1"><h1>News</h1></div>
 
         <div class="sr1 news-container">
+            <h1 class="news-title">TATA STEEL SAILING End of Season REGATTA 2017</h1>
+            <div class="row">
+                <div class="col-md-6">
+                    <img class="img img-responsive" src="<?= IMGS_PATH . '2017Regatta.jpg'; ?>" alt="Regatta2017"></img>
+					<br>
+				</div>
+				<div class="col-md-6">
+                    <h2><strong>November 4th and 5th</strong>
+					</h2>
+					
+					<p>Sat 3 races, first start 12pm
+					</p>
+					<p>Sun 2 races, first start 11am
+					</p>
+					<p>Galley open, come and join us. All are welcome
+					</p>
+					<p>Motor homes welcome
+					</p>
+					<p>If you need any more information, please email <a href="mailto:webmaster@tatasteelsailing.org.uk?Subject=2017%20Tata%20Regatta" target="_top">webmaster@tatasteelsailing.org.uk</a> for advice and I'll try to point you in the right direction
+					</p>
+					<p>Please note that sailing continues at Tata all year round. Anyone wanting an Autumn or Winter membership, please contact the Membership Secretary
+					</p>
+                </div>
+ 
+            </div>
+		</div><div class="sr1 news-container">
             <h1 class="news-title">TATA STEEL SAILING Traveller Series 2017</h1>
             <div class="row">
                 <div class="col-md-6">
