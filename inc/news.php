@@ -44,7 +44,7 @@
 					</p>
 					<p>Saturday, 1st July, and a clever delay on the start, undoubtedly influenced by the Lions victory in New Zealand, allowed the breeze to pick up to a comfortable F3 North Westerly, bring a slight chop and healthy blow to help the Ospreys and hinder the fireball.
 					</p>
-					<p>True to form, Gordon and Ruth took the first race on a tight trapezoid course with a full beat up against a turning neap tide. The second race saw Gordon getting frustrated on the start line and forced to retire with equipment failure. The wind built slightly for the third race and the tide turning to push the Osprey to the front end of the fleet. The course was changed to a triangle sausage to allow for variation and to challenge the different boat attributes and spread the opportunities
+					<p>True to form, Gordon and Ruth took the first race on a tight trapezoid course with a full beat up against a turning neap tide. The second race saw Gordon getting frustrated on the start line and forced to retire with equipment failure. The wind built slightly for the third race and the tide turning to push the Osprey to the front end of the fleet. The course was \changed to a triangle sausage to allow for variation and to challenge the different boat attributes and spread the opportunities
 					</p>
 					<p>Day 2 saw a lighter wind for the 12 mile 7 Forts race and a running start helped the Osprey to get out near the front of the fleet early and allow them some clean air. The Fireball was playing catch-up on the 5 mile beat against the tide, always a difficult ask.
 					</p>
@@ -61,7 +61,7 @@
 					<p>Traveller's Series Results updated, see Results page to see the latest standings
 					</p>
 					
-					<p>The series incorporates five sea sailing venues across South Wales. Please contact any of the regular travellers for help or advice on how to get your boat to the various great venues
+					<p>The series incorporates five sea sailing venues across South Wales. Please contact any of the regular travellers of help or advice on how to get your boat to the various great venues
 					</p>
 					All club members are welcome to join in, If you need any more information on travelling, please email <a href="mailto:webmaster@tatasteelsailing.org.uk?Subject=2017%20Tata%20Traveller%20Series" target="_top">webmaster@tatasteelsailing.org.uk</a> for advice and I'll try to point you in the right direction
 					</p>
