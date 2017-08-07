@@ -6,6 +6,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no" />
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<!-- normalize css -->
+<!-- <link rel="stylesheet" type="text/css" href="<?php echo STYLES_PATH . "normalize.css"; ?>" /> -->
 <!-- awesome fonts css -->
 <link rel="stylesheet" type="text/css" href="<?php echo STYLES_PATH . "font-awesome.min.css"; ?>" />
 <!-- bootstrap 3.3.7 css -->
