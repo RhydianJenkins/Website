@@ -7,7 +7,7 @@
             <h1 class="news-title">TATA STEEL SAILING End of Season REGATTA 2017</h1>
             <div class="row">
                 <div class="col-md-6">
-                    <img class="img img-responsive" src="<?= IMGS_PATH . '2017Regatta.jpg'; ?>" alt="Regatta2017"></img>
+                    <img class="img img-responsive" src="<?= IMGS_PATH . '2017Regatta.JPG'; ?>" alt="Regatta2017"></img>
 					<br>
 				</div>
 				<div class="col-md-6">
