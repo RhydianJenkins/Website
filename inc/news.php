@@ -33,38 +33,22 @@
             <h1 class="news-title">TATA STEEL SAILING Traveller Series 2017</h1>
             <div class="row">
                 <div class="col-md-6">
-                    <img class="img img-responsive" src="<?= IMGS_PATH . 'traveller.jpg'; ?>" alt="Traveller2017"></img>
-					<br>
-					<img class="img img-responsive" src="<?= IMGS_PATH . 'Pembroke2017.jpg'; ?>" alt="Pembroke2017"></img>
-					<p align="Center">Tata boats at Pembroke</p>
+                    <img class="img img-responsive" src="<?= IMGS_PATH . '/gallery/2017 Coppet/Gordon-Ruth.jpg'; ?>" alt="Traveller2017"></img>
+					<p align="Center">Gordon and Ruth at Saundersfoot</p>
                 </div>
 				<div class="col-md-6">
-                    <h2>Pembroke</h2>
-					<p>The travelling fleet were feeling the strain of the pace of the series at Pembroke with only two boats making the trip. It was great to see fellow travellers Paul and John and Ken and Chris in their Ospreys, with Ken making the 5 hour trip from Kent to enjoy the fabulous weather in Milford Haven
+                    <h2>Final Results</h2>
+					<p>The travellers Series has drawn to a close for 2017 with Ruth and Gordon Evans finishing as outright winers. ongratulations to them.
 					</p>
-					<p>Saturday, 1st July, and a clever delay on the start, undoubtedly influenced by the Lions victory in New Zealand, allowed the breeze to pick up to a comfortable F3 North Westerly, bring a slight chop and healthy blow to help the Ospreys and hinder the fireball.
+					<p>The club was represented at all of the planned events, and more, raising the visibility of the club around the circuit
 					</p>
-					<p>True to form, Gordon and Ruth took the first race on a tight trapezoid course with a full beat up against a turning neap tide. The second race saw Gordon getting frustrated on the start line and forced to retire with equipment failure. The wind built slightly for the third race and the tide turning to push the Osprey to the front end of the fleet. The course was \changed to a triangle sausage to allow for variation and to challenge the different boat attributes and spread the opportunities
+					<p>We will ertainly be repeating this series next year and would welcome any suggestions from lub members and other clubs for inclusion into next year's series. Anyone wanting advice on travelling can email <a href="mailto:webmaster@tatasteelsailing.org.uk?Subject=2017%20Tata%20Traveller%20Series" target="_top">webmaster@tatasteelsailing.org.uk</a> for advice and I'll try to point you in the right direction
 					</p>
-					<p>Day 2 saw a lighter wind for the 12 mile 7 Forts race and a running start helped the Osprey to get out near the front of the fleet early and allow them some clean air. The Fireball was playing catch-up on the 5 mile beat against the tide, always a difficult ask.
+					Full results can be seen on the results page as well as the full report below:
 					</p>
-					<p>There was some stunning scenery to be enjoyed for those with the time to do it throughout the delightfull harbour – just needed to avoid the commercial traffic and numerous sailboats brought out by the fine weather. It was dreamy Osprey conditions that lead them to a clean sweep 1-2-3 for the day.
-					</p>
-					<p>The event was noted for its great race management, fabulous weather, friendly hospitality and top class facilities
-					</p>
-					<p>PYC have released this great video of the event:
-					</p>
-					<p><iframe width="400" height="225" src="https://www.youtube.com/embed/kk2TQCbnz0w" frameborder="0" allowfullscreen></iframe>
-					</p>
-					<p>Results can be seen at <a style="text-decoration: none;" href="<?= RESULT_RES_PATH . 'Pembroke 2017 Results.html'; ?>" target="_blank"><strong>Pembroke Results</strong></a>
+					<p><a style="text-decoration: none;" href="<?= DOCS_PATH . '2017TravellersReport.pdf'; ?>" target="_blank"><strong>2017 Travellers Series Final Report</strong></a>
                     </p>
-					<p>Traveller's Series Results updated, see Results page to see the latest standings
-					</p>
 					
-					<p>The series incorporates five sea sailing venues across South Wales. Please contact any of the regular travellers of help or advice on how to get your boat to the various great venues
-					</p>
-					All club members are welcome to join in, If you need any more information on travelling, please email <a href="mailto:webmaster@tatasteelsailing.org.uk?Subject=2017%20Tata%20Traveller%20Series" target="_top">webmaster@tatasteelsailing.org.uk</a> for advice and I'll try to point you in the right direction
-					</p>
                 </div>
  
             </div>
