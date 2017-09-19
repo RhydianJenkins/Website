@@ -16,7 +16,7 @@
 					<p>The RYA Cymru Club Youth Racing Circuit (CYRC) comes to Tata on October 14<sup>th</sup> for  single day event. Details can be found on the RYA website at 
 					<a href="http://welshsailingevents.org/welsh-sailing-events-home/cyrcs-2/south-cyrc-dates/" target="_blank">Welsh Sailing Events</a>  including the Notice Of Race and Sailing Instructions as well as access to the Entry Form and instructions
 					</p>
-					<p>If you need any more information, please contact the RYA Wales directly by email at <a href="mailto:admin@ryacymruwales.org.uk?Subject=2017%CYRC" target="_top">admin@ryacymruwales.org.uk</a> or phone 01248 670814
+					<p>If you need any more information, please contact the RYA Wales directly by email at <a href="mailto:admin@ryacymruwales.org.uk?Subject=2017%20CYRC%20at%20Tata" target="_top">admin@ryacymruwales.org.uk</a> or phone 01248 670814
 					</p>
 					<p>Please note that this does not effect the other club racing and sailing events at the club on this day
 					</p>
