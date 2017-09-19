@@ -4,6 +4,27 @@
         <div class="jumbotron sr1"><h1>News</h1></div>
 
         <div class="sr1 news-container">
+            <h1 class="news-title">South Wales CYRC Series 2017</h1>
+            <div class="row">
+                <div class="col-md-6">
+                    <img class="img img-responsive" src="<?= IMGS_PATH . 'ryacw_logo_0.jpg'; ?>" alt="RYA-Wales"></img>
+					<br>
+				</div>
+				<div class="col-md-6">
+                    <h2><strong>October 14<sup>th</sup></strong>
+					</h2>
+					<p>The RYA Cymru Club Youth Racing Circuit (CYRC) comes to Tata on October 14<sup>th</sup> for  single day event. Details can be found on the RYA website at 
+					<a href="http://welshsailingevents.org/welsh-sailing-events-home/cyrcs-2/south-cyrc-dates/" target="_blank">Welsh Sailing Events</a>  including the Notice Of Race and Sailing Instructions as well as access to the Entry Form and instructions
+					</p>
+					<p>If you need any more information, please contact the RYA Wales directly by email at <a href="mailto:admin@ryacymruwales.org.uk?Subject=2017%CYRC" target="_top">admin@ryacymruwales.org.uk</a> or phone 01248 670814
+					</p>
+					<p>Please note that this does not effect the other club racing and sailing events at the club on this day
+					</p>
+				</div>
+ 
+            </div>
+		</div>
+		<div class="sr1 news-container">
             <h1 class="news-title">TATA STEEL SAILING End of Season REGATTA 2017</h1>
             <div class="row">
                 <div class="col-md-6">
@@ -11,7 +32,7 @@
 					<br>
 				</div>
 				<div class="col-md-6">
-                    <h2><strong>November 4th and 5th</strong>
+                    <h2><strong>November 4<sup>th</sup> and 5<sup>th</sup></strong>
 					</h2>
 					
 					<p>Sat 3 races, first start 12pm
@@ -29,7 +50,8 @@
                 </div>
  
             </div>
-		</div><div class="sr1 news-container">
+		</div>
+		<div class="sr1 news-container">
             <h1 class="news-title">TATA STEEL SAILING Traveller Series 2017</h1>
             <div class="row">
                 <div class="col-md-6">
@@ -38,11 +60,11 @@
                 </div>
 				<div class="col-md-6">
                     <h2>Final Results</h2>
-					<p>The travellers Series has drawn to a close for 2017 with Ruth and Gordon Evans finishing as outright winers. ongratulations to them.
+					<p>The travellers Series has drawn to a close for 2017 with Ruth and Gordon Evans finishing as outright winners. congratulations to them.
 					</p>
 					<p>The club was represented at all of the planned events, and more, raising the visibility of the club around the circuit
 					</p>
-					<p>We will ertainly be repeating this series next year and would welcome any suggestions from lub members and other clubs for inclusion into next year's series. Anyone wanting advice on travelling can email <a href="mailto:webmaster@tatasteelsailing.org.uk?Subject=2017%20Tata%20Traveller%20Series" target="_top">webmaster@tatasteelsailing.org.uk</a> for advice and I'll try to point you in the right direction
+					<p>We will ertainly be repeating this series next year and would welcome any suggestions from club members and other clubs for inclusion into next year's series. Anyone wanting advice on travelling can email <a href="mailto:webmaster@tatasteelsailing.org.uk?Subject=2017%20Tata%20Traveller%20Series" target="_top">webmaster@tatasteelsailing.org.uk</a> for advice and I'll try to point you in the right direction
 					</p>
 					Full results can be seen on the results page as well as the full report below:
 					</p>
@@ -53,57 +75,7 @@
  
             </div>
 		</div>
-		<div class="sr1 news-container">
-            <h1 class="news-title">TATA STEEL SAILING CLUB 2017 Regatta <small>29<sup>th</sup> and 30<sup>th</sup> APRIL</small></h1>
-            <div class="row">
-                <div class="col-md-6">
-                    <img class="img img-responsive" src="<?= GALLERY_PATH . '2017 Regatta/TataRegatta-138.JPG'; ?>" alt="Regatta2017"></img>
-                </div>
-                <div class="col-md-6">
-                                        
-                    <h2>Results</h2>
-					<p>
-                           Results can now be found at <a style="text-decoration: none;" href="<?= RESULTS_PATH . '2017/2017_Tata_Regatta.html'; ?>" target="_blank"><strong>2017 Regatta Results</strong></a>
-					</p>
-					<h2>Congratulations</h2>
-						<p>	The Series winners are:
-						<ul>Cheryl Wood, RS Vareo National Inlands Championship</ul>
-						<ul>DJ and Sofie Edwards, General Handicap</ul>
-						<ul>Sarah and David Green, Asymetric Fleet</ul>
-						
-						<p>Many thanks to all that contributed to the event and make it such a great weekend. I hope all enjoyed as much as we did
-						</p>
-						<p>Photos can be seen on our gallery, courtesy of Joshua East. These are very much compressed versions of the originals, but a full sized version of any individual pictures can be sourced on request
-						</p>
-					
-                </div>
-            </div>
-        </div>
-
-        <div class="sr1 news-container">
-            <h1 class="news-title">TATA STEEL SAILING CLUB Osprey OPEN MEETING <small>SAT 20<sup>th</sup> / SUN 21<sup>st</sup> MAY</small></h1>
-            <div class="row">
-                <div class="col-md-6">
-                    <h2>Results</h2>
-                    <ul>
-						<li>Winners: Simon and Ben Hawkes</li>
-						<li>Runners Up: Ken Brown and Chris Butters</li>
-						<li>Third Place: Paul Heather and Jonathan Osgood</li>
-					</ul>
-                    <p>Well done all, full results are available on the Results Page
-					</p>
-					<p>A full gallery of pictures can be seen via our Gallery Page
-					</p>
-					<p>Check out Ben's cheekey video:</p>
-					<p><iframe width="280" height="156" src="https://www.youtube.com/embed/z-TtrJ8Sl4I" frameborder="0" allowfullscreen></iframe>
-					</p>
-                </div>
-
-                <div class="col-md-6">
-                    <img class="img img-responsive" src="<?= GALLERY_PATH . '2017 Osprey Open/DSCF1480.JPG'; ?>" alt="Osprey2017"></img>
-                </div>
-            </div>
-        </div>
+		
 		
         </div>		
 
