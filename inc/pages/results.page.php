@@ -20,7 +20,10 @@
             <?php foreach($results as $year => $files) : ?>
                 <optgroup label="<?= $year; ?>">
                 <?php foreach($files as $file) : ?>
-                    <?php $fileName = ucwords(substr(str_replace('_', ' ', $file), 0, strrpos(str_replace('_', ' ', $file), "."))); ?>
+                    <?php
+						$fileName = ucwords(substr(str_replace('_', ' ', $file), 0, strrpos(str_replace('_', ' ', $file), ".")));
+						$fileName = ltrim($fileName, '0123456789');
+					?>
                     <option data-tokens="<?= $year; ?>" value="?page=results&year=<?= $year ?>&target=<?= $file ?>"><?= $fileName; ?></option>
                 <?php endforeach ; ?>
             <?php endforeach ; ?>
