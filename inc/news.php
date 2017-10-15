@@ -13,12 +13,18 @@
 				<div class="col-md-6">
                     <h2><strong>October 14<sup>th</sup></strong>
 					</h2>
-					<p>The RYA Cymru Club Youth Racing Circuit (CYRC) comes to Tata on October 14<sup>th</sup> for  single day event. Details can be found on the RYA website at 
+					<p>The RYA Cymru Club Youth Racing Circuit (CYRC) was run at Tata on October 14<sup>th</sup> for  single day event. The forecast was spot on with a westerly F4 making way for a Southerly F2 after the first race.
+					</p>
+					<p>It meant that the race course had to be moved completely, including the commitee boat to keep the set courses as per the instructions and brief. All six races were completed wth a lunch break half way through
+					</p>
+					<p>Further details of the series can be found on the RYA website at 
 					<a href="http://welshsailingevents.org/welsh-sailing-events-home/cyrcs-2/south-cyrc-dates/" target="_blank">Welsh Sailing Events</a>  including the Notice Of Race and Sailing Instructions as well as access to the Entry Form and instructions
 					</p>
 					<p>If you need any more information, please contact the RYA Wales directly by email at <a href="mailto:admin@ryacymruwales.org.uk?Subject=2017%20CYRC%20at%20Tata" target="_top">admin@ryacymruwales.org.uk</a> or phone 01248 670814
 					</p>
-					<p>Please note that this does not effect the other club racing and sailing events at the club on this day
+					<p>Many thanks to all that contributed to the success of this event
+					</p>
+					<p>Results can be found on the <a style="text-decoration: none;" href="<?= RESULTS_PATH . '2017/2_CYRC.htm'; ?>" target="_blank"><strong>results page</strong></a>
 					</p>
 				</div>
  
@@ -64,7 +70,7 @@
 					</p>
 					<p>The club was represented at all of the planned events, and more, raising the visibility of the club around the circuit
 					</p>
-					<p>We will ertainly be repeating this series next year and would welcome any suggestions from club members and other clubs for inclusion into next year's series. Anyone wanting advice on travelling can email <a href="mailto:webmaster@tatasteelsailing.org.uk?Subject=2017%20Tata%20Traveller%20Series" target="_top">webmaster@tatasteelsailing.org.uk</a> for advice and I'll try to point you in the right direction
+					<p>We will certainly be repeating this series next year and would welcome any suggestions from club members and other clubs for inclusion into next year's series. Anyone wanting advice on travelling can email <a href="mailto:webmaster@tatasteelsailing.org.uk?Subject=2017%20Tata%20Traveller%20Series" target="_top">webmaster@tatasteelsailing.org.uk</a> and I'll try to point you in the right direction
 					</p>
 					Full results can be seen on the results page as well as the full report below:
 					</p>
