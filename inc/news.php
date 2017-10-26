@@ -3,33 +3,7 @@
         
         <div class="jumbotron sr1"><h1>News</h1></div>
 
-        <div class="sr1 news-container">
-            <h1 class="news-title">South Wales CYRC Series 2017</h1>
-            <div class="row">
-                <div class="col-md-6">
-                    <img class="img img-responsive" src="<?= IMGS_PATH . 'ryacw_logo_0.jpg'; ?>" alt="RYA-Wales"></img>
-					<br>
-				</div>
-				<div class="col-md-6">
-                    <h2><strong>October 14<sup>th</sup></strong>
-					</h2>
-					<p>The RYA Cymru Club Youth Racing Circuit (CYRC) was run at Tata on October 14<sup>th</sup> for  single day event. The forecast was spot on with a westerly F4 making way for a Southerly F2 after the first race.
-					</p>
-					<p>It meant that the race course had to be moved completely, including the commitee boat to keep the set courses as per the instructions and brief. All six races were completed wth a lunch break half way through
-					</p>
-					<p>Further details of the series can be found on the RYA website at 
-					<a href="http://welshsailingevents.org/welsh-sailing-events-home/cyrcs-2/south-cyrc-dates/" target="_blank">Welsh Sailing Events</a>  including the Notice Of Race and Sailing Instructions as well as access to the Entry Form and instructions
-					</p>
-					<p>If you need any more information, please contact the RYA Wales directly by email at <a href="mailto:admin@ryacymruwales.org.uk?Subject=2017%20CYRC%20at%20Tata" target="_top">admin@ryacymruwales.org.uk</a> or phone 01248 670814
-					</p>
-					<p>Many thanks to all that contributed to the success of this event
-					</p>
-					<p>Results can be found on the <a style="text-decoration: none;" href="<?= RESULTS_PATH . '2017/2_CYRC.htm'; ?>" target="_blank"><strong>results page</strong></a>
-					</p>
-				</div>
- 
-            </div>
-		</div>
+        
 		<div class="sr1 news-container">
             <h1 class="news-title">TATA STEEL SAILING End of Season REGATTA 2017</h1>
             <div class="row">
@@ -54,6 +28,33 @@
 					<p>Please note that sailing continues at Tata all year round. Anyone wanting an Autumn or Winter membership, please contact the Membership Secretary
 					</p>
                 </div>
+ 
+            </div>
+		</div>
+		<div class="sr1 news-container">
+            <h1 class="news-title">South Wales CYRC Series 2017</h1>
+            <div class="row">
+                <div class="col-md-6">
+                    <img class="img img-responsive" src="<?= IMGS_PATH . 'ryacw_logo_0.jpg'; ?>" alt="RYA-Wales"></img>
+					<br>
+				</div>
+				<div class="col-md-6">
+                    <h2><strong>October 14<sup>th</sup></strong>
+					</h2>
+					<p>The RYA Cymru Club Youth Racing Circuit (CYRC) was run at Tata on October 14<sup>th</sup> for  single day event. The forecast was spot on with a westerly F4 making way for a Southerly F2 after the first race.
+					</p>
+					<p>It meant that the race course had to be moved completely, including the commitee boat to keep the set courses as per the instructions and brief. All six races were completed wth a lunch break half way through
+					</p>
+					<p>Further details of the series can be found on the RYA website at 
+					<a href="http://welshsailingevents.org/welsh-sailing-events-home/cyrcs-2/south-cyrc-dates/" target="_blank">Welsh Sailing Events</a>  including the Notice Of Race and Sailing Instructions as well as access to the Entry Form and instructions
+					</p>
+					<p>If you need any more information, please contact the RYA Wales directly by email at <a href="mailto:admin@ryacymruwales.org.uk?Subject=2017%20CYRC%20at%20Tata" target="_top">admin@ryacymruwales.org.uk</a> or phone 01248 670814
+					</p>
+					<p>Many thanks to all that contributed to the success of this event
+					</p>
+					<p>Results can be found on the <a style="text-decoration: none;" href="<?= RESULTS_PATH . '2017/2_CYRC.htm'; ?>" target="_blank"><strong>results page</strong></a>
+					</p>
+				</div>
  
             </div>
 		</div>
