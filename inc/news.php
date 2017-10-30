@@ -35,25 +35,25 @@
             <h1 class="news-title">South Wales CYRC Series 2017</h1>
             <div class="row">
                 <div class="col-md-6">
-                    <img class="img img-responsive" src="<?= IMGS_PATH . 'ryacw_logo_0.jpg'; ?>" alt="RYA-Wales"></img>
-					<br>
+                    <img class="img img-responsive" src="<?= IMGS_PATH . '/gallery/2017 CYRC/Naomi3.jpg'; ?>" alt="CYRC-feva"></img>
+					<p align=center>Naomi Edwards at Llangorse
+					</p>
 				</div>
 				<div class="col-md-6">
-                    <h2><strong>October 14<sup>th</sup></strong>
+                    <h2><strong>Final Overall Results</strong>
 					</h2>
-					<p>The RYA Cymru Club Youth Racing Circuit (CYRC) was run at Tata on October 14<sup>th</sup> for  single day event. The forecast was spot on with a westerly F4 making way for a Southerly F2 after the first race.
+					<p>The RYA Cymru Club Youth Racing Circuit (CYRC) came to it's conclusion at Llangorse Sailing Club on October 28<sup>th</sup> with Tata Steel Sailing Club being representated by Sofie Edwards and Katie Taylor in the Feva, Harri Bennet in the Topper Gold Class and Naiomi and Poppy in the Oppies.
 					</p>
-					<p>It meant that the race course had to be moved completely, including the commitee boat to keep the set courses as per the instructions and brief. All six races were completed wth a lunch break half way through
+					<p>All had a great day out in great weather and a fabulous venue. Many thanks for sharing your photos, there's a small album in the Gallery of the event 
 					</p>
 					<p>Further details of the series can be found on the RYA website at 
-					<a href="http://welshsailingevents.org/welsh-sailing-events-home/cyrcs-2/south-cyrc-dates/" target="_blank">Welsh Sailing Events</a>  including the Notice Of Race and Sailing Instructions as well as access to the Entry Form and instructions
+					<a href="http://welshsailingevents.org/welsh-sailing-events-home/cyrcs-2/south-cyrc-dates/" target="_blank">Welsh Sailing Events</a>
 					</p>
 					<p>If you need any more information, please contact the RYA Wales directly by email at <a href="mailto:admin@ryacymruwales.org.uk?Subject=2017%20CYRC%20at%20Tata" target="_top">admin@ryacymruwales.org.uk</a> or phone 01248 670814
 					</p>
 					<p>Many thanks to all that contributed to the success of this event
 					</p>
-					<p>Results can be found on the <a style="text-decoration: none;" href="<?= RESULTS_PATH . '2017/2_CYRC.htm'; ?>" target="_blank"><strong>results page</strong></a>
-					</p>
+					
 				</div>
  
             </div>
