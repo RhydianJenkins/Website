@@ -25,6 +25,11 @@
 					</p>
 					<p>If you need any more information, please email <a href="mailto:webmaster@tatasteelsailing.org.uk?Subject=2017%20Tata%20Regatta" target="_top">webmaster@tatasteelsailing.org.uk</a> for advice and I'll try to point you in the right direction
 					</p>
+					<p>Notice of Race is available by clicking <a style="text-decoration: none;" href="<?= DOCS_PATH . 'Regatta NOR 2017.pdf'; ?>" target="_blank"><strong>Regatta NOR 2017.pdf</strong></a>
+					</p>
+					<p>Sailing Instructions can be found by clicking <a style="text-decoration: none;" href="<?= DOCS_PATH . 'Regatta 2017 SIs.pdf'; ?>" target="_blank"><strong>Regatta 2017 SI's</strong></a>
+					</p>
+					<p>The Regatta Entry form can be downloaded from <a style="text-decoration: none;" href="<?= DOCS_PATH . 'Regatta Entry 2017.pdf'; ?>" target="_blank"><strong>Regatta Entry Form</strong></a>
 					<p>Please note that sailing continues at Tata all year round. Anyone wanting an Autumn or Winter membership, please contact the Membership Secretary
 					</p>
                 </div>
