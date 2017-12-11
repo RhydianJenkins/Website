@@ -39,6 +39,9 @@
 <!-- Bootstrap Core JavaScript -->
 <script src="<?php echo JS_PATH . 'bootstrap.min.js'; ?>"></script>
 
+<!-- Bootstrap DateTime JavaScript -->
+<script src="<?php echo JS_PATH . 'bootstrap-datetime.min.js'; ?>"></script>
+
 <!-- Smooth scrolling -->
 <script src="<?= JS_PATH . 'smoothscroll.js'; ?>"></script>
 

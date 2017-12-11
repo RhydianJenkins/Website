@@ -1,26 +1,23 @@
 <?php
-// Check for empty fields
-if(empty($_POST['name']) || empty($_POST['message']) || !filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)) {
-    echo 'Failure in sending mail. Not enough information provided.';
-    var_dump($_POST);
-    return false;
-}
+
+echo"<pre>";
+var_dump($_POST);
 
 // Sanitize input
-$name = strip_tags(htmlspecialchars($_POST['name']));
-$email_address = strip_tags(htmlspecialchars($_POST['email']));
-$message = strip_tags(htmlspecialchars($_POST['message']));
+//$name = strip_tags(htmlspecialchars($_POST['name']));
+//$email_address = strip_tags(htmlspecialchars($_POST['email']));
+//$message = strip_tags(htmlspecialchars($_POST['message']));
 
 // Create the email and send the message
-$to = 'rhydz@msn.com'; // Webmaster email
-$email_subject = "Website Contact Form:  $name";
-$email_body = "You have received a new message from your website contact form.\n\n"."Here are the details:\n\nName: $name\n\nEmail: $email_address\n\nMessage:\n$message";
+$to = 'rhj24@aber.ac.uk'; // Webmaster email
+$email_subject = "New Website Membership Request Form";
+$email_body = "You have received a new membership request from the website";
 $headers = "From: noreply@yourdomain.com\n"; // Email address the generated message will be from.
-$headers .= "Reply-To: $email_address";
+$headers .= "Reply-To: rhydz@msn.com";
 
 // Send mail
-mail($to, $email_subject, $email_body, $headers);
-
-// Response
-echo 'Mail sent.';
-return true;
+if (mail($to, $email_subject, $email_body, $headers)) {
+    echo 'Mail sent.';
+} else {
+    echo 'Mail not sent.';
+}

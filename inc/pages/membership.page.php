@@ -36,3 +36,7 @@
     <strong>email: <a href="mailto:membership@tatasteelsailing.org.uk">membership@tatasteelsailing.org.uk</a></strong></p>      
 
 </div>
+
+<hr />
+
+<?php INCLUDE(INC_PATH . "register.form.php") ?>
