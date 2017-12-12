@@ -8,6 +8,9 @@ session_start();
 // Names
 define("SITE_NAME", "Tata Steel Sailing Club");
 
+// Emails
+define("TREASURER_EMAIL", "treasurer@tatasteelsailing.org.uk");
+
 // Paths
 define("ROOT_PATH", "./");
 //define("ROOT_PATH", "http://".$_SERVER['SERVER_NAME']);

@@ -1,25 +1,22 @@
+<?php if(!REQUIRE(SCRIPTS_PATH . "mailer.php")): ?>
+
 <div id="regform" class="container">
 
-    <form action="<?= SCRIPTS_PATH . 'mailer.php'; ?>" method="post">
+    <form action="?page=membership" method="post">
 
-        <!-- fullname1 input-->
         <fieldset>
             <h1 class="page-header">Personal details</h1>
+            <!-- fullname1 input-->
             <div class="form-group">
                 <label for="full-name1" class="col-form-label">Full Name*</label>
                 <input id="full-name1" class="form-control" name="full-name1" type="text" placeholder="e.g. John Smith" required>
-                <!--<span id="tooltip-fullname">
-                    <a class='fullname-tool-tip' styldata-toggle="tooltip" data-placement="left" title="Test testt eststse">
-                        <i class='fa fa-info text-black'></i>
-                    </a>
-                </span>-->
             </div>
             <!-- email input-->
             <div class="form-group">
                 <label for="email" class="col-form-label">Email*</label>
-                <input id="email" class="form-control" name="email" type="text" placeholder="you@example.co.uk" required>
+                <input id="email" class="form-control" name="email" type="email" placeholder="you@example.co.uk" required>
             </div>
-            <!-- address-line1 input-->
+            <!-- address input-->
             <div class="form-group">
                 <label class="col-form-label">Address*</label>
                 <input id="address-line1" name="address-line1" type="text" placeholder="address line 1*" class="form-control" required><br />
@@ -38,7 +35,7 @@
             </div>
             <div class="form-group">
                 <label for="emergency-contact" class="col-form-label">Emergency contact number*</label>
-                <input id="emergency-contact" name="emergency-contact" type="text" placeholder="mobile / telephone" class="form-control" required>
+                <input id="emergency-contact" name="emergency-contact" type="number" placeholder="mobile / telephone" class="form-control" required>
             </div>
         </fieldset>
 
@@ -65,8 +62,8 @@
 
             <!-- boat 2 -->
             <div class="form-group">
-                <label for="boat-class1" class="col-form-label">Boat 2 class</label>
-                <input id="boat-class1" name="boat-class1" type="text" placeholder="boat class" class="form-control">
+                <label for="boat-class2" class="col-form-label">Boat 2 class</label>
+                <input id="boat-class2" name="boat-class2" type="text" placeholder="boat class" class="form-control">
             </div>
             <div class="form-group">
                 <label for="boat-sailno2" class="col-form-label">Boat 2 sail number</label>
@@ -74,7 +71,7 @@
             </div>
             <div class="form-group">
                 <label class="form-group-label">
-                    <input name="boat1-owned" class="form-group-input" type="checkbox" value="">
+                    <input name="boat2-owned" class="form-group-input" type="checkbox" value="">
                     Tick if you own this boat
                 </label>
             </div>
@@ -90,7 +87,7 @@
             <h1 class="page-header">Existing qualifications (optional)</h1>
             <div class="form-group">
                 <label for="qualifications-textarea">Do you own any existing powerboat / sailing qualifications? (please speficfy)</label>
-                <textarea class="form-control" id="qualifications-textarea" rows="3"></textarea>
+                <textarea class="form-control" name="qualifications-textarea" id="qualifications-textarea" rows="3"></textarea>
             </div>
             <div class="form-group">
                 <label class="form-group-label">
@@ -100,7 +97,7 @@
             </div>
             <div class="form-group hidden" id="firstaid-expire-div">
                 <label for="firstaid-expire" class="col-form-label">Expiry date:</label>
-                <input class="form-control" id="date-input" name="date" placeholder="DD/MM/YYY" type="text"/>
+                <input class="form-control" id="date-input" name="date" placeholder="DD/MM/YYY" type="date"/>
             </div>
         </fieldset>
 
@@ -109,13 +106,13 @@
             <h1 class="page-header">Terms and conditions</h1>
             <div class="form-group">
                 <label class="form-group-label">
-                    <input name="od-selected" class="form-group-input" type="checkbox" value="">
+                    <input name="od-selected" class="form-group-input" type="checkbox" value="" required>
                     I/we have provided three dates on which I/we are able to do OD duties during 2018 via the online roster in the Tata Steel Sailing Club website.
                 </label>
             </div>
             <div class="form-group">
                 <label class="form-group-label">
-                    <input name="club_rules" class="form-group-input" type="checkbox" value="">
+                    <input name="club_rules" class="form-group-input" type="checkbox" value="" required>
                         I agree to comply with all the Club Rules, agreed practices and procedures. &#09
                         <a href="?page=termsandconditions" target="blank" data-toggle="tooltip" data-placement="right" class="tooltip-init text-black" title="Click to read our Terms and Conditions page."><i class='fa fa-info'></i></a>
                     </input>
@@ -123,7 +120,7 @@
             </div>
             <div class="form-group">
                 <label class="form-group-label">
-                    <input name="insured" class="form-group-input" type="checkbox" value="">
+                    <input name="insured" class="form-group-input" type="checkbox" value="" required>
                         All craft are to be insured for a minimum of £2M for third Party Risks.
                     </input>
                 </label>
@@ -149,7 +146,7 @@
             </div>
             <div id="mem-type-employee-div" class="form-group hidden">
                 <label for="mem-type-employee">Select membership plan</label>
-                <select class="form-control" id="mem-type-employee">
+                <select class="form-control" id="mem-type-employee" name="mem-type-employee">
                     <option value="" selected disabled>Please select</option>
                     <option>Family (yourself, partner, all children under 18) - <strong>£179</strong></option>
                     <option>Single adult (18 - 64 years of age at 1st Jan this year) - <strong>£147</strong></option>
@@ -161,7 +158,7 @@
             </div>
             <div id="mem-type-div" class="form-group">
                 <label for="mem-type">Select membership plan</label>
-                <select class="form-control" id="mem-type">
+                <select class="form-control" id="mem-type" name="mem-type">
                     <option value="" selected disabled>Please select</option>
                     <option>Family (yourself, partner, all children under 18) - <strong>£200</strong></option>
                     <option>Single adult (18 - 64 years of age at 1st Jan this year) - <strong>£169</strong></option>
@@ -172,29 +169,43 @@
                 </select>
             </div>
 
-            <h1 id="total-charge-header" class="page-header">Total payable: £0</h1>
-            <div id="payment-method" class="form-group">
-                <label for="mem-type">Select payment method</label>
-                <select class="form-control" id="payment-type">
-                    <option value="" selected disabled>Please select</option>
-                    <option value="cheque">I will write a cheque</option>
-                    <option value="card">I will pay the above amount via direct debit.</option>
-                </select>
-                <br />
-                <p class="hidden" id="cheque-p">Cheques must be payable to "Tata Steel Sailing Club Margam" and sent to the Treasurer (contact details on the website)</p>
-                <p class="hidden" id="card-p">
-                    Card details to pay to:<br />
-                    Lloyds Bank PLC<br />
-                    Sort Code: <strong>30-91-18</strong><br />
-                    Account Number: <strong>02386779</strong><br />
-                    Reference: <i>Your Name</i>
-                </p>
+            <div id="payment-method" class="hidden">
+                <h1 id="total-charge-header" class="page-header">Total payable: £0</h1>
+                <div class="form-group">
+                    <label for="mem-type">Select payment method</label>
+                    <select class="form-control" id="payment-type" name="payment-type">
+                        <option value="" selected disabled>Please select</option>
+                        <option value="cheque">I will write a cheque</option>
+                        <option value="card">I will pay the above amount via direct debit.</option>
+                    </select>
+                    <br />
+                    <p class="hidden" id="cheque-p">Cheques must be payable to "Tata Steel Sailing Club Margam" and sent to the Treasurer (contact details on the website)</p>
+                    <p class="hidden" id="card-p">
+                        Card details to pay to:<br />
+                        Lloyds Bank PLC<br />
+                        Sort Code: <strong>30-91-18</strong><br />
+                        Account Number: <strong>02386779</strong><br />
+                        Reference: <i>Your Name</i>
+                    </p>
+                </div>
             </div>
+
+            <!-- hidden field that will be populated with the total payable -->
+            <input type="hidden" id="total-payable" name="total-payable" value="" />
         </fieldset>
 
-        <button type="submit" class="btn btn-primary">Submit</form>
+        <!-- hidden field that will init the mailer.php script -->
+        <input type="hidden" id="register-flag" name="register-flag" value="true" />
+
+        <!-- submit button -->
+        <div class="col-md-12 text-center">
+            <button type="submit" class="btn btn-lg btn-primary">Submit</form>
+        </div>
     </form>
 </div>
+
+<br /><br />
+
 <script>    
     $('#firstaid').change(function() {
         if (document.getElementById("firstaid").checked) {
@@ -227,15 +238,6 @@
         }
     });
 
-    // datetime
-    $(document).ready(function(){
-        var options = {
-            format: 'dd/mm/yyyy',
-            autoclose: true
-        };
-        $('#date-input').datepicker(options);
-    });
-
     // init tooltips
     $( document ).ready(function() {
        $("a.tooltip-init").tooltip();
@@ -254,5 +256,13 @@
             totalcharge += parseInt(text);
         }
         $('#total-charge-header').text("Total payable: £" + totalcharge);
+        if (totalcharge != 0) {
+            $('#payment-method').removeClass("hidden");
+        } else {
+            $('#payment-method').addClass("hidden");
+        }
+        document.getElementById('total-payable').value = totalcharge;
     }, 2000);
 </script>
+
+<?php endif; ?>
